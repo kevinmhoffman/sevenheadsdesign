@@ -213,7 +213,7 @@ header, footer, nav, section, article, hgroup, figure {
 
 /* line 1, scss/base/_main.scss */
 body {
-  background: #e2e7e1;
+  background: url('/patterns/images/body-bg.png?1390421568') top left #e2e7e1;
   font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   -webkit-text-size-adjust: 100%;
   color: #333333;

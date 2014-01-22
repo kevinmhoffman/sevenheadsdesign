@@ -449,7 +449,8 @@
     overflow: hidden;
     border: 1px solid #dddddd;
     padding: 0.3em;
-    margin: 0 0.2em 0.2em 0; }
+    margin: 0 0.2em 0.2em 0;
+  background: #fff; }
     @media all and (min-width: 30em) {
       .sg-colors li {
         float: left;
@@ -458,7 +459,8 @@
 .sg-swatch {
   display: block;
   height: 1.5em;
-  width: 50%; }
+  width: 50%;
+  }
   @media all and (max-width: 30em) {
     .sg-swatch {
       float: left;

@@ -633,7 +633,7 @@ $animate-quick: 0.2s;
 		border: 1px solid $sg-tertiary;
 		padding: 0.3em;
 		margin: 0 0.2em 0.2em 0;
-
+	background: #fff; 
 		@media all and (min-width: $sg-bp-small-2) {
 			float: left;
 			width: 5em;
@@ -645,6 +645,7 @@ $animate-quick: 0.2s;
 	display: block;
 	height: 1.5em;
 	width: 50%;
+	background-color: #fff;
 	
 	@media all and (max-width: $sg-bp-small-2) {
 		float: left;

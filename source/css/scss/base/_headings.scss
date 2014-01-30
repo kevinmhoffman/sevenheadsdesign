@@ -4,42 +4,53 @@ h1, .alpha {
 	@include font-size(41px);
 	line-height: px-to-ems(56,41);
 	font-family: $font-secondary;
+	font-weight: normal;
+
 }
 
 h2, .beta    { 
 	@include font-size(24px);
 	line-height: px-to-ems(31,24);
 	font-family: $font-secondary;
+	font-weight: normal;
+
+
+	&.subheading{
+		color: $gray-med;
+	}
 }
 
 h3, .gamma   { 
 	@include font-size(31px);
 	line-height: px-to-ems(31,31);
 	text-transform: uppercase;
-	font-family: $font-secondary;
+	font-family: $font-sm-headings;
+	font-weight: normal;
+
 }
 
 h4, .delta   {
 	@include font-size(18px);
 	line-height: px-to-ems(31,18);
 	text-transform: uppercase;
-	font-family: $font-secondary;
+	font-family: $font-sm-bold;
+	font-weight: normal;
 }
 
 h5, .epsilon { 
 	@include font-size(18px);
 	line-height: px-to-ems(31,18);
-	font-family: $font-secondary;
+	font-family: $font-sm-bold;
+	color: $gray-med;
+	font-weight: normal;
+
 }
 
 h6, .zeta    { 
 	@include font-size(18px);
 	line-height: px-to-ems(31,18);
-	font-family: $font-secondary;
-}
-
-/* Subheadings */
-.subheading {
-	font-family: $font-secondary;
+	font-family: $font-sm-headings;
+	color: $gray-med;
 	font-weight: normal;
 }
+

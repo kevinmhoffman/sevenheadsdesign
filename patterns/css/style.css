@@ -216,7 +216,7 @@ body {
   background: url('/patterns/images/body-bg.png?1390422479') top left #e2e7e1;
   font: 112.5%/1.6666 Verdana, "Arial", sans-serif;
   -webkit-text-size-adjust: 100%;
-  color: #333333;
+  color: #040707;
 }
 
 /* Links */
@@ -239,54 +239,59 @@ h1, .alpha {
   font-size: 2.5625rem;
   line-height: 1.36585em;
   font-family: "SanchezLight", Georgia, serif;
+  font-weight: normal;
 }
 
-/* line 9, scss/base/_headings.scss */
+/* line 11, scss/base/_headings.scss */
 h2, .beta {
   font-size: 24px;
   font-size: 1.5rem;
   line-height: 1.29167em;
   font-family: "SanchezLight", Georgia, serif;
+  font-weight: normal;
+}
+/* line 18, scss/base/_headings.scss */
+h2.subheading, .beta.subheading {
+  color: #747474;
 }
 
-/* line 15, scss/base/_headings.scss */
+/* line 23, scss/base/_headings.scss */
 h3, .gamma {
   font-size: 31px;
   font-size: 1.9375rem;
   line-height: 1em;
   text-transform: uppercase;
-  font-family: "SanchezLight", Georgia, serif;
+  font-family: "ProximaNovaCond-Light", Verdana, Arial, sans-serif;
+  font-weight: normal;
 }
 
-/* line 22, scss/base/_headings.scss */
+/* line 32, scss/base/_headings.scss */
 h4, .delta {
   font-size: 18px;
   font-size: 1.125rem;
   line-height: 1.72222em;
   text-transform: uppercase;
-  font-family: "SanchezLight", Georgia, serif;
+  font-family: "ProximaNovaCond-Bold", Verdana, Arial, sans-serif;
+  font-weight: normal;
 }
 
-/* line 29, scss/base/_headings.scss */
+/* line 40, scss/base/_headings.scss */
 h5, .epsilon {
   font-size: 18px;
   font-size: 1.125rem;
   line-height: 1.72222em;
-  font-family: "SanchezLight", Georgia, serif;
+  font-family: "ProximaNovaCond-Bold", Verdana, Arial, sans-serif;
+  color: #747474;
+  font-weight: normal;
 }
 
-/* line 35, scss/base/_headings.scss */
+/* line 49, scss/base/_headings.scss */
 h6, .zeta {
   font-size: 18px;
   font-size: 1.125rem;
   line-height: 1.72222em;
-  font-family: "SanchezLight", Georgia, serif;
-}
-
-/* Subheadings */
-/* line 42, scss/base/_headings.scss */
-.subheading {
-  font-family: "SanchezLight", Georgia, serif;
+  font-family: "ProximaNovaCond-Light", Verdana, Arial, sans-serif;
+  color: #747474;
   font-weight: normal;
 }
 

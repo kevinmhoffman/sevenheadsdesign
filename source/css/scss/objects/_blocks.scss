@@ -105,13 +105,14 @@
 }
 /* People Block */
 .block-people{
+	width: 100%;
 	position: relative;
 	text-align: center;
 	color: $white;
-	display: inline-block;
 
 	img{
 		display: block;
+		width: 100%;
 	}
 
 	header{

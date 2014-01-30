@@ -60,6 +60,10 @@
 	@media all and (min-width: $bp-med) {
 		float: left;
 	}
+
+	.flush > &{
+		padding: 0;
+	}
 }
 
 /* Grid 1up */
@@ -97,6 +101,9 @@
 
 /* Grid 3up */
 .g-3up {
+	&.staggered{
+		margin: $space-double 0;
+	}
 	@media all and (min-width: $bp-med) {
 		> .gi {
 			float: left;
@@ -106,6 +113,8 @@
 				clear: left;
 			}
 		}
+
+
 	}
 	
 	@media all and (min-width: $bp-large) {
@@ -119,6 +128,10 @@
 			&:nth-of-type(3n+1) {
 				clear: left;
 			}
+		}
+		&.staggered > .gi:first-child,
+		&.staggered > .gi:last-child{
+			margin-top: 20%;
 		}
 	}
 }

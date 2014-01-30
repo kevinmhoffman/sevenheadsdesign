@@ -11,9 +11,14 @@
 }
 
 //Pullquote
-.pullquote {
-	font-family: $font-secondary;
-	font-size: $font-size-large;
+.pullquote-right {
+	&:after{
+		position: absolute;
+		right: 0%;
+		width: 23.2%;
+		color: $tomato;
+		content: attr(data-pullquote);
+	}
 }
 
 //Caption 

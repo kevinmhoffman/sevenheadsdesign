@@ -1010,36 +1010,39 @@ td {
   color: #c9332b;
 }
 
-/* line 14, scss/objects/_text.scss */
-.pullquote {
-  font-family: "SanchezLight", Georgia, serif;
-  font-size: 2.33333em;
+/* line 15, scss/objects/_text.scss */
+.pullquote-right:after {
+  position: absolute;
+  right: 105%;
+  width: 23.2%;
+  color: #c9332b;
+  content: attr(data-pullquote);
 }
 
-/* line 20, scss/objects/_text.scss */
+/* line 25, scss/objects/_text.scss */
 .caption {
   font-style: italic;
 }
 
-/* line 26, scss/objects/_text.scss */
+/* line 31, scss/objects/_text.scss */
 .text a {
   text-decoration: underline;
 }
-/* line 30, scss/objects/_text.scss */
+/* line 35, scss/objects/_text.scss */
 .text ul {
   list-style: disc;
   margin: 0 0 1em 1.2em;
 }
-/* line 34, scss/objects/_text.scss */
+/* line 39, scss/objects/_text.scss */
 .text ul ul {
   margin-bottom: 0;
 }
-/* line 39, scss/objects/_text.scss */
+/* line 44, scss/objects/_text.scss */
 .text ol {
   list-style: decimal;
   margin: 0 0 1em 1.5em;
 }
-/* line 43, scss/objects/_text.scss */
+/* line 48, scss/objects/_text.scss */
 .text ol ol {
   margin-bottom: 0;
 }
@@ -1611,36 +1614,47 @@ td {
   margin-bottom: 0.5em;
 }
 
-/* line 3, scss/objects/_article.scss */
+/* line 2, scss/objects/_article.scss */
+.article {
+  position: relative;
+}
+
+/* line 6, scss/objects/_article.scss */
 .article-header h1 {
   font-size: 2.5em;
 }
 
-/* line 8, scss/objects/_article.scss */
+/* line 10, scss/objects/_article.scss */
+.entry-content {
+  max-width: 26.33333em;
+  margin: auto;
+}
+
+/* line 15, scss/objects/_article.scss */
 .byline {
   font-size: 0.875em;
   font-style: italic;
   margin-bottom: 0.5em;
 }
 
-/* line 15, scss/objects/_article.scss */
+/* line 22, scss/objects/_article.scss */
 .social-share {
   overflow: hidden;
   margin-bottom: 1em;
 }
-/* line 19, scss/objects/_article.scss */
+/* line 26, scss/objects/_article.scss */
 .social-share li {
   float: left;
   margin-right: 0.5em;
 }
-/* line 24, scss/objects/_article.scss */
+/* line 31, scss/objects/_article.scss */
 .social-share a {
   background: #333333;
   color: white;
   display: block;
   padding: 0.5em;
 }
-/* line 30, scss/objects/_article.scss */
+/* line 37, scss/objects/_article.scss */
 .social-share a:hover {
   background: #433f3e;
 }

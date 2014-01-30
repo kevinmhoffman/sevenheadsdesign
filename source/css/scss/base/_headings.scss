@@ -3,7 +3,7 @@
 h1, .alpha { 
 	@include font-size(41px);
 	line-height: px-to-ems(56,41);
-	font-family: $font-secondary;
+	font-family: $font-alt;
 	font-weight: normal;
 
 }

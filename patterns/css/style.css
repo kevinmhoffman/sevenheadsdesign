@@ -1013,7 +1013,7 @@ td {
 /* line 15, scss/objects/_text.scss */
 .pullquote-right:after {
   position: absolute;
-  right: 105%;
+  right: 0%;
   width: 23.2%;
   color: #c9332b;
   content: attr(data-pullquote);

@@ -1,7 +1,13 @@
 //Intro text
 .intro {
-	font-size: $font-size-med-2;
-	font-weight: bold;
+	font-size: $font-size-large;
+	font-family: $font-secondary;
+	line-height: 1.3333em;
+	text-align: center;
+	strong{
+		font-family: $font-alt;
+		color: $tomato;
+	}
 }
 
 //Pullquote

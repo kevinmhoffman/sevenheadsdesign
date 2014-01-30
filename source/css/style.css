@@ -552,7 +552,7 @@ td {
 /* Layout Container */
 /* line 6, scss/objects/_layout.scss */
 .lc, .header, [role=main] {
-  max-width: 72em;
+  max-width: 56em;
   margin: 0 auto;
   padding: 0.5em;
 }
@@ -831,17 +831,18 @@ td {
 \*------------------------------------*/
 /* line 1, scss/objects/_header.scss */
 .header {
-  padding: 0;
+  padding: 1.5em 0 0;
   text-align: center;
+  margin-bottom: 2.88889em;
 }
 
-/* line 7, scss/objects/_header.scss */
+/* line 8, scss/objects/_header.scss */
 .logo {
   max-width: 5.6875rem;
-  margin: 0.4rem auto;
+  margin: 0.4rem auto 1.5rem;
 }
 
-/* line 13, scss/objects/_header.scss */
+/* line 14, scss/objects/_header.scss */
 .nav-toggle {
   float: right;
   display: block;
@@ -851,26 +852,26 @@ td {
   border-left: 1px solid #dbdbdb;
 }
 @media all and (min-width: 46.8em) {
-  /* line 13, scss/objects/_header.scss */
+  /* line 14, scss/objects/_header.scss */
   .nav-toggle {
     display: none;
   }
 }
 @media all and (max-width: 17em) {
-  /* line 13, scss/objects/_header.scss */
+  /* line 14, scss/objects/_header.scss */
   .nav-toggle {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
   }
 }
 
-/* line 31, scss/objects/_header.scss */
+/* line 32, scss/objects/_header.scss */
 .search-form {
   overflow: hidden;
   max-height: 0;
 }
 @media all and (min-width: 46.8em) {
-  /* line 31, scss/objects/_header.scss */
+  /* line 32, scss/objects/_header.scss */
   .search-form {
     float: right;
     max-height: none;
@@ -993,40 +994,47 @@ td {
 \*------------------------------------*/
 /* line 2, scss/objects/_text.scss */
 .intro {
-  font-size: 1.0625em;
-  font-weight: bold;
-}
-
-/* line 8, scss/objects/_text.scss */
-.pullquote {
+  font-size: 2.33333em;
   font-family: "SanchezLight", Georgia, serif;
-  font-size: 1.4375em;
+  line-height: 1.3333em;
+  text-align: center;
+}
+/* line 7, scss/objects/_text.scss */
+.intro strong {
+  font-family: "SanchezBold", Georgia, serif;
+  color: #c9332b;
 }
 
 /* line 14, scss/objects/_text.scss */
+.pullquote {
+  font-family: "SanchezLight", Georgia, serif;
+  font-size: 2.33333em;
+}
+
+/* line 20, scss/objects/_text.scss */
 .caption {
   font-style: italic;
 }
 
-/* line 20, scss/objects/_text.scss */
+/* line 26, scss/objects/_text.scss */
 .text a {
   text-decoration: underline;
 }
-/* line 24, scss/objects/_text.scss */
+/* line 30, scss/objects/_text.scss */
 .text ul {
   list-style: disc;
   margin: 0 0 1em 1.2em;
 }
-/* line 28, scss/objects/_text.scss */
+/* line 34, scss/objects/_text.scss */
 .text ul ul {
   margin-bottom: 0;
 }
-/* line 33, scss/objects/_text.scss */
+/* line 39, scss/objects/_text.scss */
 .text ol {
   list-style: decimal;
   margin: 0 0 1em 1.5em;
 }
-/* line 37, scss/objects/_text.scss */
+/* line 43, scss/objects/_text.scss */
 .text ol ol {
   margin-bottom: 0;
 }

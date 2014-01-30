@@ -1,12 +1,13 @@
 .header {
-	padding: 0;
+	padding: 1.5em 0 0;
 	@extend .lc;
 	text-align: center;
+	margin-bottom: px-to-ems(52px);
 }
 
 .logo {
 	max-width: 5.6875rem;
-	margin: 0.4rem auto;
+	margin: 0.4rem auto 1.5rem;
 
 }
 

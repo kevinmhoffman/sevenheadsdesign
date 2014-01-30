@@ -18,6 +18,6 @@
 */
 @mixin font-size( $decimal-size, $keyword: null ) {
   @if $keyword{ font-size: $keyword; }
-  @else { font-size: $decimal-size * $base-font-multiplier * 16px;}
-  font-size: $decimal-size * 1rem;
+  @else { font-size: $decimal-size;}
+  font-size: ($decimal-size / 16px) * 1rem;
 }

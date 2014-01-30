@@ -208,13 +208,13 @@ header, footer, nav, section, article, hgroup, figure {
 
 /* line 100, scss/base/_global-classes.scss */
 .font-secondary {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "SanchezLight", Georgia, serif;
 }
 
 /* line 1, scss/base/_main.scss */
 body {
-  background: url('/patterns/images/body-bg.png?1390421568') top left #e2e7e1;
-  font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  background: url('/patterns/images/body-bg.png?1390422479') top left #e2e7e1;
+  font: 112.5%/1.6666 Verdana, "Arial", sans-serif;
   -webkit-text-size-adjust: 100%;
   color: #333333;
 }
@@ -235,23 +235,58 @@ a:hover, a:focus {
 /*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
 /* line 3, scss/base/_headings.scss */
 h1, .alpha {
-  line-height: 1.2;
+  font-size: 41px;
+  font-size: 2.5625rem;
+  line-height: 1.36585em;
+  font-family: "SanchezLight", Georgia, serif;
 }
 
-/* line 7, scss/base/_headings.scss */
+/* line 9, scss/base/_headings.scss */
 h2, .beta {
-  line-height: 1.2;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.29167em;
+  font-family: "SanchezLight", Georgia, serif;
 }
 
-/* line 11, scss/base/_headings.scss */
+/* line 15, scss/base/_headings.scss */
 h3, .gamma {
-  line-height: 1.2;
+  font-size: 31px;
+  font-size: 1.9375rem;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-family: "SanchezLight", Georgia, serif;
+}
+
+/* line 22, scss/base/_headings.scss */
+h4, .delta {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.72222em;
+  text-transform: uppercase;
+  font-family: "SanchezLight", Georgia, serif;
+}
+
+/* line 29, scss/base/_headings.scss */
+h5, .epsilon {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.72222em;
+  font-family: "SanchezLight", Georgia, serif;
+}
+
+/* line 35, scss/base/_headings.scss */
+h6, .zeta {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.72222em;
+  font-family: "SanchezLight", Georgia, serif;
 }
 
 /* Subheadings */
-/* line 28, scss/base/_headings.scss */
+/* line 42, scss/base/_headings.scss */
 .subheading {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "SanchezLight", Georgia, serif;
   font-weight: normal;
 }
 
@@ -969,7 +1004,7 @@ td {
 
 /* line 8, scss/objects/_text.scss */
 .pullquote {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "SanchezLight", Georgia, serif;
   font-size: 1.4375em;
 }
 
@@ -1482,7 +1517,7 @@ td {
 .acc-handle {
   background: #131313;
   color: white;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "SanchezLight", Georgia, serif;
   font-weight: bold;
   display: block;
   position: relative;

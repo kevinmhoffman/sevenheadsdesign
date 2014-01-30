@@ -219,6 +219,15 @@ body {
   color: #040707;
 }
 
+/* line 8, scss/base/_main.scss */
+.people p {
+  font-family: "SanchezLight", Georgia, serif;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.29167em;
+  color: rgba(4, 7, 7, 0.5);
+}
+
 /* Links */
 /* line 2, scss/base/_links.scss */
 a {
@@ -263,6 +272,8 @@ h3, .gamma {
   text-transform: uppercase;
   font-family: "ProximaNovaCond-Light", Verdana, Arial, sans-serif;
   font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.03226em;
 }
 
 /* line 32, scss/base/_headings.scss */
@@ -998,19 +1009,20 @@ td {
     $TEXT Styles
 \*------------------------------------*/
 /* line 2, scss/objects/_text.scss */
-.intro {
+p.intro {
   font-size: 2.33333em;
   font-family: "SanchezLight", Georgia, serif;
   line-height: 1.3333em;
   text-align: center;
+  color: #040707;
 }
-/* line 7, scss/objects/_text.scss */
-.intro strong {
+/* line 8, scss/objects/_text.scss */
+p.intro strong {
   font-family: "SanchezBold", Georgia, serif;
   color: #c9332b;
 }
 
-/* line 15, scss/objects/_text.scss */
+/* line 16, scss/objects/_text.scss */
 .pullquote-right:after {
   position: absolute;
   right: 0%;
@@ -1019,30 +1031,30 @@ td {
   content: attr(data-pullquote);
 }
 
-/* line 25, scss/objects/_text.scss */
+/* line 26, scss/objects/_text.scss */
 .caption {
   font-style: italic;
 }
 
-/* line 31, scss/objects/_text.scss */
+/* line 32, scss/objects/_text.scss */
 .text a {
   text-decoration: underline;
 }
-/* line 35, scss/objects/_text.scss */
+/* line 36, scss/objects/_text.scss */
 .text ul {
   list-style: disc;
   margin: 0 0 1em 1.2em;
 }
-/* line 39, scss/objects/_text.scss */
+/* line 40, scss/objects/_text.scss */
 .text ul ul {
   margin-bottom: 0;
 }
-/* line 44, scss/objects/_text.scss */
+/* line 45, scss/objects/_text.scss */
 .text ol {
   list-style: decimal;
   margin: 0 0 1em 1.5em;
 }
-/* line 48, scss/objects/_text.scss */
+/* line 49, scss/objects/_text.scss */
 .text ol ol {
   margin-bottom: 0;
 }
@@ -1388,17 +1400,75 @@ td {
   display: block;
 }
 
+/* People Block */
+/* line 107, scss/objects/_blocks.scss */
+.block-people {
+  position: relative;
+  text-align: center;
+  color: white;
+  display: inline-block;
+}
+/* line 113, scss/objects/_blocks.scss */
+.block-people img {
+  display: block;
+}
+/* line 117, scss/objects/_blocks.scss */
+.block-people header {
+  position: absolute;
+  top: 2.11111em;
+  width: 100%;
+}
+/* line 122, scss/objects/_blocks.scss */
+.block-people header h3 {
+  margin-bottom: -.3em;
+}
+/* line 126, scss/objects/_blocks.scss */
+.block-people .expertise {
+  bottom: 2.11111em;
+  position: absolute;
+  width: 100%;
+}
+/* line 131, scss/objects/_blocks.scss */
+.block-people .expertise h3 {
+  font-family: Verdana, "Arial", sans-serif;
+  font-size: 11px;
+  font-size: 0.6875rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.5);
+  background: url('data:image/svg+xml;base64,PHN2ZyBvcGFjaXR5PSIuOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzAzIiBoZWlnaHQ9IjMwMyI+PGNpcmNsZSBmaWxsPSIjNDMzRjNFIiBjeD0iMTUxLjUiIGN5PSIxNTEuNSIgcj0iMTUxLjUiLz48L3N2Zz4=') center center no-repeat;
+  background-size: 2em 2em;
+  padding: .5em 0;
+}
+/* line 141, scss/objects/_blocks.scss */
+.block-people .expertise .skills {
+  margin-top: 1em;
+}
+/* line 144, scss/objects/_blocks.scss */
+.block-people .expertise .skills li {
+  line-height: 1.3em;
+}
+/* line 149, scss/objects/_blocks.scss */
+.block-people a, .block-people .skills {
+  font-family: "ProximaNovaCond-Bold", Verdana, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07143em;
+  color: white;
+}
+
 /* Hero Block */
-/* line 108, scss/objects/_blocks.scss */
+/* line 159, scss/objects/_blocks.scss */
 .block-inset {
   margin-bottom: 0.5em;
   position: relative;
 }
-/* line 112, scss/objects/_blocks.scss */
+/* line 163, scss/objects/_blocks.scss */
 .block-inset .headline {
   font-size: 1.1em;
 }
-/* line 116, scss/objects/_blocks.scss */
+/* line 167, scss/objects/_blocks.scss */
 .block-inset .b-text {
   position: absolute;
   bottom: 0;
@@ -1410,12 +1480,12 @@ td {
 }
 
 /* Block Thumb with Summary */
-/* line 129, scss/objects/_blocks.scss */
+/* line 180, scss/objects/_blocks.scss */
 .block-thumb-summary .b-thumb {
   float: left;
   width: 50%;
 }
-/* line 134, scss/objects/_blocks.scss */
+/* line 185, scss/objects/_blocks.scss */
 .block-thumb-summary .b-text {
   margin-left: 50%;
   padding: 0.5em;

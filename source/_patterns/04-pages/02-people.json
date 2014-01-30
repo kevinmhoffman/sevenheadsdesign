@@ -1,7 +1,7 @@
 {
 	"title" : "You Should Do That",
 	"subtitle": "A story of a tiny nudge into greatness.",
-	"bodyClass": "article",
+	"bodyClass": "people",
 	"author" : {
 		"first-name" : "Kevin",
 		"last-name" : "Hoffman"

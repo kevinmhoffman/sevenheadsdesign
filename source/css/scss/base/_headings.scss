@@ -26,7 +26,7 @@ h3, .gamma   {
 	text-transform: uppercase;
 	font-family: $font-sm-headings;
 	font-weight: normal;
-
+	@include readable-uppercase(31px);
 }
 
 h4, .delta   {

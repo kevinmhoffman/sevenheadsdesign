@@ -15,9 +15,9 @@
 			"src": "../../images/fpo_square.png",
 			"alt": "Square Thumbnail"
 		},
-		"avatar" : {
-			"src" : "../../images/fpo_avatar.png",
-			"alt" : "Person Name"
+		"people" : {
+			"src" : "../../images/people-lg.jpg",
+			"alt" : "Brad Frost"
 		},
 		"rectangle": {
 			"src": "http://placeimg.com/400/300/tech",

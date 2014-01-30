@@ -6,7 +6,9 @@
 	clear: both;
 	overflow: hidden;
 	max-height: 0;
-	
+	font-family: $font-sm-bold;
+	@include font-size(16px);
+	@include readable-uppercase(16px);
 	a {
 		display: block;
 		padding: $pad;
@@ -19,11 +21,9 @@
 
 	@media all and (min-width: $bp-med) {
 		max-height: none;
-		float: right;
-		clear: none;
 
 		li {
-			float: left;
+			display: inline-block;
 		}
 
 		a {

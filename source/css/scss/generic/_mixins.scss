@@ -21,3 +21,8 @@
   @else { font-size: $decimal-size;}
   font-size: ($decimal-size / 16px) * 1rem;
 }
+
+@mixin readable-uppercase ($fs: 12px) {
+  text-transform: uppercase;
+  letter-spacing: px-to-ems(1px, $fs);
+}

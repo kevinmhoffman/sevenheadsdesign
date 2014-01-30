@@ -1,18 +1,13 @@
 .header {
-	background: $white;
 	padding: 0;
-	border-bottom: 1px solid #dbdbdb;
 	@extend .lc;
+	text-align: center;
 }
 
 .logo {
-	float: left;
-	max-width: 8rem;
-	margin: 0.4rem;
+	max-width: 5.6875rem;
+	margin: 0.4rem auto;
 
-	@media all and (min-width: $bp-med) {
-		max-width: 9rem;
-	}
 }
 
 .nav-toggle {

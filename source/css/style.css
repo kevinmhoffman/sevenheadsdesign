@@ -831,25 +831,17 @@ td {
 \*------------------------------------*/
 /* line 1, scss/objects/_header.scss */
 .header {
-  background: white;
   padding: 0;
-  border-bottom: 1px solid #dbdbdb;
+  text-align: center;
 }
 
-/* line 8, scss/objects/_header.scss */
+/* line 7, scss/objects/_header.scss */
 .logo {
-  float: left;
-  max-width: 8rem;
-  margin: 0.4rem;
-}
-@media all and (min-width: 46.8em) {
-  /* line 8, scss/objects/_header.scss */
-  .logo {
-    max-width: 9rem;
-  }
+  max-width: 5.6875rem;
+  margin: 0.4rem auto;
 }
 
-/* line 18, scss/objects/_header.scss */
+/* line 13, scss/objects/_header.scss */
 .nav-toggle {
   float: right;
   display: block;
@@ -859,26 +851,26 @@ td {
   border-left: 1px solid #dbdbdb;
 }
 @media all and (min-width: 46.8em) {
-  /* line 18, scss/objects/_header.scss */
+  /* line 13, scss/objects/_header.scss */
   .nav-toggle {
     display: none;
   }
 }
 @media all and (max-width: 17em) {
-  /* line 18, scss/objects/_header.scss */
+  /* line 13, scss/objects/_header.scss */
   .nav-toggle {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
   }
 }
 
-/* line 36, scss/objects/_header.scss */
+/* line 31, scss/objects/_header.scss */
 .search-form {
   overflow: hidden;
   max-height: 0;
 }
 @media all and (min-width: 46.8em) {
-  /* line 36, scss/objects/_header.scss */
+  /* line 31, scss/objects/_header.scss */
   .search-form {
     float: right;
     max-height: none;
@@ -894,14 +886,19 @@ td {
   clear: both;
   overflow: hidden;
   max-height: 0;
+  font-family: "ProximaNovaCond-Bold", Verdana, Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.0625em;
 }
-/* line 10, scss/objects/_nav.scss */
+/* line 12, scss/objects/_nav.scss */
 .nav a {
   display: block;
   padding: 1em;
   border-top: 1px solid #eeeeee;
 }
-/* line 16, scss/objects/_nav.scss */
+/* line 18, scss/objects/_nav.scss */
 .nav.active {
   max-height: 40em;
 }
@@ -909,12 +906,10 @@ td {
   /* line 5, scss/objects/_nav.scss */
   .nav {
     max-height: none;
-    float: right;
-    clear: none;
   }
   /* line 25, scss/objects/_nav.scss */
   .nav li {
-    float: left;
+    display: inline-block;
   }
   /* line 29, scss/objects/_nav.scss */
   .nav a {

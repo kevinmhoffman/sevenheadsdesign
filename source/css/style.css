@@ -539,11 +539,10 @@ td {
 
 /* line 1, scss/base/_animation.scss */
 .animate-fade {
-  -webkit-transition: opacity 0.3s ease-out;
-  -moz-transition: opacity 0.3s ease-out;
-  -ms-transition: opacity 0.3s ease-out;
-  -o-transition: opacity 0.3s ease-out;
-  transition: opacity 0.3s ease-out;
+  -webkit-transition: opacity, 0.3s, ease-out;
+  -moz-transition: opacity, 0.3s, ease-out;
+  -o-transition: opacity, 0.3s, ease-out;
+  transition: opacity, 0.3s, ease-out;
 }
 /* line 4, scss/base/_animation.scss */
 .animate-fade:hover {
@@ -552,11 +551,10 @@ td {
 
 /* line 10, scss/base/_animation.scss */
 .animate-move > .demo-shape {
-  -webkit-transition: all 0.8s ease-in-out;
-  -moz-transition: all 0.8s ease-in-out;
-  -ms-transition: all 0.8s ease-in-out;
-  -o-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out;
+  -webkit-transition: all, 0.8s, ease-in-out;
+  -moz-transition: all, 0.8s, ease-in-out;
+  -o-transition: all, 0.8s, ease-in-out;
+  transition: all, 0.8s, ease-in-out;
 }
 
 /*------------------------------------*\
@@ -1419,29 +1417,44 @@ p.intro strong {
   position: relative;
   text-align: center;
   color: white;
+  background: #040707;
 }
-/* line 113, scss/objects/_blocks.scss */
+/* line 114, scss/objects/_blocks.scss */
 .block-people img {
   display: block;
   width: 100%;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-box-shadow: inset 0 0 10px black;
+  -moz-box-shadow: inset 0 0 10px black;
+  box-shadow: inset 0 0 10px black;
 }
-/* line 118, scss/objects/_blocks.scss */
+/* line 121, scss/objects/_blocks.scss */
+.block-people:hover img {
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  filter: blur(0px);
+}
+/* line 125, scss/objects/_blocks.scss */
 .block-people header {
   position: absolute;
   top: 2.11111em;
   width: 100%;
+  z-index: 2;
 }
-/* line 123, scss/objects/_blocks.scss */
+/* line 131, scss/objects/_blocks.scss */
 .block-people header h3 {
   margin-bottom: -.3em;
 }
-/* line 127, scss/objects/_blocks.scss */
+/* line 135, scss/objects/_blocks.scss */
 .block-people .expertise {
   bottom: 2.11111em;
   position: absolute;
   width: 100%;
+  z-index: 2;
 }
-/* line 132, scss/objects/_blocks.scss */
+/* line 141, scss/objects/_blocks.scss */
 .block-people .expertise h3 {
   font-family: Verdana, "Arial", sans-serif;
   font-size: 11px;
@@ -1452,15 +1465,15 @@ p.intro strong {
   background-size: 2em 2em;
   padding: .5em 0;
 }
-/* line 142, scss/objects/_blocks.scss */
+/* line 151, scss/objects/_blocks.scss */
 .block-people .expertise .skills {
   margin-top: 1em;
 }
-/* line 145, scss/objects/_blocks.scss */
+/* line 154, scss/objects/_blocks.scss */
 .block-people .expertise .skills li {
   line-height: 1.3em;
 }
-/* line 150, scss/objects/_blocks.scss */
+/* line 159, scss/objects/_blocks.scss */
 .block-people a, .block-people .skills {
   font-family: "ProximaNovaCond-Bold", Verdana, Arial, sans-serif;
   text-transform: uppercase;
@@ -1472,16 +1485,16 @@ p.intro strong {
 }
 
 /* Hero Block */
-/* line 160, scss/objects/_blocks.scss */
+/* line 169, scss/objects/_blocks.scss */
 .block-inset {
   margin-bottom: 0.5em;
   position: relative;
 }
-/* line 164, scss/objects/_blocks.scss */
+/* line 173, scss/objects/_blocks.scss */
 .block-inset .headline {
   font-size: 1.1em;
 }
-/* line 168, scss/objects/_blocks.scss */
+/* line 177, scss/objects/_blocks.scss */
 .block-inset .b-text {
   position: absolute;
   bottom: 0;
@@ -1493,12 +1506,12 @@ p.intro strong {
 }
 
 /* Block Thumb with Summary */
-/* line 181, scss/objects/_blocks.scss */
+/* line 190, scss/objects/_blocks.scss */
 .block-thumb-summary .b-thumb {
   float: left;
   width: 50%;
 }
-/* line 186, scss/objects/_blocks.scss */
+/* line 195, scss/objects/_blocks.scss */
 .block-thumb-summary .b-text {
   margin-left: 50%;
   padding: 0.5em;

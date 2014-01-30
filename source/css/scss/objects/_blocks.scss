@@ -109,16 +109,24 @@
 	position: relative;
 	text-align: center;
 	color: $white;
+	background: $black;
 
 	img{
 		display: block;
 		width: 100%;
+		@include filter(blur(2px));
+		@include box-shadow(inset 0 0 10px #000);
+
+	}
+	&:hover img{
+		@include filter(blur(0px));
 	}
 
 	header{
 		position: absolute;
 		top: px-to-ems(38px);
 		width: 100%;
+		z-index:2;
 		
 		h3{
 			margin-bottom: -.3em;
@@ -128,6 +136,7 @@
 		bottom: px-to-ems(38px);
 		position: absolute;
 		width: 100%;
+		z-index:2;
 
 		h3{
 			font-family: $font;

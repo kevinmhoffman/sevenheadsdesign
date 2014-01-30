@@ -228,7 +228,7 @@ a {
 }
 /* line 7, scss/base/_links.scss */
 a:hover, a:focus {
-  color: gray;
+  color: #433f3e;
 }
 
 /* Headings */
@@ -300,8 +300,8 @@ p {
 /* line 7, scss/base/_text.scss */
 blockquote {
   font-style: italic;
-  border-left: 1px solid gray;
-  color: gray;
+  border-left: 1px solid #433f3e;
+  color: #433f3e;
   padding-left: 1em;
   margin-bottom: 1em;
 }
@@ -317,7 +317,7 @@ hr {
 
 /* line 23, scss/base/_text.scss */
 abbr {
-  border-bottom: 1px dotted gray;
+  border-bottom: 1px dotted #433f3e;
   cursor: help;
 }
 
@@ -406,7 +406,7 @@ button, input, select, textarea {
 /* line 26, scss/base/_forms.scss */
 input, textarea {
   width: 100%;
-  border: 1px solid gray;
+  border: 1px solid #433f3e;
   padding: 0.5em 0.65rem;
 }
 
@@ -419,7 +419,7 @@ input[type=text], input[type=search], input[type=url], input[type=number], texta
 button, input[type="submit"] {
   padding: 0.5em;
   background: #333333;
-  border: 1px solid gray;
+  border: 1px solid #433f3e;
   cursor: pointer;
 }
 
@@ -464,7 +464,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 /* line 79, scss/base/_forms.scss */
 .inline-form input[type=submit]:hover, .inline-form input[type=submit]:focus, .inline-form button:hover, .inline-form button:focus, .inline-form .btn:hover, .inline-form .btn:focus {
-  background: gray;
+  background: #433f3e;
   color: white;
 }
 
@@ -493,8 +493,8 @@ input[type="search"]::-webkit-search-decoration {
   background: none;
   padding: 0.78em 1em;
   border: 0;
-  border-left: 1px solid gray;
-  color: gray;
+  border-left: 1px solid #433f3e;
+  color: #433f3e;
 }
 
 /*------------------------------------*\
@@ -504,20 +504,20 @@ input[type="search"]::-webkit-search-decoration {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  border: 1px solid gray;
+  border: 1px solid #433f3e;
   width: 100%;
 }
 
 /* line 10, scss/base/_tables.scss */
 th {
   text-align: left;
-  border: 1px solid gray;
+  border: 1px solid #433f3e;
   padding: 0.2em;
 }
 
 /* line 15, scss/base/_tables.scss */
 td {
-  border: 1px solid gray;
+  border: 1px solid #433f3e;
   padding: 0.2em;
 }
 
@@ -957,7 +957,7 @@ td {
 }
 /* line 11, scss/objects/_footer.scss */
 .footer a {
-  color: #f9f9f9;
+  color: #b9bdba;
 }
 
 /* line 17, scss/objects/_footer.scss */
@@ -1197,7 +1197,7 @@ td {
 /* line 119, scss/objects/_icons.scss */
 .icon-play-box:before {
   padding: 0.25em;
-  background: gray;
+  background: #433f3e;
   color: white;
   margin-left: -1.7rem;
   margin-right: 0.5em;
@@ -1209,40 +1209,55 @@ td {
 /* line 4, scss/objects/_buttons.scss */
 .btn {
   display: inline-block;
-  background: #333333;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAECAIAAADETxJQAAAAGUlEQVR4AWPYe3Dv9FnTgSSIBUEMEAEUMQD/uBnfULjAwwAAAABJRU5ErkJggg==') bottom left repeat-x #433f3e;
   color: white;
   line-height: 1;
-  font-weight: bold;
-  padding: 1em;
+  padding: 0.5em 1em 0.75em;
   border: 0;
   text-align: center;
+  font-family: "SanchezBold", Georgia, serif;
+  width: 100%;
+  max-width: 9.72222em;
 }
-/* line 14, scss/objects/_buttons.scss */
+/* line 16, scss/objects/_buttons.scss */
 .btn:hover, .btn:focus {
-  background: gray;
+  background-color: #292625;
   color: white;
 }
-/* line 19, scss/objects/_buttons.scss */
+/* line 21, scss/objects/_buttons.scss */
 .btn.disabled {
-  background: #eeeeee;
-  color: gray;
+  background-color: #eeeeee;
+  color: #433f3e;
 }
 
-/* line 25, scss/objects/_buttons.scss */
-.btn-small {
-  padding: 0.5em;
+/* line 27, scss/objects/_buttons.scss */
+.btn-med {
+  padding: 1em;
+  background-color: #747474;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  max-width: 13.09524em;
 }
-
-/* line 29, scss/objects/_buttons.scss */
-.btn-large {
-  padding: 0.5em;
-  text-transform: uppercase;
-  background: gray;
-  font-size: 1.4rem;
-  font-weight: normal;
+/* line 33, scss/objects/_buttons.scss */
+.btn-med:hover, .btn-med:focus {
+  background-color: #5b5b5b;
 }
 
 /* line 38, scss/objects/_buttons.scss */
+.btn-large {
+  padding: 1em;
+  background-color: #c9332b;
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: normal;
+  max-width: 19.79167em;
+}
+/* line 45, scss/objects/_buttons.scss */
+.btn-large:hover, .btn-large:focus {
+  background-color: #9f2822;
+}
+
+/* line 52, scss/objects/_buttons.scss */
 .text-btn {
   font-style: italic;
 }
@@ -1465,7 +1480,7 @@ td {
 
 /* line 12, scss/objects/_tooltip.scss */
 .tooltip-link {
-  background: #f9f9f9;
+  background: #b9bdba;
 }
 
 /* line 16, scss/objects/_tooltip.scss */
@@ -1477,7 +1492,7 @@ td {
   width: 18em;
   padding: 1em;
   background: white;
-  border: 1px solid gray;
+  border: 1px solid #433f3e;
   box-shadow: 0.3em 0.3em 1em 0 rgba(0, 0, 0, 0.2);
 }
 /* line 27, scss/objects/_tooltip.scss */
@@ -1561,7 +1576,7 @@ td {
 .tabs a {
   display: block;
   padding: 0.5em;
-  background: gray;
+  background: #433f3e;
 }
 /* line 24, scss/objects/_tabs.scss */
 .tabs a:hover, .tabs a:focus {
@@ -1614,7 +1629,7 @@ td {
 }
 /* line 30, scss/objects/_article.scss */
 .social-share a:hover {
-  background: gray;
+  background: #433f3e;
 }
 
 /* line 2, scss/objects/_comments.scss */

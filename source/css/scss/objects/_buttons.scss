@@ -3,35 +3,49 @@
 \*------------------------------------*/
 .btn {
 	display: inline-block;
-	background: $gray-dark;
+	background: inline-image("button-bg.png") bottom left repeat-x $gray;
 	color: $white;
 	line-height: 1;
-	font-weight: bold;
-	padding: $pad;
+	padding: $pad-half $pad $pad-three-quarter;
 	border: 0;
 	text-align: center;
-	
+	font-family: $font-alt;
+	width: 100%;
+	max-width: px-to-ems(175px, 18px);
+
 	&:hover, &:focus {
-		background: $gray;
+		background-color: darken($gray, 10);
 		color: $white;
 	}
 
 	&.disabled {
-		background: $gray-light-2;
+		background-color: $gray-light-2;
 		color: $gray;
 	}
 }
 
-.btn-small {
-	padding: $pad-half;
+.btn-med {
+	padding: $pad;
+	background-color: $gray-med;
+	@include font-size(21px);
+	max-width: px-to-ems(275px, 21px);
+
+	&:hover, &:focus {
+		background-color: darken($gray-med, 10);
+	}
 }
 
 .btn-large {
-	padding: $pad-half;
-	text-transform: uppercase;
-	background: $gray;
-	font-size: 1.4rem;
+	padding: $pad;
+	background-color: $tomato;
+	@include font-size(24px);
 	font-weight: normal;
+	max-width: px-to-ems(475px, 24px);
+
+	&:hover, &:focus {
+		background-color: darken($tomato, 10);
+	}
+
 }
 
 

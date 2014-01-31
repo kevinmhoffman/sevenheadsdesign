@@ -14,10 +14,31 @@ iframe {
 
 figure {
 	margin-bottom: $space;
+	width: 100%;
+	max-width: 100%;
 	img {
 		margin-bottom: $space-half;
+		width: 100%;
+		max-width: 100%;
 	}
 }
 figcaption {
 	font-style: italic;
+
+	small{
+		font-style: normal;
+		font-family: $font-sm-headings;
+		float: right;
+		margin-right: 8.1967213%;
+		@include font-size(12px);
+		padding-bottom: $pad-half;
+		border-bottom: 1px solid $gray;
+		border-bottom-color: rgba($gray, .5);
+
+		a{
+			text-decoration: none;
+			border-bottom: 1px solid $gray;
+			border-bottom-color: rgba($gray, .5);
+		}
+	}
 }

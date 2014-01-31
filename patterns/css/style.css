@@ -216,7 +216,7 @@ body {
   background: url('/patterns/images/body-bg.png?1390422479') top left #e2e7e1;
   font: 112.5%/1.6666 Verdana, "Arial", sans-serif;
   -webkit-text-size-adjust: 100%;
-  color: #040707;
+  color: #433f3e;
 }
 
 /* line 8, scss/base/_main.scss */
@@ -379,15 +379,37 @@ iframe {
 /* line 15, scss/base/_media.scss */
 figure {
   margin-bottom: 1em;
+  width: 100%;
+  max-width: 100%;
 }
-/* line 17, scss/base/_media.scss */
+/* line 19, scss/base/_media.scss */
 figure img {
   margin-bottom: 0.5em;
+  width: 100%;
+  max-width: 100%;
 }
 
-/* line 21, scss/base/_media.scss */
+/* line 25, scss/base/_media.scss */
 figcaption {
   font-style: italic;
+}
+/* line 28, scss/base/_media.scss */
+figcaption small {
+  font-style: normal;
+  font-family: "ProximaNovaCond-Light", Verdana, Arial, sans-serif;
+  float: right;
+  margin-right: 8.1967213%;
+  font-size: 12px;
+  font-size: 0.75rem;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #433f3e;
+  border-bottom-color: rgba(67, 63, 62, 0.5);
+}
+/* line 38, scss/base/_media.scss */
+figcaption small a {
+  text-decoration: none;
+  border-bottom: 1px solid #433f3e;
+  border-bottom-color: rgba(67, 63, 62, 0.5);
 }
 
 /*------------------------------------*\
@@ -969,6 +991,7 @@ td {
 [role=main] {
   padding: 0.5em 0.5em 2em;
   overflow: hidden;
+  clear: both;
 }
 
 /*------------------------------------*\

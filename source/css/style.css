@@ -398,14 +398,13 @@ figcaption small {
   font-style: normal;
   font-family: "ProximaNovaCond-Light", Verdana, Arial, sans-serif;
   float: right;
-  margin-right: 8.1967213%;
   font-size: 12px;
   font-size: 0.75rem;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #433f3e;
   border-bottom-color: rgba(67, 63, 62, 0.5);
 }
-/* line 38, scss/base/_media.scss */
+/* line 37, scss/base/_media.scss */
 figcaption small a {
   text-decoration: none;
   border-bottom: 1px solid #433f3e;
@@ -588,7 +587,7 @@ td {
 /* Layout Container */
 /* line 6, scss/objects/_layout.scss */
 .lc, .header, [role=main] {
-  max-width: 56em;
+  max-width: 58em;
   margin: 0 auto;
   padding: 0.5em;
 }
@@ -1738,42 +1737,78 @@ p.intro strong {
   position: relative;
 }
 
-/* line 6, scss/objects/_article.scss */
+/* line 5, scss/objects/_article.scss */
+.article-header {
+  max-width: 26.33333em;
+  margin: auto;
+}
+/* line 8, scss/objects/_article.scss */
 .article-header h1 {
   font-size: 2.5em;
 }
+/* line 11, scss/objects/_article.scss */
+.article-header .byline {
+  position: absolute;
+  left: 0;
+  width: 13.125em;
+  border-bottom: 1px solid #433f3e;
+  border-bottom-color: rgba(67, 63, 62, 0.5);
+  padding-bottom: 2.375em;
+}
 
-/* line 10, scss/objects/_article.scss */
+/* line 20, scss/objects/_article.scss */
 .entry-content {
   max-width: 26.33333em;
   margin: auto;
 }
 
-/* line 15, scss/objects/_article.scss */
+/* line 25, scss/objects/_article.scss */
 .byline {
-  font-size: 0.875em;
-  font-style: italic;
   margin-bottom: 0.5em;
+  font-family: "ProximaNovaCond-Light", Verdana, Arial, sans-serif;
+  color: #040707;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+/* line 33, scss/objects/_article.scss */
+.byline em {
+  color: rgba(4, 7, 7, 0.5);
+  text-transform: uppercase;
+  font-size: 10px;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: Verdana, "Arial", sans-serif;
+  display: block;
+  padding-bottom: 1.5em;
+}
+/* line 43, scss/objects/_article.scss */
+.byline img {
+  float: left;
+  margin-right: 1em;
 }
 
-/* line 22, scss/objects/_article.scss */
+/* line 50, scss/objects/_article.scss */
 .social-share {
   overflow: hidden;
   margin-bottom: 1em;
 }
-/* line 26, scss/objects/_article.scss */
+/* line 54, scss/objects/_article.scss */
 .social-share li {
   float: left;
   margin-right: 0.5em;
 }
-/* line 31, scss/objects/_article.scss */
+/* line 59, scss/objects/_article.scss */
 .social-share a {
   background: #333333;
   color: white;
   display: block;
   padding: 0.5em;
 }
-/* line 37, scss/objects/_article.scss */
+/* line 65, scss/objects/_article.scss */
 .social-share a:hover {
   background: #433f3e;
 }

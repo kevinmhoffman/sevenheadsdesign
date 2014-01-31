@@ -26,6 +26,10 @@
 		"story": {
 			"src": "../../images/story-image.jpg",
 			"alt": "This is a bridge."
+		},
+		"author": {
+			"src": "../../images/author-pic.jpg",
+			"alt": "Kevin Motherflippin Hoffman"
 		}
 	},
 	"headline" : {

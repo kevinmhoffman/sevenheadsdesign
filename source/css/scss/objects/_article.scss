@@ -3,8 +3,18 @@
 	position: relative;
 }
 .article-header {
+	max-width: px-to-ems(474,18);
+	margin: auto;
 	h1 {
 		font-size: 2.5em;
+	}
+	.byline{
+		position: absolute;
+		left: 0;
+		width: px-to-ems(210px, 16px);
+		border-bottom: 1px solid $gray;
+		border-bottom-color: rgba($gray, .5);
+		padding-bottom: px-to-ems(38px,16px);
 	}
 }
 .entry-content{
@@ -13,9 +23,27 @@
 }
 
 .byline {
-	font-size: $font-size-small-2;
-	font-style: italic;
 	margin-bottom: $space-half;
+	font-family: $font-sm-headings;
+	color: $black;
+	text-transform: uppercase;
+	@include font-size(16px);
+	@include readable-uppercase(10px);
+
+	em{
+		color: rgba($black, .5);
+		text-transform: uppercase;
+		@include font-size(10px);
+		@include readable-uppercase(10px);
+		font-family: $font;
+		display: block;
+		padding-bottom: $pad-and-half;
+	}
+
+	img{
+		float: left;
+		margin-right: 1em;
+	}
 }
 
 //Social Share

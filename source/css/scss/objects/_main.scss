@@ -7,4 +7,11 @@
 	@extend .lc;
 	@extend .cf;
 	clear: both;
+
+	.home &{
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+	}
 }
+

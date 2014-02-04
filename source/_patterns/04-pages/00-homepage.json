@@ -4,9 +4,9 @@
 	"hero" : [
 		{
 			"img": {
-				"landscape-16x9": {
-					"src": "../../images/sample/landscape-16x9-mountains.jpg",
-					"alt": "Mountains"	
+				"hero": {
+					"src": "../../images/kevin-hero.png",
+					"alt": "Kevin Hoffman"	
 				}
 			},
 			"headline" : {

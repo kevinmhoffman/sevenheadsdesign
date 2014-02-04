@@ -23,26 +23,46 @@
 /* Hero Block */
 .block-hero {
 	margin-bottom: $space-half;
+	background: image-url("hero-bg.png") top left $tomato;
+	color: $white;
 
+	.lc{
+		position: relative;
+				padding-top: 3.333333333em;
+
+	}
+	a{
+		color: $white;
+	}
+	p.intro{
+		color: $white;
+		font-family: $font-alt;
+		text-align: left;
+
+		&:first-letter{
+			margin-left: -.5em;
+		}
+	}
 	.b-thumb {
 		img {
 			display: block;
 		}
 	}
+	.b-text{
+		text-align: left;
+		width: 47%;
+		position: absolute;
+		right: 8.9390963%;
 
-	@media all and (min-width: $bp-large) {
-		position: relative;
-
-		.b-text {
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			width: 100%;
-			background: $dim;
-			color: $white;
-			padding: $pad-and-half;
+		p a.inception{
+			text-decoration: underline;
 		}
 	}
+	img{
+		float: left;
+		margin-top: 3em;
+	}
+
 }
 
 /* Block Thumbnail with Headline */

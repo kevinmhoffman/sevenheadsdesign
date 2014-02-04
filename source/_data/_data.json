@@ -30,6 +30,10 @@
 		"author": {
 			"src": "../../images/author-pic.jpg",
 			"alt": "Kevin Motherflippin Hoffman"
+		},
+		"hero": {
+			"src": "../../images/kevin-hero.png",
+			"alt": "Kevin Motherflippin Hoffman"
 		}
 	},
 	"headline" : {

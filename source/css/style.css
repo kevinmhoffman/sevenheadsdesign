@@ -214,7 +214,7 @@ header, footer, nav, section, article, hgroup, figure {
 /* line 1, scss/base/_main.scss */
 body {
   background: url('/patterns/images/body-bg.png?1390422479') top left #e2e7e1;
-  font: 112.5%/1.6666 Verdana, "Arial", sans-serif;
+  font: 112.5%/1.72222 Verdana, "Arial", sans-serif;
   -webkit-text-size-adjust: 100%;
   color: #433f3e;
 }

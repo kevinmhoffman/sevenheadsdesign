@@ -33,7 +33,7 @@ input[type=text], input[type=search], input[type=url], input[type=number], texta
 	-webkit-appearance: none;
 }
 
-button, input[type="submit"] {
+button {
 	padding: $pad-half;
 	background: $gray-dark;
 	border: 1px solid $gray;
@@ -92,8 +92,37 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 
+/*------------------------------------*\
+    $INLINE FORMS
+\*------------------------------------*/
 
+.inline{
+	background: transparent;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	display: inline-block;
+	width: 20em;
+	padding-bottom: .3em;
+}
 
+select.inline{
+	-webkit-appearance:none;
+	@include border-radius(0);
+	color: lighten($gray-med, 20);
+	border-bottom-color: $black;
+	padding-left: .5em;
+}
+.para-form{
+	width: 78%;
+	margin: auto;
+
+	p{
+		text-align: left;
+		margin: 1.5em auto;
+	}
+	
+}
 /*------------------------------------*\
     $SPECIFIC FORMS
 \*------------------------------------*/

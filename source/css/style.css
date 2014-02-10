@@ -453,7 +453,7 @@ input[type=text], input[type=search], input[type=url], input[type=number], texta
 }
 
 /* line 36, scss/base/_forms.scss */
-button, input[type="submit"] {
+button {
   padding: 0.5em;
   background: #333333;
   border: 1px solid #433f3e;
@@ -517,15 +517,53 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 /*------------------------------------*\
+    $INLINE FORMS
+\*------------------------------------*/
+/* line 99, scss/base/_forms.scss */
+.inline {
+  background: transparent;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  display: inline-block;
+  width: 20em;
+  padding-bottom: .3em;
+}
+
+/* line 109, scss/base/_forms.scss */
+select.inline {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  color: #a7a7a7;
+  border-bottom-color: #040707;
+  padding-left: .5em;
+}
+
+/* line 116, scss/base/_forms.scss */
+.para-form {
+  width: 78%;
+  margin: auto;
+}
+/* line 120, scss/base/_forms.scss */
+.para-form p {
+  text-align: left;
+  margin: 1.5em auto;
+}
+
+/*------------------------------------*\
     $SPECIFIC FORMS
 \*------------------------------------*/
 /* Search Form */
-/* line 102, scss/base/_forms.scss */
+/* line 131, scss/base/_forms.scss */
 .search-field {
   padding-right: 3em;
 }
 
-/* line 105, scss/base/_forms.scss */
+/* line 134, scss/base/_forms.scss */
 .inline-form .search-submit {
   background: none;
   padding: 0.78em 1em;
@@ -1386,7 +1424,7 @@ p.intro strong, .people [role="main"] p.intro strong {
 /* line 24, scss/objects/_blocks.scss */
 .block-hero {
   margin-bottom: 0.5em;
-  background: url('/patterns/images/hero-bg.png?1391482548') top left #c9332b;
+  background: url('/patterns/images/hero-bg.png?1392049644') top left #c9332b;
   color: white;
 }
 /* line 29, scss/objects/_blocks.scss */

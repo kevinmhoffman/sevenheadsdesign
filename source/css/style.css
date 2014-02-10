@@ -220,7 +220,7 @@ body {
 }
 
 /* line 8, scss/base/_main.scss */
-.people p {
+.people [role="main"] p {
   font-family: "SanchezLight", Georgia, serif;
   font-size: 24px;
   font-size: 1.5rem;
@@ -327,7 +327,7 @@ blockquote {
 hr {
   border: 0;
   height: 2px;
-  background: #eeeeee;
+  background: #a9aea9;
   margin: 2em 0;
 }
 
@@ -944,7 +944,7 @@ td {
 .nav a {
   display: block;
   padding: 1em;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #a9aea9;
 }
 /* line 18, scss/objects/_nav.scss */
 .nav.active {
@@ -972,7 +972,7 @@ td {
 /* line 40, scss/objects/_nav.scss */
 .pagination li {
   float: left;
-  border-right: 1px solid #eeeeee;
+  border-right: 1px solid #a9aea9;
 }
 /* line 44, scss/objects/_nav.scss */
 .pagination li:last-child {
@@ -1006,48 +1006,56 @@ td {
 .footer {
   clear: both;
   overflow: hidden;
-  background: #131313;
-  color: white;
   line-height: 1.2;
+  font-size: 12px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  letter-spacing: 0.08333em;
+  text-align: center;
 }
-/* line 11, scss/objects/_footer.scss */
-.footer a {
-  color: #b9bdba;
+/* line 13, scss/objects/_footer.scss */
+.footer:before {
+  content: " ";
+  display: block;
+  height: 1px;
+  background: #a9aea9;
+  width: 50%;
+  max-width: 17.416666667em;
+  margin: 2em auto 1em;
+}
+/* line 23, scss/objects/_footer.scss */
+.footer .copyright {
+  color: #757c75;
+  margin-top: 10em;
 }
 
-/* line 17, scss/objects/_footer.scss */
+/* line 31, scss/objects/_footer.scss */
 .nav-footer {
   margin: -1em -1em 1em;
 }
-/* line 20, scss/objects/_footer.scss */
+/* line 34, scss/objects/_footer.scss */
 .nav-footer li {
   border-bottom: 1px solid #333333;
 }
 @media all and (min-width: 46.8em) {
-  /* line 20, scss/objects/_footer.scss */
+  /* line 34, scss/objects/_footer.scss */
   .nav-footer li {
     border: 0;
     float: left;
   }
 }
-/* line 29, scss/objects/_footer.scss */
+/* line 43, scss/objects/_footer.scss */
 .nav-footer a {
   display: block;
   padding: 1em;
-}
-
-@media all and (min-width: 46.8em) {
-  /* line 35, scss/objects/_footer.scss */
-  .copyright {
-    float: right;
-  }
 }
 
 /*------------------------------------*\
     $TEXT Styles
 \*------------------------------------*/
 /* line 2, scss/objects/_text.scss */
-p.intro {
+p.intro, .people [role="main"] p.intro {
   font-size: 2.33333em;
   font-family: "SanchezLight", Georgia, serif;
   line-height: 1.3333em;
@@ -1055,7 +1063,7 @@ p.intro {
   color: #040707;
 }
 /* line 8, scss/objects/_text.scss */
-p.intro strong {
+p.intro strong, .people [role="main"] p.intro strong {
   font-family: "SanchezBold", Georgia, serif;
   color: #c9332b;
 }
@@ -1095,6 +1103,27 @@ p.intro strong {
 /* line 49, scss/objects/_text.scss */
 .text ol ol {
   margin-bottom: 0;
+}
+
+/* line 55, scss/objects/_text.scss */
+.twitter {
+  text-transform: uppercase;
+  letter-spacing: 0.05556em;
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-family: "ProximaNovaCond-Bold", Verdana, Arial, sans-serif;
+  color: #747474;
+  text-align: center;
+}
+/* line 62, scss/objects/_text.scss */
+.twitter:after {
+  content: " ";
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiI+PHBhdGggZD0iTTE2IDBjLTguODM3IDAtMTYgNy4xNjMtMTYgMTZzNy4xNjMgMTYgMTYgMTYgMTYtNy4xNjMgMTYtMTYtNy4xNjMtMTYtMTYtMTZ6bTkuMTk1IDExLjI4NGwuMDE0LjYxNGMwIDYuMjY5LTQuNzcyIDEzLjQ5OS0xMy40OTkgMTMuNDk5LTIuNjc5IDAtNS4xNzMtLjc4NS03LjI3My0yLjEzMi4zNzEuMDQ0Ljc0OS4wNjYgMS4xMzIuMDY2IDIuMjIzIDAgNC4yNjgtLjc1OSA1Ljg5Mi0yLjAzMS0yLjA3Ni0uMDM4LTMuODI4LTEuNDEtNC40MzItMy4yOTUuMjkuMDU1LjU4Ny4wODUuODkzLjA4NS40MzMgMCAuODUyLS4wNTggMS4yNS0uMTY2LTIuMTctLjQzNi0zLjgwNi0yLjM1NC0zLjgwNi00LjY1MnYtLjA2Yy42NC4zNTUgMS4zNzEuNTY5IDIuMTQ5LjU5My0xLjI3My0uODUxLTIuMTExLTIuMzAzLTIuMTExLTMuOTQ5IDAtLjg2OS4yMzQtMS42ODQuNjQyLTIuMzg1IDIuMzQgMi44NyA1LjgzNiA0Ljc1OSA5Ljc3OSA0Ljk1Ny0uMDgxLS4zNDctLjEyMy0uNzA5LS4xMjMtMS4wODEgMC0yLjYyIDIuMTI0LTQuNzQ0IDQuNzQ0LTQuNzQ0IDEuMzY1IDAgMi41OTguNTc2IDMuNDYzIDEuNDk4IDEuMDgxLS4yMTMgMi4wOTYtLjYwOCAzLjAxMy0xLjE1MS0uMzU0IDEuMTA4LTEuMTA3IDIuMDM4LTIuMDg2IDIuNjI1Ljk2LS4xMTUgMS44NzQtLjM3IDIuNzI1LS43NDctLjYzNi45NTEtMS40NCAxLjc4Ny0yLjM2NyAyLjQ1NnoiIGZpbGw9IiM3NDc4NzQiLz48L3N2Zz4=');
+  height: 1.77778em;
+  width: 1.77778em;
+  display: block;
+  margin: 1em auto 0;
+  background-size: cover;
 }
 
 /*------------------------------------*\
@@ -1292,7 +1321,7 @@ p.intro strong {
 }
 /* line 21, scss/objects/_buttons.scss */
 .btn.disabled {
-  background-color: #eeeeee;
+  background-color: #a9aea9;
   color: #433f3e;
 }
 
@@ -1335,7 +1364,7 @@ p.intro strong {
   padding: 2em;
   text-align: center;
   font-weight: bold;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #a9aea9;
 }
 
 /* Block */
@@ -1860,7 +1889,7 @@ p.intro strong {
 /* line 17, scss/objects/_comments.scss */
 .comment-meta img {
   display: block;
-  border: 1px solid #eeeeee;
+  border: 1px solid #a9aea9;
   margin-bottom: 0.5em;
 }
 

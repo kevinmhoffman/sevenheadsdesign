@@ -4,13 +4,27 @@
 .footer {
 	clear: both;
 	overflow: hidden;
-	background: $gray-dark-2;
-	color: $white;
 	line-height: 1.2;
-
-	a {
-		color: $gray-light;
+	@include font-size(12px);
+	text-transform: uppercase;
+	@include readable-uppercase(12px);
+	text-align: center;
+	
+	&:before{
+		content: " ";
+		display: block;
+		height: 1px;
+		background: $gray-light-2;
+		width: 50%;
+		max-width: 17.416666667em;
+		margin: 2em auto 1em;
 	}
+
+	.copyright{
+		color: darken($gray-light-2, 20);
+		margin-top: 10em;
+	}
+
 }
 
 //Footer Nav
@@ -29,11 +43,5 @@
 	a {
 		display: block;
 		padding: $pad;
-	}
-}
-
-.copyright {
-	@media all and (min-width: $bp-med) {
-		float: right;
 	}
 }

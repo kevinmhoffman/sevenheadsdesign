@@ -1,5 +1,5 @@
 //Intro text
-p.intro {
+p.intro, .people [role="main"] p.intro {
 	font-size: $font-size-large;
 	font-family: $font-secondary;
 	line-height: 1.3333em;
@@ -49,5 +49,23 @@ p.intro {
 		ol {
 			margin-bottom: 0;
 		}
+	}
+}
+
+.twitter{
+	@include readable-uppercase(18px);
+	@include font-size(18px);
+	font-family: $font-sm-bold;
+	color: $gray-med;
+	text-align: center;
+	
+	&:after{
+		content: " ";
+		background: inline-image("twitter.svg");
+		height: px-to-ems(32px, 18px);
+		width: px-to-ems(32px, 18px);
+		display: block;
+		margin: 1em auto 0;
+		background-size: cover;
 	}
 }

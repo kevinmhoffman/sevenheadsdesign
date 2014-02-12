@@ -18,8 +18,24 @@
 	}
 }
 .entry-content{
-	max-width: px-to-ems(474,18);
-	margin: auto;
+	margin: 2.5em auto 8em;
+	* {
+		max-width: 474px;
+		max-width: 30rem;
+		margin: auto;
+	}
+	img{
+		max-width: 100%;
+		margin: 1.5em auto;
+		display: block;
+	}
+
+	p{
+		margin-bottom: 2.5em;
+	}
+	.alpha{
+		margin-bottom: .5em;
+	}
 }
 
 .byline {

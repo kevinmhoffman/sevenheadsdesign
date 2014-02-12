@@ -1,19 +1,11 @@
 {
 	"title" : "About Seven Heads Design",
-	"subtitle": "A story of a tiny nudge into greatness.",
+	"subtitle": "",
 	"bodyClass": "about",
-	"author" : {
-		"first-name" : "Kevin",
-		"last-name" : "Hoffman"
-	},
 	"img": {
-		"landscape-4x3": {
-			"src": "../../images/sample/landscape-16x9-mountains.jpg",
-			"alt": "Mountains"
-		},
 		"landscape-16x9": {
-			"src": "../../images/sample/landscape-16x9-mountains.jpg",
-			"alt": "Mountains"	
+			"src": "../../images/constellation-clear.png",
+			"alt": "Image of a constellation"	
 		}
 	},
 	"inset-blocks" : [

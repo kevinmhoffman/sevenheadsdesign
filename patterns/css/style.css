@@ -989,7 +989,11 @@ td {
   padding: 1em;
   border-top: 1px solid #a9aea9;
 }
-/* line 18, scss/objects/_nav.scss */
+/* line 17, scss/objects/_nav.scss */
+.nav a.curPage {
+  color: #747474;
+}
+/* line 22, scss/objects/_nav.scss */
 .nav.active {
   max-height: 40em;
 }
@@ -998,30 +1002,30 @@ td {
   .nav {
     max-height: none;
   }
-  /* line 25, scss/objects/_nav.scss */
+  /* line 29, scss/objects/_nav.scss */
   .nav li {
     display: inline-block;
   }
-  /* line 29, scss/objects/_nav.scss */
+  /* line 33, scss/objects/_nav.scss */
   .nav a {
     border: 0;
   }
 }
 
-/* line 37, scss/objects/_nav.scss */
+/* line 41, scss/objects/_nav.scss */
 .pagination {
   overflow: hidden;
 }
-/* line 40, scss/objects/_nav.scss */
+/* line 44, scss/objects/_nav.scss */
 .pagination li {
   float: left;
   border-right: 1px solid #a9aea9;
 }
-/* line 44, scss/objects/_nav.scss */
+/* line 48, scss/objects/_nav.scss */
 .pagination li:last-child {
   border: 0;
 }
-/* line 49, scss/objects/_nav.scss */
+/* line 53, scss/objects/_nav.scss */
 .pagination a {
   padding: 1em;
 }
@@ -1040,6 +1044,19 @@ td {
   width: 100%;
   max-width: 100%;
   padding: 0;
+}
+/* line 17, scss/objects/_main.scss */
+[role=main] .beta {
+  max-width: 32em;
+}
+/* line 21, scss/objects/_main.scss */
+[role=main] p.beta {
+  color: #040707;
+}
+/* line 24, scss/objects/_main.scss */
+[role=main] .align-center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*------------------------------------*\
@@ -1104,14 +1121,15 @@ p.intro, .people [role="main"] p.intro {
   line-height: 1.3333em;
   text-align: center;
   color: #040707;
+  margin-bottom: .904761905em;
 }
-/* line 8, scss/objects/_text.scss */
+/* line 9, scss/objects/_text.scss */
 p.intro strong, .people [role="main"] p.intro strong {
   font-family: "SanchezBold", Georgia, serif;
   color: #c9332b;
 }
 
-/* line 16, scss/objects/_text.scss */
+/* line 17, scss/objects/_text.scss */
 .pullquote-right:after {
   position: absolute;
   right: 0%;
@@ -1120,35 +1138,35 @@ p.intro strong, .people [role="main"] p.intro strong {
   content: attr(data-pullquote);
 }
 
-/* line 26, scss/objects/_text.scss */
+/* line 27, scss/objects/_text.scss */
 .caption {
   font-style: italic;
 }
 
-/* line 32, scss/objects/_text.scss */
+/* line 33, scss/objects/_text.scss */
 .text a {
   text-decoration: underline;
 }
-/* line 36, scss/objects/_text.scss */
+/* line 37, scss/objects/_text.scss */
 .text ul {
   list-style: disc;
   margin: 0 0 1em 1.2em;
 }
-/* line 40, scss/objects/_text.scss */
+/* line 41, scss/objects/_text.scss */
 .text ul ul {
   margin-bottom: 0;
 }
-/* line 45, scss/objects/_text.scss */
+/* line 46, scss/objects/_text.scss */
 .text ol {
   list-style: decimal;
   margin: 0 0 1em 1.5em;
 }
-/* line 49, scss/objects/_text.scss */
+/* line 50, scss/objects/_text.scss */
 .text ol ol {
   margin-bottom: 0;
 }
 
-/* line 55, scss/objects/_text.scss */
+/* line 56, scss/objects/_text.scss */
 .twitter {
   text-transform: uppercase;
   letter-spacing: 0.05556em;
@@ -1158,7 +1176,7 @@ p.intro strong, .people [role="main"] p.intro strong {
   color: #747474;
   text-align: center;
 }
-/* line 62, scss/objects/_text.scss */
+/* line 63, scss/objects/_text.scss */
 .twitter:after {
   content: " ";
   background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiI+PHBhdGggZD0iTTE2IDBjLTguODM3IDAtMTYgNy4xNjMtMTYgMTZzNy4xNjMgMTYgMTYgMTYgMTYtNy4xNjMgMTYtMTYtNy4xNjMtMTYtMTYtMTZ6bTkuMTk1IDExLjI4NGwuMDE0LjYxNGMwIDYuMjY5LTQuNzcyIDEzLjQ5OS0xMy40OTkgMTMuNDk5LTIuNjc5IDAtNS4xNzMtLjc4NS03LjI3My0yLjEzMi4zNzEuMDQ0Ljc0OS4wNjYgMS4xMzIuMDY2IDIuMjIzIDAgNC4yNjgtLjc1OSA1Ljg5Mi0yLjAzMS0yLjA3Ni0uMDM4LTMuODI4LTEuNDEtNC40MzItMy4yOTUuMjkuMDU1LjU4Ny4wODUuODkzLjA4NS40MzMgMCAuODUyLS4wNTggMS4yNS0uMTY2LTIuMTctLjQzNi0zLjgwNi0yLjM1NC0zLjgwNi00LjY1MnYtLjA2Yy42NC4zNTUgMS4zNzEuNTY5IDIuMTQ5LjU5My0xLjI3My0uODUxLTIuMTExLTIuMzAzLTIuMTExLTMuOTQ5IDAtLjg2OS4yMzQtMS42ODQuNjQyLTIuMzg1IDIuMzQgMi44NyA1LjgzNiA0Ljc1OSA5Ljc3OSA0Ljk1Ny0uMDgxLS4zNDctLjEyMy0uNzA5LS4xMjMtMS4wODEgMC0yLjYyIDIuMTI0LTQuNzQ0IDQuNzQ0LTQuNzQ0IDEuMzY1IDAgMi41OTguNTc2IDMuNDYzIDEuNDk4IDEuMDgxLS4yMTMgMi4wOTYtLjYwOCAzLjAxMy0xLjE1MS0uMzU0IDEuMTA4LTEuMTA3IDIuMDM4LTIuMDg2IDIuNjI1Ljk2LS4xMTUgMS44NzQtLjM3IDIuNzI1LS43NDctLjYzNi45NTEtMS40NCAxLjc4Ny0yLjM2NyAyLjQ1NnoiIGZpbGw9IiM3NDc4NzQiLz48L3N2Zz4=');
@@ -1857,11 +1875,30 @@ p.intro strong, .people [role="main"] p.intro strong {
 
 /* line 20, scss/objects/_article.scss */
 .entry-content {
-  max-width: 26.33333em;
+  margin: 2.5em auto 8em;
+}
+/* line 22, scss/objects/_article.scss */
+.entry-content * {
+  max-width: 474px;
+  max-width: 30rem;
   margin: auto;
 }
+/* line 27, scss/objects/_article.scss */
+.entry-content img {
+  max-width: 100%;
+  margin: 1.5em auto;
+  display: block;
+}
+/* line 33, scss/objects/_article.scss */
+.entry-content p {
+  margin-bottom: 2.5em;
+}
+/* line 36, scss/objects/_article.scss */
+.entry-content .alpha {
+  margin-bottom: .5em;
+}
 
-/* line 25, scss/objects/_article.scss */
+/* line 41, scss/objects/_article.scss */
 .byline {
   margin-bottom: 0.5em;
   font-family: "ProximaNovaCond-Light", Verdana, Arial, sans-serif;
@@ -1872,7 +1909,7 @@ p.intro strong, .people [role="main"] p.intro strong {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-/* line 33, scss/objects/_article.scss */
+/* line 49, scss/objects/_article.scss */
 .byline em {
   color: rgba(4, 7, 7, 0.5);
   text-transform: uppercase;
@@ -1884,30 +1921,30 @@ p.intro strong, .people [role="main"] p.intro strong {
   display: block;
   padding-bottom: 1.5em;
 }
-/* line 43, scss/objects/_article.scss */
+/* line 59, scss/objects/_article.scss */
 .byline img {
   float: left;
   margin-right: 1em;
 }
 
-/* line 50, scss/objects/_article.scss */
+/* line 66, scss/objects/_article.scss */
 .social-share {
   overflow: hidden;
   margin-bottom: 1em;
 }
-/* line 54, scss/objects/_article.scss */
+/* line 70, scss/objects/_article.scss */
 .social-share li {
   float: left;
   margin-right: 0.5em;
 }
-/* line 59, scss/objects/_article.scss */
+/* line 75, scss/objects/_article.scss */
 .social-share a {
   background: #333333;
   color: white;
   display: block;
   padding: 0.5em;
 }
-/* line 65, scss/objects/_article.scss */
+/* line 81, scss/objects/_article.scss */
 .social-share a:hover {
   background: #433f3e;
 }

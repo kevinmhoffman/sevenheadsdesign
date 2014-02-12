@@ -102,25 +102,22 @@
 /* Grid 3up */
 .g-3up {
 	&.staggered{
-		margin: $space-double 0;
-	}
-	@media all and (min-width: $bp-med) {
-		> .gi {
-			float: left;
-			width: 50%;
-			
-			&:nth-of-type(2n+1) {
-				clear: left;
-			}
+		margin: $space-double -1em 3em;
+
+		@media all and (min-width: $bp-small) {
+			margin: $space-double 0 3em;
 		}
-
+	}
+		
+	> .gi{
+		max-width: px-to-ems(390px);
+		margin: auto;
 
 	}
-	
-	@media all and (min-width: $bp-large) {
+	@media all and (min-width: $bp-small-3) {
 		> .gi {
 			width: 33.3333333%;
-			
+			float: left;
 			&:nth-of-type(2n+1) {
 				clear: none;
 			}

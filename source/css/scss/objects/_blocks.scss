@@ -130,7 +130,14 @@
 	text-align: center;
 	color: $white;
 	background: $black;
+	max-height: px-to-ems(137px, 18px);
 
+	@media all and (min-width: $bp-small-3) {
+		max-height: 999em;
+	}
+	&.active, &:hover{
+		max-height: 999em;
+	}
 	img{
 		display: block;
 		width: 100%;
@@ -153,6 +160,8 @@
 		}
 	}
 	.expertise{
+		display: none;
+
 		bottom: px-to-ems(38px);
 		position: absolute;
 		width: 100%;

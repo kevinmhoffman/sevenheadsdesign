@@ -1,14 +1,14 @@
 <div class="block block-people">
 	<header class="person">
-	    <h3>Brad Frost</h3>
-		<a href="#">@brad_frost</a>
+	    <h3>{{people-name}}</h3>
+		<a href="#">{{people-twitter}}</a>
 	</header>
 	<div class="expertise">
 		<h3>Expertise</h3>
 		<ul class="skills">
-			<li>Front End Development</li>
-			<li>Usability Studies</li>
-			<li>Workshops</li>
+			{{#people-skills}}
+			<li>{{skill}}</li>
+			{{/people-skills}}
 		</ul>
 	</div>
     {{> atoms-people }} 

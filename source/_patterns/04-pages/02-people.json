@@ -16,9 +16,151 @@
 			"alt": "Mountains"	
 		}
 	},
-	"inset-blocks" : [
+	"people-one": [
 		{
-			"headline" : "This is the headline for the inset block"
+			"people-name" : "Brad Frost",
+			"people-twitter" : "@brad_frost",
+			"people-skills" : [
+				{
+					"skill" : "Front End Development"
+				},
+				{
+					"skill" : "Usability Studies"
+				},
+				{
+					"skill" : "Workshops"
+				}
+			]
+		},
+		{
+			"people-name" : "Tim Kadlec",
+			"people-twitter" : "@tkadlec",
+			"people-skills" : [
+				{
+					"skill" : "Front End Development"
+				},
+				{
+					"skill" : "Performance"
+				},
+				{
+					"skill" : "Workshops"
+				},
+				{
+					"skill" : "Looking good"
+				}
+			],
+			"img" : {
+				"people": {
+					"src": "../../images/people-lg.jpg",
+					"alt": "Tim Kadlec"	
+				}
+			}
+		}
+	],
+	"people-two": [
+		{
+			"people-name" : "Kevin Hoffman",
+			"people-twitter" : "@brad_frost",
+			"people-skills" : [
+				{
+					"skill" : "Front End Development"
+				},
+				{
+					"skill" : "Usability Studies"
+				},
+				{
+					"skill" : "Workshops"
+				}
+			]
+		},
+		{
+			"people-name" : "Robert Jolly",
+			"people-twitter" : "@tkadlec",
+			"people-skills" : [
+				{
+					"skill" : "Front End Development"
+				},
+				{
+					"skill" : "Performance"
+				},
+				{
+					"skill" : "Workshops"
+				},
+				{
+					"skill" : "Looking good"
+				}
+			],
+			"img" : {
+				"people": {
+					"src": "../../images/people-lg.jpg",
+					"alt": "Tim Kadlec"	
+				}
+			}
+		},
+		{
+			"people-name" : "Jenn Lukas",
+			"people-twitter" : "@tkadlec",
+			"people-skills" : [
+				{
+					"skill" : "Front End Development"
+				},
+				{
+					"skill" : "Performance"
+				},
+				{
+					"skill" : "Workshops"
+				},
+				{
+					"skill" : "Looking good"
+				}
+			],
+			"img" : {
+				"people": {
+					"src": "../../images/people-lg.jpg",
+					"alt": "Tim Kadlec"	
+				}
+			}
+		}
+	],
+	"people-three": [
+		{
+			"people-name" : "Kevin Sharon",
+			"people-twitter" : "@brad_frost",
+			"people-skills" : [
+				{
+					"skill" : "Front End Development"
+				},
+				{
+					"skill" : "Usability Studies"
+				},
+				{
+					"skill" : "Workshops"
+				}
+			]
+		},
+		{
+			"people-name" : "Dan Rubin",
+			"people-twitter" : "@tkadlec",
+			"people-skills" : [
+				{
+					"skill" : "Front End Development"
+				},
+				{
+					"skill" : "Performance"
+				},
+				{
+					"skill" : "Workshops"
+				},
+				{
+					"skill" : "Looking good"
+				}
+			],
+			"img" : {
+				"people": {
+					"src": "../../images/people-lg.jpg",
+					"alt": "Tim Kadlec"	
+				}
+			}
 		}
 	],
 	"latest-block" : [

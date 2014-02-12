@@ -219,15 +219,6 @@ body {
   color: #433f3e;
 }
 
-/* line 8, scss/base/_main.scss */
-.people [role="main"] p {
-  font-family: "SanchezLight", Georgia, serif;
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1.29167em;
-  color: rgba(4, 7, 7, 0.5);
-}
-
 /* Links */
 /* line 2, scss/base/_links.scss */
 a {
@@ -1050,10 +1041,6 @@ td {
   max-width: 32em;
 }
 /* line 21, scss/objects/_main.scss */
-[role=main] p.beta {
-  color: #040707;
-}
-/* line 24, scss/objects/_main.scss */
 [role=main] .align-center {
   margin-left: auto;
   margin-right: auto;
@@ -1115,7 +1102,7 @@ td {
     $TEXT Styles
 \*------------------------------------*/
 /* line 2, scss/objects/_text.scss */
-p.intro, .people [role="main"] p.intro {
+p.intro {
   font-size: 2.33333em;
   font-family: "SanchezLight", Georgia, serif;
   line-height: 1.3333em;
@@ -1124,7 +1111,7 @@ p.intro, .people [role="main"] p.intro {
   margin-bottom: .904761905em;
 }
 /* line 9, scss/objects/_text.scss */
-p.intro strong, .people [role="main"] p.intro strong {
+p.intro strong {
   font-family: "SanchezBold", Georgia, serif;
   color: #c9332b;
 }

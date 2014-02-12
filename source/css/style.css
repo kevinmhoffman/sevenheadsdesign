@@ -542,24 +542,41 @@ select.inline {
 /* line 116, scss/base/_forms.scss */
 .para-form {
   width: 78%;
-  margin: auto;
+  margin: auto auto 2.5em;
 }
 /* line 120, scss/base/_forms.scss */
 .para-form p {
   text-align: left;
   margin: 1.5em auto;
+  line-height: 2.5em;
+  margin-bottom: 4em;
+}
+/* line 127, scss/base/_forms.scss */
+.para-form textarea {
+  border: 0;
+  max-width: 26.38889em;
+  height: 14.22222em;
+  margin-bottom: 1.94444em;
+}
+/* line 133, scss/base/_forms.scss */
+.para-form label {
+  text-transform: uppercase;
+  font-family: "ProximaNovaCond-Bold", Verdana, Arial, sans-serif;
+  color: #747474;
+  text-transform: uppercase;
+  letter-spacing: 0.05556em;
 }
 
 /*------------------------------------*\
     $SPECIFIC FORMS
 \*------------------------------------*/
 /* Search Form */
-/* line 131, scss/base/_forms.scss */
+/* line 146, scss/base/_forms.scss */
 .search-field {
   padding-right: 3em;
 }
 
-/* line 134, scss/base/_forms.scss */
+/* line 149, scss/base/_forms.scss */
 .inline-form .search-submit {
   background: none;
   padding: 0.78em 1em;
@@ -1104,20 +1121,29 @@ td {
 \*------------------------------------*/
 /* line 2, scss/objects/_text.scss */
 p.intro {
-  font-size: 2.33333em;
+  font-size: 24px;
+  font-size: 1.5rem;
   font-family: "SanchezLight", Georgia, serif;
   line-height: 1.3333em;
-  text-align: center;
+  text-align: left;
+  margin-left: 1em;
   color: #040707;
   margin-bottom: .904761905em;
 }
-/* line 9, scss/objects/_text.scss */
+/* line 10, scss/objects/_text.scss */
 p.intro strong {
   font-family: "SanchezBold", Georgia, serif;
   color: #c9332b;
 }
+@media screen and (min-width: 39.8em) {
+  /* line 2, scss/objects/_text.scss */
+  p.intro {
+    text-align: center;
+    font-size: 2.33333em;
+  }
+}
 
-/* line 17, scss/objects/_text.scss */
+/* line 23, scss/objects/_text.scss */
 .pullquote-right:after {
   position: absolute;
   right: 0%;
@@ -1126,35 +1152,35 @@ p.intro strong {
   content: attr(data-pullquote);
 }
 
-/* line 27, scss/objects/_text.scss */
+/* line 33, scss/objects/_text.scss */
 .caption {
   font-style: italic;
 }
 
-/* line 33, scss/objects/_text.scss */
+/* line 39, scss/objects/_text.scss */
 .text a {
   text-decoration: underline;
 }
-/* line 37, scss/objects/_text.scss */
+/* line 43, scss/objects/_text.scss */
 .text ul {
   list-style: disc;
   margin: 0 0 1em 1.2em;
 }
-/* line 41, scss/objects/_text.scss */
+/* line 47, scss/objects/_text.scss */
 .text ul ul {
   margin-bottom: 0;
 }
-/* line 46, scss/objects/_text.scss */
+/* line 52, scss/objects/_text.scss */
 .text ol {
   list-style: decimal;
   margin: 0 0 1em 1.5em;
 }
-/* line 50, scss/objects/_text.scss */
+/* line 56, scss/objects/_text.scss */
 .text ol ol {
   margin-bottom: 0;
 }
 
-/* line 56, scss/objects/_text.scss */
+/* line 62, scss/objects/_text.scss */
 .twitter {
   text-transform: uppercase;
   letter-spacing: 0.05556em;
@@ -1164,7 +1190,7 @@ p.intro strong {
   color: #747474;
   text-align: center;
 }
-/* line 63, scss/objects/_text.scss */
+/* line 69, scss/objects/_text.scss */
 .twitter:after {
   content: " ";
   background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiI+PHBhdGggZD0iTTE2IDBjLTguODM3IDAtMTYgNy4xNjMtMTYgMTZzNy4xNjMgMTYgMTYgMTYgMTYtNy4xNjMgMTYtMTYtNy4xNjMtMTYtMTYtMTZ6bTkuMTk1IDExLjI4NGwuMDE0LjYxNGMwIDYuMjY5LTQuNzcyIDEzLjQ5OS0xMy40OTkgMTMuNDk5LTIuNjc5IDAtNS4xNzMtLjc4NS03LjI3My0yLjEzMi4zNzEuMDQ0Ljc0OS4wNjYgMS4xMzIuMDY2IDIuMjIzIDAgNC4yNjgtLjc1OSA1Ljg5Mi0yLjAzMS0yLjA3Ni0uMDM4LTMuODI4LTEuNDEtNC40MzItMy4yOTUuMjkuMDU1LjU4Ny4wODUuODkzLjA4NS40MzMgMCAuODUyLS4wNTggMS4yNS0uMTY2LTIuMTctLjQzNi0zLjgwNi0yLjM1NC0zLjgwNi00LjY1MnYtLjA2Yy42NC4zNTUgMS4zNzEuNTY5IDIuMTQ5LjU5My0xLjI3My0uODUxLTIuMTExLTIuMzAzLTIuMTExLTMuOTQ5IDAtLjg2OS4yMzQtMS42ODQuNjQyLTIuMzg1IDIuMzQgMi44NyA1LjgzNiA0Ljc1OSA5Ljc3OSA0Ljk1Ny0uMDgxLS4zNDctLjEyMy0uNzA5LS4xMjMtMS4wODEgMC0yLjYyIDIuMTI0LTQuNzQ0IDQuNzQ0LTQuNzQ0IDEuMzY1IDAgMi41OTguNTc2IDMuNDYzIDEuNDk4IDEuMDgxLS4yMTMgMi4wOTYtLjYwOCAzLjAxMy0xLjE1MS0uMzU0IDEuMTA4LTEuMTA3IDIuMDM4LTIuMDg2IDIuNjI1Ljk2LS4xMTUgMS44NzQtLjM3IDIuNzI1LS43NDctLjYzNi45NTEtMS40NCAxLjc4Ny0yLjM2NyAyLjQ1NnoiIGZpbGw9IiM3NDc4NzQiLz48L3N2Zz4=');
@@ -1434,7 +1460,7 @@ p.intro strong {
 /* Hero Block */
 /* line 24, scss/objects/_blocks.scss */
 .block-hero {
-  margin-bottom: 0.5em;
+  margin-bottom: 4.44444em;
   background: url('/patterns/images/hero-bg.png?1392049644') top left #c9332b;
   color: white;
 }

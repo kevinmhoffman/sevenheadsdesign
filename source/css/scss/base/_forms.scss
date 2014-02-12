@@ -115,11 +115,26 @@ select.inline{
 }
 .para-form{
 	width: 78%;
-	margin: auto;
+	margin: auto auto 2.5em;
 
 	p{
 		text-align: left;
 		margin: 1.5em auto;
+		line-height: 2.5em;
+		margin-bottom: px-to-ems(72px, 18px);
+	}
+
+	textarea{
+		border: 0;
+		max-width: px-to-ems(475px, 18px);
+		height: px-to-ems(256px, 18px);
+		margin-bottom: px-to-ems(35px, 18px);
+	}
+	label{
+		text-transform: uppercase;
+		font-family: $font-sm-bold;
+		color: $gray-med;
+		@include readable-uppercase(18px);
 	}
 	
 }

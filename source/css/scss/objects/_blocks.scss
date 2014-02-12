@@ -22,7 +22,7 @@
 
 /* Hero Block */
 .block-hero {
-	margin-bottom: $space-half;
+	margin-bottom: px-to-ems(80px, 18px);
 	background: image-url("hero-bg.png") top left $tomato;
 	color: $white;
 

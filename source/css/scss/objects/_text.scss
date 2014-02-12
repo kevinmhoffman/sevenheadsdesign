@@ -1,14 +1,20 @@
 //Intro text
 p.intro{
-	font-size: $font-size-large;
+	@include font-size(24px);
 	font-family: $font-secondary;
 	line-height: 1.3333em;
-	text-align: center;
+	text-align: left;
+	margin-left: 1em;
 	color: $black;
 	margin-bottom: .904761905em;
 	strong{
 		font-family: $font-alt;
 		color: $tomato;
+	}
+
+	@media screen and (min-width: $bp-small-3) {
+		text-align: center;
+		font-size: $font-size-large;
 	}
 }
 

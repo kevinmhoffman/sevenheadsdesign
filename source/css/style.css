@@ -263,8 +263,13 @@ h2, .beta {
 h2.subheading, .beta.subheading {
   color: #747474;
 }
+/* line 22, scss/base/_headings.scss */
+h2 strong, .beta strong {
+  font-family: "SanchezBold", Georgia, serif;
+  color: #c9332b;
+}
 
-/* line 23, scss/base/_headings.scss */
+/* line 28, scss/base/_headings.scss */
 h3, .gamma {
   font-size: 31px;
   font-size: 1.9375rem;
@@ -276,7 +281,7 @@ h3, .gamma {
   letter-spacing: 0.03226em;
 }
 
-/* line 32, scss/base/_headings.scss */
+/* line 37, scss/base/_headings.scss */
 h4, .delta {
   font-size: 18px;
   font-size: 1.125rem;
@@ -286,7 +291,7 @@ h4, .delta {
   font-weight: normal;
 }
 
-/* line 40, scss/base/_headings.scss */
+/* line 45, scss/base/_headings.scss */
 h5, .epsilon {
   font-size: 18px;
   font-size: 1.125rem;
@@ -296,7 +301,7 @@ h5, .epsilon {
   font-weight: normal;
 }
 
-/* line 49, scss/base/_headings.scss */
+/* line 54, scss/base/_headings.scss */
 h6, .zeta {
   font-size: 18px;
   font-size: 1.125rem;

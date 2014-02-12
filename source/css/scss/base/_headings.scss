@@ -18,6 +18,11 @@ h2, .beta    {
 	&.subheading{
 		color: $gray-med;
 	}
+
+	strong{
+		font-family: $font-alt;
+		color: $tomato;
+	}
 }
 
 h3, .gamma   { 

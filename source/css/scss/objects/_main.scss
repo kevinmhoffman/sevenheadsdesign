@@ -24,6 +24,12 @@
 		width: 100%;
 		max-width: 100%;
 		padding: 0;
+
+		@media screen and (min-width: 17em) and (max-width: $bp-small-3) {
+			.lc{
+				padding: $pad-half px-to-ems(24px, 18px);
+			}
+		}
 	}
 
 	.beta{

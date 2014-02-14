@@ -22,10 +22,12 @@
 
 /* Hero Block */
 .block-hero {
-	margin-bottom: px-to-ems(80px, 18px);
+	margin-bottom: px-to-ems(36px, 18px);
 	background: image-url("hero-bg.png") top left $tomato;
 	color: $white;
-
+	@media screen and (min-width: $bp-small-3) {
+		margin-bottom: px-to-ems(80px, 18px);
+	}
 	.lc{
 		position: relative;
 				padding-top: 3.333333333em;
@@ -116,6 +118,11 @@
 			position: relative;
 			top: .1em;
 			padding: 0 .5em;
+		}
+	}
+	@media screen and (min-width: 17em) and (max-width: $bp-small-3) {
+		.home & .lc{
+			padding: 0 0 44.564155%;;
 		}
 	}
 }

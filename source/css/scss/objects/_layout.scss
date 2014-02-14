@@ -102,7 +102,7 @@
 /* Grid 3up */
 .g-3up {
 	&.staggered{
-		margin: $space-double -1em 3em;
+		margin: $space-double px-to-ems(-24px, 18px) 3em;
 
 		@media all and (min-width: $bp-small) {
 			margin: $space-double 0 3em;

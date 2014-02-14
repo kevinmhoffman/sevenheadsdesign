@@ -1,34 +1,81 @@
 .header {
-	padding: 1.5em 0 0;
+	padding: 1.5em px-to-ems(24px, 18px) 0;
 	@extend .lc;
-	text-align: center;
-	margin-bottom: px-to-ems(52px);
+	margin-bottom: px-to-ems(39px);
+	position: relative;
+	@media all and (min-width: $bp-small-3) {
+			text-align: center;
+			margin-bottom: px-to-ems(52px);
+
+	}
 }
 
 .logo {
-	max-width: 5.6875rem;
-	margin: 0.4rem auto 1.5rem;
+	max-width: 5.6875em;
+	margin: 0.4em auto 0;
+	width: 25%;
 
+	@media screen and (min-width: $bp-med) {
+		margin-bottom: 1.5em;
+	}
 }
 
-.nav-toggle {
-	float: right;
-	display: block;
-	padding: 0.9rem 1rem 0.7rem;
-	font-size: 1.3rem;
-	line-height: 1;
-	border-left: 1px solid #dbdbdb;
+.js #toggle{
+	position: absolute;
+	right: 0;
+	top: .8em;
+	display: inline-block;
+	padding: $button-size/2 $button-size/4;
+	transition: .3s;
+	cursor: pointer;
+	user-select: none;
+	border-radius: $button-size/7;
 
-	@media all and (min-width: $bp-med) {
+	@media all and (min-width: $bp-small-3) {
 		display: none;
 	}
 
-	@media all and (max-width: 17em) {
-		padding-left: 0.2rem;
-		padding-right: 0.2rem;
+	&:active {
+		transition: 0;
+		background: rgba(0,0,0,.1);
+	}
+
+	span{
+		//create middle line
+		@include line;
+		position: relative; 
+
+		/*create the upper and lower lines as pseudo-elements of the middle line*/
+		&:before, &:after {
+			@include line;
+			position: absolute;
+			left:0;
+			content: '';
+			transform-origin: $button-size/14 center;
+		}
+		&:before { top: $button-size/4; }
+		&:after { top: -$button-size/4; }
+	}
+	&.close span{
+		/*hide the middle line*/
+		background: transparent;
+
+		/*overlay the lines by setting both their top values to 0*/
+		&:before, &:after{
+			@include transform-origin(50% 50%);
+			top:0;
+			width: $button-size;
+		}
+
+		// rotate the lines to form the x shape
+		&:before{
+			@include transform(rotate3d(0,0,1,45deg)); 
+		}
+		&:after{
+			@include transform(rotate3d(0,0,1,-45deg)); 
+		}
 	}
 }
-
 .search-form {
 	overflow: hidden;
 	max-height: 0;

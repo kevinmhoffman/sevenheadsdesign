@@ -4,7 +4,6 @@ p.intro{
 	font-family: $font-secondary;
 	line-height: 1.3333em;
 	text-align: left;
-	margin-left: 1em;
 	color: $black;
 	margin-bottom: .904761905em;
 	strong{
@@ -15,6 +14,8 @@ p.intro{
 	@media screen and (min-width: $bp-small-3) {
 		text-align: center;
 		font-size: $font-size-large;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 

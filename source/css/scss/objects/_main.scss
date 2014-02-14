@@ -2,12 +2,24 @@
     $MAIN CONTENT AREA
 \*------------------------------------*/
 [role=main] {
-	padding: $pad-half $pad-half $pad-double;
 	overflow: hidden;
 	@extend .lc;
 	@extend .cf;
 	clear: both;
+	padding: $pad-half px-to-ems(24px, 18px) $pad-double;
 
+	.align-center{
+		text-align: left;
+	}
+	@media all and (min-width: $bp-small-3) {
+		padding: $pad-half $pad-half $pad-double;
+		.align-center{
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+
+	}
 	.home &{
 		width: 100%;
 		max-width: 100%;
@@ -18,9 +30,6 @@
 		max-width: 32em;
 
 	}
-	.align-center{
-		margin-left: auto;
-		margin-right: auto;
-	}
+
 }
 

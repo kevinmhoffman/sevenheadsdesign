@@ -733,7 +733,7 @@ td {
 /* Grid 3up */
 /* line 104, scss/objects/_layout.scss */
 .g-3up.staggered {
-  margin: 2em -1em 3em;
+  margin: 2em -1.33333em 3em;
 }
 @media all and (min-width: 24em) {
   /* line 104, scss/objects/_layout.scss */
@@ -930,47 +930,126 @@ td {
 \*------------------------------------*/
 /* line 1, scss/objects/_header.scss */
 .header {
-  padding: 1.5em 0 0;
-  text-align: center;
-  margin-bottom: 2.88889em;
+  padding: 1.5em 1.33333em 0;
+  margin-bottom: 2.16667em;
+  position: relative;
+}
+@media all and (min-width: 39.8em) {
+  /* line 1, scss/objects/_header.scss */
+  .header {
+    text-align: center;
+    margin-bottom: 2.88889em;
+  }
 }
 
-/* line 8, scss/objects/_header.scss */
+/* line 13, scss/objects/_header.scss */
 .logo {
-  max-width: 5.6875rem;
-  margin: 0.4rem auto 1.5rem;
+  max-width: 5.6875em;
+  margin: 0.4em auto 0;
+  width: 25%;
+}
+@media screen and (min-width: 46.8em) {
+  /* line 13, scss/objects/_header.scss */
+  .logo {
+    margin-bottom: 1.5em;
+  }
 }
 
-/* line 14, scss/objects/_header.scss */
-.nav-toggle {
-  float: right;
-  display: block;
-  padding: 0.9rem 1rem 0.7rem;
-  font-size: 1.3rem;
-  line-height: 1;
-  border-left: 1px solid #dbdbdb;
+/* line 23, scss/objects/_header.scss */
+.js #toggle {
+  position: absolute;
+  right: 0;
+  top: .8em;
+  display: inline-block;
+  padding: 1em 0.5em;
+  transition: .3s;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.28571em;
 }
-@media all and (min-width: 46.8em) {
-  /* line 14, scss/objects/_header.scss */
-  .nav-toggle {
+@media all and (min-width: 39.8em) {
+  /* line 23, scss/objects/_header.scss */
+  .js #toggle {
     display: none;
   }
 }
-@media all and (max-width: 17em) {
-  /* line 14, scss/objects/_header.scss */
-  .nav-toggle {
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
-  }
+/* line 38, scss/objects/_header.scss */
+.js #toggle:active {
+  transition: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+/* line 43, scss/objects/_header.scss */
+.js #toggle span {
+  display: inline-block;
+  width: 2em;
+  height: 0.28571em;
+  background: #040707;
+  border-radius: 0.14286em;
+  transition: 0.3s;
+  position: relative;
+  /*create the upper and lower lines as pseudo-elements of the middle line*/
+}
+/* line 49, scss/objects/_header.scss */
+.js #toggle span:before, .js #toggle span:after {
+  display: inline-block;
+  width: 2em;
+  height: 0.28571em;
+  background: #040707;
+  border-radius: 0.14286em;
+  transition: 0.3s;
+  position: absolute;
+  left: 0;
+  content: '';
+  transform-origin: 0.14286em center;
+}
+/* line 56, scss/objects/_header.scss */
+.js #toggle span:before {
+  top: 0.5em;
+}
+/* line 57, scss/objects/_header.scss */
+.js #toggle span:after {
+  top: -0.5em;
+}
+/* line 59, scss/objects/_header.scss */
+.js #toggle.close span {
+  /*hide the middle line*/
+  background: transparent;
+  /*overlay the lines by setting both their top values to 0*/
+}
+/* line 64, scss/objects/_header.scss */
+.js #toggle.close span:before, .js #toggle.close span:after {
+  -webkit-transform-origin: 50% 50% 50%;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -o-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
+  top: 0;
+  width: 2em;
+}
+/* line 71, scss/objects/_header.scss */
+.js #toggle.close span:before {
+  -webkit-transform: rotate3d(0, 0, 1, 45deg);
+  -moz-transform: rotate3d(0, 0, 1, 45deg);
+  -ms-transform: rotate3d(0, 0, 1, 45deg);
+  -o-transform: rotate3d(0, 0, 1, 45deg);
+  transform: rotate3d(0, 0, 1, 45deg);
+}
+/* line 74, scss/objects/_header.scss */
+.js #toggle.close span:after {
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+  -moz-transform: rotate3d(0, 0, 1, -45deg);
+  -ms-transform: rotate3d(0, 0, 1, -45deg);
+  -o-transform: rotate3d(0, 0, 1, -45deg);
+  transform: rotate3d(0, 0, 1, -45deg);
 }
 
-/* line 32, scss/objects/_header.scss */
+/* line 79, scss/objects/_header.scss */
 .search-form {
   overflow: hidden;
   max-height: 0;
 }
 @media all and (min-width: 46.8em) {
-  /* line 32, scss/objects/_header.scss */
+  /* line 79, scss/objects/_header.scss */
   .search-form {
     float: right;
     max-height: none;
@@ -985,56 +1064,69 @@ td {
 .nav {
   clear: both;
   overflow: hidden;
-  max-height: 0;
   font-family: "ProximaNovaCond-Bold", Verdana, Arial, sans-serif;
   font-size: 16px;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.0625em;
 }
-/* line 12, scss/objects/_nav.scss */
-.nav a {
-  display: block;
-  padding: 1em;
-  border-top: 1px solid #a9aea9;
+/* line 13, scss/objects/_nav.scss */
+.js .nav {
+  position: absolute;
+  right: .5em;
+  top: 4.5em;
+  width: 25%;
+  max-height: 0;
 }
-/* line 17, scss/objects/_nav.scss */
+/* line 22, scss/objects/_nav.scss */
+.nav a {
+  line-height: 1.2em;
+  display: block;
+  padding: 0.25em 0;
+  text-align: right;
+}
+/* line 27, scss/objects/_nav.scss */
 .nav a.curPage {
   color: #747474;
 }
-/* line 22, scss/objects/_nav.scss */
+/* line 32, scss/objects/_nav.scss */
 .nav.active {
   max-height: 40em;
 }
-@media all and (min-width: 46.8em) {
-  /* line 5, scss/objects/_nav.scss */
-  .nav {
+@media all and (min-width: 39.8em) {
+  /* line 38, scss/objects/_nav.scss */
+  .js .nav {
     max-height: none;
+    position: static;
+    width: 100%;
   }
-  /* line 29, scss/objects/_nav.scss */
+  /* line 45, scss/objects/_nav.scss */
   .nav li {
     display: inline-block;
   }
-  /* line 33, scss/objects/_nav.scss */
+  /* line 49, scss/objects/_nav.scss */
   .nav a {
     border: 0;
+    line-height: 1.5em;
+    text-align: left;
+    padding: 0.25em 0.5em;
   }
 }
 
-/* line 41, scss/objects/_nav.scss */
+/* line 60, scss/objects/_nav.scss */
 .pagination {
   overflow: hidden;
 }
-/* line 44, scss/objects/_nav.scss */
+/* line 63, scss/objects/_nav.scss */
 .pagination li {
   float: left;
   border-right: 1px solid #a9aea9;
 }
-/* line 48, scss/objects/_nav.scss */
+/* line 67, scss/objects/_nav.scss */
 .pagination li:last-child {
   border: 0;
 }
-/* line 53, scss/objects/_nav.scss */
+/* line 72, scss/objects/_nav.scss */
 .pagination a {
   padding: 1em;
 }
@@ -1044,24 +1136,35 @@ td {
 \*------------------------------------*/
 /* line 4, scss/objects/_main.scss */
 [role=main] {
-  padding: 0.5em 0.5em 2em;
   overflow: hidden;
   clear: both;
+  padding: 0.5em 1.33333em 2em;
 }
 /* line 11, scss/objects/_main.scss */
+[role=main] .align-center {
+  text-align: left;
+}
+@media all and (min-width: 39.8em) {
+  /* line 4, scss/objects/_main.scss */
+  [role=main] {
+    padding: 0.5em 0.5em 2em;
+  }
+  /* line 16, scss/objects/_main.scss */
+  [role=main] .align-center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+/* line 23, scss/objects/_main.scss */
 .home [role=main] {
   width: 100%;
   max-width: 100%;
   padding: 0;
 }
-/* line 17, scss/objects/_main.scss */
+/* line 29, scss/objects/_main.scss */
 [role=main] .beta {
   max-width: 32em;
-}
-/* line 21, scss/objects/_main.scss */
-[role=main] .align-center {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /*------------------------------------*\
@@ -1078,8 +1181,15 @@ td {
   text-transform: uppercase;
   letter-spacing: 0.08333em;
   text-align: center;
+  padding: 0 1.33333em;
 }
-/* line 13, scss/objects/_footer.scss */
+@media all and (min-width: 39.8em) {
+  /* line 4, scss/objects/_footer.scss */
+  .footer {
+    padding: 0;
+  }
+}
+/* line 17, scss/objects/_footer.scss */
 .footer:before {
   content: " ";
   display: block;
@@ -1089,28 +1199,28 @@ td {
   max-width: 17.416666667em;
   margin: 2em auto 1em;
 }
-/* line 23, scss/objects/_footer.scss */
+/* line 27, scss/objects/_footer.scss */
 .footer .copyright {
   color: #757c75;
   margin-top: 10em;
 }
 
-/* line 31, scss/objects/_footer.scss */
+/* line 35, scss/objects/_footer.scss */
 .nav-footer {
   margin: -1em -1em 1em;
 }
-/* line 34, scss/objects/_footer.scss */
+/* line 38, scss/objects/_footer.scss */
 .nav-footer li {
   border-bottom: 1px solid #333333;
 }
 @media all and (min-width: 46.8em) {
-  /* line 34, scss/objects/_footer.scss */
+  /* line 38, scss/objects/_footer.scss */
   .nav-footer li {
     border: 0;
     float: left;
   }
 }
-/* line 43, scss/objects/_footer.scss */
+/* line 47, scss/objects/_footer.scss */
 .nav-footer a {
   display: block;
   padding: 1em;
@@ -1126,11 +1236,10 @@ p.intro {
   font-family: "SanchezLight", Georgia, serif;
   line-height: 1.3333em;
   text-align: left;
-  margin-left: 1em;
   color: #040707;
   margin-bottom: .904761905em;
 }
-/* line 10, scss/objects/_text.scss */
+/* line 9, scss/objects/_text.scss */
 p.intro strong {
   font-family: "SanchezBold", Georgia, serif;
   color: #c9332b;
@@ -1140,10 +1249,12 @@ p.intro strong {
   p.intro {
     text-align: center;
     font-size: 2.33333em;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-/* line 23, scss/objects/_text.scss */
+/* line 24, scss/objects/_text.scss */
 .pullquote-right:after {
   position: absolute;
   right: 0%;
@@ -1152,35 +1263,35 @@ p.intro strong {
   content: attr(data-pullquote);
 }
 
-/* line 33, scss/objects/_text.scss */
+/* line 34, scss/objects/_text.scss */
 .caption {
   font-style: italic;
 }
 
-/* line 39, scss/objects/_text.scss */
+/* line 40, scss/objects/_text.scss */
 .text a {
   text-decoration: underline;
 }
-/* line 43, scss/objects/_text.scss */
+/* line 44, scss/objects/_text.scss */
 .text ul {
   list-style: disc;
   margin: 0 0 1em 1.2em;
 }
-/* line 47, scss/objects/_text.scss */
+/* line 48, scss/objects/_text.scss */
 .text ul ul {
   margin-bottom: 0;
 }
-/* line 52, scss/objects/_text.scss */
+/* line 53, scss/objects/_text.scss */
 .text ol {
   list-style: decimal;
   margin: 0 0 1em 1.5em;
 }
-/* line 56, scss/objects/_text.scss */
+/* line 57, scss/objects/_text.scss */
 .text ol ol {
   margin-bottom: 0;
 }
 
-/* line 62, scss/objects/_text.scss */
+/* line 63, scss/objects/_text.scss */
 .twitter {
   text-transform: uppercase;
   letter-spacing: 0.05556em;
@@ -1190,7 +1301,7 @@ p.intro strong {
   color: #747474;
   text-align: center;
 }
-/* line 69, scss/objects/_text.scss */
+/* line 70, scss/objects/_text.scss */
 .twitter:after {
   content: " ";
   background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiI+PHBhdGggZD0iTTE2IDBjLTguODM3IDAtMTYgNy4xNjMtMTYgMTZzNy4xNjMgMTYgMTYgMTYgMTYtNy4xNjMgMTYtMTYtNy4xNjMtMTYtMTYtMTZ6bTkuMTk1IDExLjI4NGwuMDE0LjYxNGMwIDYuMjY5LTQuNzcyIDEzLjQ5OS0xMy40OTkgMTMuNDk5LTIuNjc5IDAtNS4xNzMtLjc4NS03LjI3My0yLjEzMi4zNzEuMDQ0Ljc0OS4wNjYgMS4xMzIuMDY2IDIuMjIzIDAgNC4yNjgtLjc1OSA1Ljg5Mi0yLjAzMS0yLjA3Ni0uMDM4LTMuODI4LTEuNDEtNC40MzItMy4yOTUuMjkuMDU1LjU4Ny4wODUuODkzLjA4NS40MzMgMCAuODUyLS4wNTggMS4yNS0uMTY2LTIuMTctLjQzNi0zLjgwNi0yLjM1NC0zLjgwNi00LjY1MnYtLjA2Yy42NC4zNTUgMS4zNzEuNTY5IDIuMTQ5LjU5My0xLjI3My0uODUxLTIuMTExLTIuMzAzLTIuMTExLTMuOTQ5IDAtLjg2OS4yMzQtMS42ODQuNjQyLTIuMzg1IDIuMzQgMi44NyA1LjgzNiA0Ljc1OSA5Ljc3OSA0Ljk1Ny0uMDgxLS4zNDctLjEyMy0uNzA5LS4xMjMtMS4wODEgMC0yLjYyIDIuMTI0LTQuNzQ0IDQuNzQ0LTQuNzQ0IDEuMzY1IDAgMi41OTguNTc2IDMuNDYzIDEuNDk4IDEuMDgxLS4yMTMgMi4wOTYtLjYwOCAzLjAxMy0xLjE1MS0uMzU0IDEuMTA4LTEuMTA3IDIuMDM4LTIuMDg2IDIuNjI1Ljk2LS4xMTUgMS44NzQtLjM3IDIuNzI1LS43NDctLjYzNi45NTEtMS40NCAxLjc4Ny0yLjM2NyAyLjQ1NnoiIGZpbGw9IiM3NDc4NzQiLz48L3N2Zz4=');

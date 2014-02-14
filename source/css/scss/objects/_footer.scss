@@ -9,7 +9,11 @@
 	text-transform: uppercase;
 	@include readable-uppercase(12px);
 	text-align: center;
-	
+	padding: 0 px-to-ems(24px);
+
+	@media all and (min-width: $bp-small-3) {
+		padding: 0;
+	}
 	&:before{
 		content: " ";
 		display: block;

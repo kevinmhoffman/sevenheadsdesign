@@ -5,8 +5,11 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width" />
 		
-		<link rel="stylesheet" href="../../css/style.css?1392406764" media="all" />
-		<link rel="stylesheet" href="../../css/fonts.css?1392406764" media="only screen" />
+		<link rel="stylesheet" href="../../css/style.css?1392411958" media="all" />
+		<link rel="stylesheet" href="../../css/fonts.css?1392411958" media="only screen" />
+		<script>
+			document.documentElement.className += " js";
+		</script>
 		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
 				<!-- never cache patterns -->
 		<meta http-equiv="cache-control" content="max-age=0" />
@@ -15,11 +18,11 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1392406764" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1392411958" media="all">
 		
 
 		<!-- End Pattern Lab -->
-	
+
 	</head>
 	<body class="body">	
 		<img src="../../images/favicon_16x16.jpg" />
@@ -41,12 +44,27 @@
 {% patternCSS %}
 	</script>
 		
-	<script src="../../styleguide/js/postmessage.js?1392406764"></script>
-	<script src="../../data/annotations.js?1392406764"></script>
-	<script src="../../styleguide/js/annotations-pattern.js?1392406764"></script>
-	<script src="../../styleguide/js/code-pattern.js?1392406764"></script>
+	<script src="../../styleguide/js/postmessage.js?1392411958"></script>
+	<script src="../../data/annotations.js?1392411958"></script>
+	<script src="../../styleguide/js/annotations-pattern.js?1392411958"></script>
+	<script src="../../styleguide/js/code-pattern.js?1392411958"></script>
 	
 
+	<script src="../../js/nilla.js"></script>
+	<script>
+		var toggle = document.getElementById('toggle'),
+			nav = document.getElementById('nav');
 
+		toggle.addEventListener('click', function() {
+			if (nilla.hasClass(toggle, 'close')) {
+				nilla.removeClass(toggle, 'close');
+				nilla.removeClass(nav, 'active');
+			} else {
+				nilla.addClass(toggle, 'close');
+				nilla.addClass(nav, 'active');
+			}
+			return false;
+		});
+	</script>
 	</body>
 </html>

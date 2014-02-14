@@ -1504,28 +1504,46 @@ p.intro strong {
   margin-top: 3em;
 }
 
-/* Block Thumbnail with Headline */
 /* line 69, scss/objects/_blocks.scss */
+.block-hero-temporary .lc, .block-hero-temporary .header, .block-hero-temporary [role=main] {
+  margin: 1em auto;
+  position: relative;
+  padding-bottom: 30.564155%;
+  height: 0;
+}
+/* line 75, scss/objects/_blocks.scss */
+.block-hero-temporary .lc .temporary-wrapper, .block-hero-temporary .header .temporary-wrapper, .block-hero-temporary [role=main] .temporary-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/patterns/images/home-constellation.png?1392245206') center center no-repeat;
+  background-size: 100%;
+}
+
+/* Block Thumbnail with Headline */
+/* line 88, scss/objects/_blocks.scss */
 .block-thumb {
   display: table;
   width: 100%;
   border-collapse: collapse;
 }
-/* line 74, scss/objects/_blocks.scss */
+/* line 93, scss/objects/_blocks.scss */
 .block-thumb .b-inner {
   display: table-row;
   vertical-align: top;
   overflow: hidden;
 }
 @media all and (min-width: 29.75em) {
-  /* line 80, scss/objects/_blocks.scss */
+  /* line 99, scss/objects/_blocks.scss */
   .block-thumb .b-thumb {
     display: table-cell;
     vertical-align: top;
     width: 30%;
     max-width: 10em;
   }
-  /* line 87, scss/objects/_blocks.scss */
+  /* line 106, scss/objects/_blocks.scss */
   .block-thumb .b-thumb img {
     display: block;
     width: 100%;
@@ -1533,7 +1551,7 @@ p.intro strong {
   }
 }
 @media all and (min-width: 29.75em) {
-  /* line 95, scss/objects/_blocks.scss */
+  /* line 114, scss/objects/_blocks.scss */
   .block-thumb .b-text {
     display: table-cell;
     width: 70%;
@@ -1542,29 +1560,29 @@ p.intro strong {
 }
 
 /* Block Headline Summary */
-/* line 107, scss/objects/_blocks.scss */
+/* line 126, scss/objects/_blocks.scss */
 .block-headline-summary a {
   display: block;
   padding: 0.5em;
 }
 
 /* Block Inset */
-/* line 114, scss/objects/_blocks.scss */
+/* line 133, scss/objects/_blocks.scss */
 .block-inset {
   position: relative;
 }
-/* line 117, scss/objects/_blocks.scss */
+/* line 136, scss/objects/_blocks.scss */
 .block-inset .b-thumb {
   position: relative;
   z-index: 0;
 }
-/* line 121, scss/objects/_blocks.scss */
+/* line 140, scss/objects/_blocks.scss */
 .block-inset .b-thumb img {
   display: block;
 }
 
 /* People Block */
-/* line 127, scss/objects/_blocks.scss */
+/* line 146, scss/objects/_blocks.scss */
 .block-people {
   width: 100%;
   position: relative;
@@ -1574,16 +1592,16 @@ p.intro strong {
   max-height: 7.61111em;
 }
 @media all and (min-width: 39.8em) {
-  /* line 127, scss/objects/_blocks.scss */
+  /* line 146, scss/objects/_blocks.scss */
   .block-people {
     max-height: 999em;
   }
 }
-/* line 138, scss/objects/_blocks.scss */
+/* line 157, scss/objects/_blocks.scss */
 .block-people.active, .block-people:hover {
   max-height: 999em;
 }
-/* line 141, scss/objects/_blocks.scss */
+/* line 160, scss/objects/_blocks.scss */
 .block-people img {
   display: block;
   width: 100%;
@@ -1594,24 +1612,24 @@ p.intro strong {
   -moz-box-shadow: inset 0 0 10px black;
   box-shadow: inset 0 0 10px black;
 }
-/* line 148, scss/objects/_blocks.scss */
+/* line 167, scss/objects/_blocks.scss */
 .block-people:hover img {
   -webkit-filter: blur(0px);
   -moz-filter: blur(0px);
   filter: blur(0px);
 }
-/* line 152, scss/objects/_blocks.scss */
+/* line 171, scss/objects/_blocks.scss */
 .block-people header {
   position: absolute;
   top: 2.11111em;
   width: 100%;
   z-index: 2;
 }
-/* line 158, scss/objects/_blocks.scss */
+/* line 177, scss/objects/_blocks.scss */
 .block-people header h3 {
   margin-bottom: -.3em;
 }
-/* line 162, scss/objects/_blocks.scss */
+/* line 181, scss/objects/_blocks.scss */
 .block-people .expertise {
   display: none;
   bottom: 2.11111em;
@@ -1619,7 +1637,7 @@ p.intro strong {
   width: 100%;
   z-index: 2;
 }
-/* line 170, scss/objects/_blocks.scss */
+/* line 189, scss/objects/_blocks.scss */
 .block-people .expertise h3 {
   font-family: Verdana, "Arial", sans-serif;
   font-size: 11px;
@@ -1630,15 +1648,15 @@ p.intro strong {
   background-size: 2em 2em;
   padding: .5em 0;
 }
-/* line 180, scss/objects/_blocks.scss */
+/* line 199, scss/objects/_blocks.scss */
 .block-people .expertise .skills {
   margin-top: 1em;
 }
-/* line 183, scss/objects/_blocks.scss */
+/* line 202, scss/objects/_blocks.scss */
 .block-people .expertise .skills li {
   line-height: 1.3em;
 }
-/* line 188, scss/objects/_blocks.scss */
+/* line 207, scss/objects/_blocks.scss */
 .block-people a, .block-people .skills {
   font-family: "ProximaNovaCond-Bold", Verdana, Arial, sans-serif;
   text-transform: uppercase;
@@ -1650,16 +1668,16 @@ p.intro strong {
 }
 
 /* Hero Block */
-/* line 198, scss/objects/_blocks.scss */
+/* line 217, scss/objects/_blocks.scss */
 .block-inset {
   margin-bottom: 0.5em;
   position: relative;
 }
-/* line 202, scss/objects/_blocks.scss */
+/* line 221, scss/objects/_blocks.scss */
 .block-inset .headline {
   font-size: 1.1em;
 }
-/* line 206, scss/objects/_blocks.scss */
+/* line 225, scss/objects/_blocks.scss */
 .block-inset .b-text {
   position: absolute;
   bottom: 0;
@@ -1671,12 +1689,12 @@ p.intro strong {
 }
 
 /* Block Thumb with Summary */
-/* line 219, scss/objects/_blocks.scss */
+/* line 238, scss/objects/_blocks.scss */
 .block-thumb-summary .b-thumb {
   float: left;
   width: 50%;
 }
-/* line 224, scss/objects/_blocks.scss */
+/* line 243, scss/objects/_blocks.scss */
 .block-thumb-summary .b-text {
   margin-left: 50%;
   padding: 0.5em;

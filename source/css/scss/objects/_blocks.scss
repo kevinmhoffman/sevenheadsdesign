@@ -64,6 +64,25 @@
 	}
 
 }
+.block-hero-temporary{
+
+	.lc{
+		margin: 1em auto;
+		position: relative;
+		padding-bottom: 30.564155%;
+		height: 0;
+
+		.temporary-wrapper{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: image-url("home-constellation.png") center center no-repeat;
+			background-size: 100%;
+		}
+	}
+}
 
 /* Block Thumbnail with Headline */
 .block-thumb {

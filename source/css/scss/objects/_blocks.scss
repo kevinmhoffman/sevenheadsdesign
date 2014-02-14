@@ -65,7 +65,7 @@
 
 }
 .block-hero-temporary{
-
+	max-height: image-height("home-constellation.png") + 40;
 	.lc{
 		margin: 1em auto;
 		position: relative;
@@ -79,7 +79,9 @@
 			width: 100%;
 			height: 100%;
 			background: image-url("home-constellation.png") center center no-repeat;
-			background-size: 100%;
+			background-size: contain;
+			max-height: image-height("home-constellation.png");
+
 		}
 	}
 }

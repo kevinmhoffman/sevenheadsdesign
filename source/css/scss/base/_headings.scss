@@ -1,10 +1,14 @@
 /* Headings */
 /*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
 h1, .alpha { 
-	@include font-size(41px);
+	@include font-size(28px);
 	line-height: px-to-ems(56,41);
 	font-family: $font-alt;
 	font-weight: normal;
+
+	@media screen and (min-width: $bp-small-2) {
+		@include font-size(41px);
+	}
 
 }
 

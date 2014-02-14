@@ -11,13 +11,16 @@
 	.align-center{
 		text-align: left;
 	}
-	@media all and (min-width: $bp-small-3) {
-		padding: $pad-half $pad-half $pad-double;
+	@media all and (min-width: $bp-small-2) {
 		.align-center{
 			margin-left: auto;
 			margin-right: auto;
 			text-align: center;
 		}
+	}
+	@media all and (min-width: $bp-small-3) {
+		padding: $pad-half $pad-half $pad-double;
+
 
 	}
 	.home &{

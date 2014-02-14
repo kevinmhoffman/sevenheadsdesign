@@ -69,7 +69,7 @@
 	.lc{
 		margin: 1em auto;
 		position: relative;
-		padding-bottom: 30.564155%;
+		padding-bottom: 44.564155%;
 		height: 0;
 
 		.temporary-wrapper{
@@ -81,7 +81,41 @@
 			background: image-url("home-constellation.png") center center no-repeat;
 			background-size: contain;
 			max-height: image-height("home-constellation.png");
+			text-align: center;
+			&:before {
+				content: '';
+				display: inline-block;
+				height: 100%;
+				vertical-align: middle;
+				margin-right: -0.25em; /* Adjusts for spacing */
+			}
 
+			.inner-block{
+				display: none;
+
+				@media screen and (min-width: $bp-small-3) {
+					vertical-align: middle;
+					display: inline-block;
+					text-align: center;
+				}
+				@media screen and (min-width: $bp-small-3) and (max-width: $bp-large) {
+					.alpha {
+						font-size: 1.75em;
+					}
+				}
+			}
+			.btn{
+				clear: both;
+			}
+		}
+
+		span{
+			font-size: 2em;
+			line-height: 0em;
+			display: inline-block;
+			position: relative;
+			top: .1em;
+			padding: 0 .5em;
 		}
 	}
 }

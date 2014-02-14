@@ -34,7 +34,15 @@
 		background-color: darken($gray-med, 10);
 	}
 }
-
+.btn-transparent{
+	background: transparent;
+	border: 1px solid $white;
+	padding-bottom: $pad-half;
+	&:hover, &:focus {
+		background-color: darken($tomato, 10);
+		color: $white;
+	}
+}
 .btn-large {
 	padding: $pad;
 	background-color: $tomato;

@@ -49,7 +49,7 @@ if ($_POST['Contact'] == "Send") {
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		
-		<link rel="stylesheet" href="/css/style-min.css?1592564711" media="all">
+		<link rel="stylesheet" href="/css/style-min.css?1592564731" media="all">
 		<link rel="stylesheet" href="/css/fonts.css?1392564711" media="only screen">
 		<script>
 			document.documentElement.className += " js";

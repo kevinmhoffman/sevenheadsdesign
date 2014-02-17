@@ -4,7 +4,7 @@ if ($_POST['Contact'] == "Send") {
 	$valid = false;
 
 	$emailFrom = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
-	$emailTo = "tim@timkadlec.com";
+	$emailTo = "kevin@sevenheadsdesign.com";
 	$subject = "Someone wants to talk to Seven Heads Design!";
 	$name = filter_input(INPUT_POST, 'name');
 	$company = filter_input(INPUT_POST, 'company');

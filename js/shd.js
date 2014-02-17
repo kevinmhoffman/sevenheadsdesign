@@ -123,9 +123,11 @@ toggle.addEventListener('click', function() {
 	if (nilla.hasClass(toggle, 'close')) {
 		nilla.removeClass(toggle, 'close');
 		nilla.removeClass(nav, 'active');
+		return false;
 	} else {
 		nilla.addClass(toggle, 'close');
 		nilla.addClass(nav, 'active');
+		return false;
 	}
 	return false;
 });

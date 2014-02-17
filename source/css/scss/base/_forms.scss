@@ -115,7 +115,11 @@ select.inline{
 	color: lighten($gray-med, 20);
 	border-bottom-color: $black;
 	padding-left: .5em;
-	width: 14em;
+
+
+	&.filled{
+		color: $black;
+	}
 }
 .para-form{
 	

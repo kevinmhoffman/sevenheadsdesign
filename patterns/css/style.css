@@ -552,11 +552,27 @@ select.inline {
   padding-left: .5em;
   width: 14em;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/* line 116, scss/base/_forms.scss */
+select.inline.filled {
+  color: #040707;
+}
+=======
+>>>>>>> master
+>>>>>>> develop
 
 /* line 120, scss/base/_forms.scss */
 .para-form {
   margin: auto auto 2.5em;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/* line 124, scss/base/_forms.scss */
+=======
+>>>>>>> develop
 @media screen and (min-width: 39.8em) {
   /* line 120, scss/base/_forms.scss */
   .para-form {
@@ -564,20 +580,40 @@ select.inline {
   }
 }
 /* line 127, scss/base/_forms.scss */
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> develop
 .para-form p {
   text-align: left;
   margin: 1.5em auto;
   line-height: 2.5em;
   margin-bottom: 4em;
 }
+<<<<<<< HEAD
 /* line 134, scss/base/_forms.scss */
+=======
+<<<<<<< HEAD
+/* line 131, scss/base/_forms.scss */
+=======
+/* line 134, scss/base/_forms.scss */
+>>>>>>> master
+>>>>>>> develop
 .para-form textarea {
   border: 0;
   max-width: 26.38889em;
   height: 14.22222em;
   margin-bottom: 1.94444em;
 }
+<<<<<<< HEAD
 /* line 140, scss/base/_forms.scss */
+=======
+<<<<<<< HEAD
+/* line 137, scss/base/_forms.scss */
+=======
+/* line 140, scss/base/_forms.scss */
+>>>>>>> master
+>>>>>>> develop
 .para-form label {
   text-transform: uppercase;
   font-family: "ProximaNovaCond-Bold", Verdana, Arial, sans-serif;
@@ -590,12 +626,28 @@ select.inline {
     $SPECIFIC FORMS
 \*------------------------------------*/
 /* Search Form */
+<<<<<<< HEAD
 /* line 153, scss/base/_forms.scss */
+=======
+<<<<<<< HEAD
+/* line 150, scss/base/_forms.scss */
+=======
+/* line 153, scss/base/_forms.scss */
+>>>>>>> master
+>>>>>>> develop
 .search-field {
   padding-right: 3em;
 }
 
+<<<<<<< HEAD
 /* line 156, scss/base/_forms.scss */
+=======
+<<<<<<< HEAD
+/* line 153, scss/base/_forms.scss */
+=======
+/* line 156, scss/base/_forms.scss */
+>>>>>>> master
+>>>>>>> develop
 .inline-form .search-submit {
   background: none;
   padding: 0.78em 1em;
@@ -1688,11 +1740,28 @@ p.intro strong {
   left: 0;
   width: 100%;
   height: 100%;
+<<<<<<< HEAD
   background: url('/patterns/images/home-constellation-sm.png?1392412024') center center no-repeat;
+=======
+<<<<<<< HEAD
+  background: url('/patterns/images/home-constellation.png?1392412024') center center no-repeat;
+=======
+  background: url('/patterns/images/home-constellation-sm.png?1392412024') center center no-repeat;
+>>>>>>> master
+>>>>>>> develop
   background-size: contain;
   max-height: 528px;
   text-align: center;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@media screen and (min-width: 39.8em) {
+  /* line 86, scss/objects/_blocks.scss */
+  .block-hero-temporary .lc .temporary-wrapper:before, .block-hero-temporary .header .temporary-wrapper:before, .block-hero-temporary [role=main] .temporary-wrapper:before {
+    content: '';
+=======
+>>>>>>> develop
 @media screen and (min-width: 39.8em) {
   /* line 77, scss/objects/_blocks.scss */
   .block-hero-temporary .lc .temporary-wrapper, .block-hero-temporary .header .temporary-wrapper, .block-hero-temporary [role=main] .temporary-wrapper {
@@ -1717,28 +1786,94 @@ p.intro strong {
   /* line 101, scss/objects/_blocks.scss */
   .block-hero-temporary .lc .temporary-wrapper .inner-block, .block-hero-temporary .header .temporary-wrapper .inner-block, .block-hero-temporary [role=main] .temporary-wrapper .inner-block {
     vertical-align: middle;
+>>>>>>> master
     display: inline-block;
-    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+    /* Adjusts for spacing */
   }
 }
+<<<<<<< HEAD
+/* line 95, scss/objects/_blocks.scss */
+.block-hero-temporary .lc .temporary-wrapper .inner-block, .block-hero-temporary .header .temporary-wrapper .inner-block, .block-hero-temporary [role=main] .temporary-wrapper .inner-block {
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+}
+/* line 99, scss/objects/_blocks.scss */
+.block-hero-temporary .lc .temporary-wrapper .inner-block .alpha, .block-hero-temporary .header .temporary-wrapper .inner-block .alpha, .block-hero-temporary [role=main] .temporary-wrapper .inner-block .alpha {
+  padding-top: 1em;
+  font-size: 1.25em;
+}
+@media screen and (min-width: 29.75em) and (max-width: 50em) {
+  /* line 104, scss/objects/_blocks.scss */
+=======
 @media screen and (min-width: 39.8em) and (max-width: 50em) {
   /* line 110, scss/objects/_blocks.scss */
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> develop
   .block-hero-temporary .lc .temporary-wrapper .inner-block .alpha, .block-hero-temporary .header .temporary-wrapper .inner-block .alpha, .block-hero-temporary [role=main] .temporary-wrapper .inner-block .alpha {
     font-size: 1.75em;
   }
 }
+<<<<<<< HEAD
 /* line 115, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+@media screen and (min-width: 50em) {
+  /* line 109, scss/objects/_blocks.scss */
+  .block-hero-temporary .lc .temporary-wrapper .inner-block .alpha, .block-hero-temporary .header .temporary-wrapper .inner-block .alpha, .block-hero-temporary [role=main] .temporary-wrapper .inner-block .alpha {
+    padding-top: 0;
+    font-size: 41px;
+    font-size: 2.5625rem;
+  }
+}
+/* line 116, scss/objects/_blocks.scss */
+=======
+/* line 115, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-hero-temporary .lc .temporary-wrapper .btn, .block-hero-temporary .header .temporary-wrapper .btn, .block-hero-temporary [role=main] .temporary-wrapper .btn {
   clear: both;
 }
 /* line 120, scss/objects/_blocks.scss */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.block-hero-temporary .lc .align-center, .block-hero-temporary .header .align-center, .block-hero-temporary [role=main] .align-center {
+  text-align: center;
+}
+/* line 123, scss/objects/_blocks.scss */
+=======
+>>>>>>> master
+>>>>>>> develop
 .block-hero-temporary .lc span, .block-hero-temporary .header span, .block-hero-temporary [role=main] span {
-  font-size: 2em;
-  line-height: 0em;
-  display: inline-block;
-  position: relative;
-  top: .1em;
-  padding: 0 .5em;
+  display: block;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+}
+@media screen and (min-width: 39.8em) {
+  /* line 123, scss/objects/_blocks.scss */
+  .block-hero-temporary .lc span, .block-hero-temporary .header span, .block-hero-temporary [role=main] span {
+    font-size: 2em;
+    line-height: 0em;
+    display: inline-block;
+    position: relative;
+    top: .1em;
+    padding: 0 .5em;
+    height: auto;
+    overflow: visible;
+  }
+}
+@media screen and (min-width: 17em) and (max-width: 39.8em) {
+  /* line 130, scss/objects/_blocks.scss */
+  .home .block-hero-temporary .lc, .home .block-hero-temporary .header, .home .block-hero-temporary [role=main] {
+    padding: 0 0 44.564155%;
+  }
 }
 @media screen and (min-width: 17em) and (max-width: 39.8em) {
   /* line 130, scss/objects/_blocks.scss */
@@ -1748,27 +1883,59 @@ p.intro strong {
 }
 
 /* Block Thumbnail with Headline */
+<<<<<<< HEAD
 /* line 137, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 145, scss/objects/_blocks.scss */
+=======
+/* line 137, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-thumb {
   display: table;
   width: 100%;
   border-collapse: collapse;
 }
+<<<<<<< HEAD
 /* line 142, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 150, scss/objects/_blocks.scss */
+=======
+/* line 142, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-thumb .b-inner {
   display: table-row;
   vertical-align: top;
   overflow: hidden;
 }
 @media all and (min-width: 29.75em) {
+<<<<<<< HEAD
   /* line 148, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+  /* line 156, scss/objects/_blocks.scss */
+=======
+  /* line 148, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
   .block-thumb .b-thumb {
     display: table-cell;
     vertical-align: top;
     width: 30%;
     max-width: 10em;
   }
+<<<<<<< HEAD
   /* line 155, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+  /* line 163, scss/objects/_blocks.scss */
+=======
+  /* line 155, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
   .block-thumb .b-thumb img {
     display: block;
     width: 100%;
@@ -1776,7 +1943,15 @@ p.intro strong {
   }
 }
 @media all and (min-width: 29.75em) {
+<<<<<<< HEAD
   /* line 163, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+  /* line 171, scss/objects/_blocks.scss */
+=======
+  /* line 163, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
   .block-thumb .b-text {
     display: table-cell;
     width: 70%;
@@ -1785,29 +1960,69 @@ p.intro strong {
 }
 
 /* Block Headline Summary */
+<<<<<<< HEAD
 /* line 175, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 183, scss/objects/_blocks.scss */
+=======
+/* line 175, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-headline-summary a {
   display: block;
   padding: 0.5em;
 }
 
 /* Block Inset */
+<<<<<<< HEAD
 /* line 182, scss/objects/_blocks.scss */
 .block-inset {
   position: relative;
 }
 /* line 185, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 190, scss/objects/_blocks.scss */
+.block-inset {
+  position: relative;
+}
+/* line 193, scss/objects/_blocks.scss */
+=======
+/* line 182, scss/objects/_blocks.scss */
+.block-inset {
+  position: relative;
+}
+/* line 185, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-inset .b-thumb {
   position: relative;
   z-index: 0;
 }
+<<<<<<< HEAD
 /* line 189, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 197, scss/objects/_blocks.scss */
+=======
+/* line 189, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-inset .b-thumb img {
   display: block;
 }
 
 /* People Block */
+<<<<<<< HEAD
 /* line 195, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 203, scss/objects/_blocks.scss */
+=======
+/* line 195, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-people {
   width: 100%;
   position: relative;
@@ -1817,16 +2032,38 @@ p.intro strong {
   max-height: 7.61111em;
 }
 @media all and (min-width: 39.8em) {
+<<<<<<< HEAD
   /* line 195, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+  /* line 203, scss/objects/_blocks.scss */
+=======
+  /* line 195, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
   .block-people {
     max-height: 999em;
   }
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/* line 214, scss/objects/_blocks.scss */
+.block-people.active, .block-people:hover {
+  max-height: 999em;
+}
+/* line 217, scss/objects/_blocks.scss */
+=======
+>>>>>>> develop
 /* line 206, scss/objects/_blocks.scss */
 .block-people.active, .block-people:hover {
   max-height: 999em;
 }
 /* line 209, scss/objects/_blocks.scss */
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> develop
 .block-people img {
   display: block;
   width: 100%;
@@ -1837,28 +2074,62 @@ p.intro strong {
   -moz-box-shadow: inset 0 0 10px black;
   box-shadow: inset 0 0 10px black;
 }
+<<<<<<< HEAD
 /* line 217, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 224, scss/objects/_blocks.scss */
+=======
+/* line 217, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-people:hover img {
   -webkit-filter: blur(0px);
   -moz-filter: blur(0px);
   filter: blur(0px);
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/* line 228, scss/objects/_blocks.scss */
+=======
+>>>>>>> develop
 /* line 220, scss/objects/_blocks.scss */
 .block-people:hover .expertise {
   display: block;
 }
 /* line 225, scss/objects/_blocks.scss */
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> develop
 .block-people header {
   position: absolute;
   top: 2.11111em;
   width: 100%;
   z-index: 2;
 }
+<<<<<<< HEAD
 /* line 231, scss/objects/_blocks.scss */
 .block-people header h3 {
   margin-bottom: -.3em;
 }
 /* line 235, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 234, scss/objects/_blocks.scss */
+.block-people header h3 {
+  margin-bottom: -.3em;
+}
+/* line 238, scss/objects/_blocks.scss */
+=======
+/* line 231, scss/objects/_blocks.scss */
+.block-people header h3 {
+  margin-bottom: -.3em;
+}
+/* line 235, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-people .expertise {
   display: none;
   bottom: 2.11111em;
@@ -1866,7 +2137,15 @@ p.intro strong {
   width: 100%;
   z-index: 2;
 }
+<<<<<<< HEAD
 /* line 243, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 246, scss/objects/_blocks.scss */
+=======
+/* line 243, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-people .expertise h3 {
   font-family: Verdana, "Arial", sans-serif;
   font-size: 11px;
@@ -1877,6 +2156,7 @@ p.intro strong {
   background-size: 2em 2em;
   padding: .5em 0;
 }
+<<<<<<< HEAD
 /* line 253, scss/objects/_blocks.scss */
 .block-people .expertise .skills {
   margin-top: 1em;
@@ -1886,6 +2166,29 @@ p.intro strong {
   line-height: 1.3em;
 }
 /* line 261, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 256, scss/objects/_blocks.scss */
+.block-people .expertise .skills {
+  margin-top: 1em;
+}
+/* line 259, scss/objects/_blocks.scss */
+.block-people .expertise .skills li {
+  line-height: 1.3em;
+}
+/* line 264, scss/objects/_blocks.scss */
+=======
+/* line 253, scss/objects/_blocks.scss */
+.block-people .expertise .skills {
+  margin-top: 1em;
+}
+/* line 256, scss/objects/_blocks.scss */
+.block-people .expertise .skills li {
+  line-height: 1.3em;
+}
+/* line 261, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-people a, .block-people .skills {
   font-family: "ProximaNovaCond-Bold", Verdana, Arial, sans-serif;
   text-transform: uppercase;
@@ -1897,16 +2200,40 @@ p.intro strong {
 }
 
 /* Hero Block */
+<<<<<<< HEAD
 /* line 271, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 274, scss/objects/_blocks.scss */
+=======
+/* line 271, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-inset {
   margin-bottom: 0.5em;
   position: relative;
 }
+<<<<<<< HEAD
 /* line 275, scss/objects/_blocks.scss */
 .block-inset .headline {
   font-size: 1.1em;
 }
 /* line 279, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 278, scss/objects/_blocks.scss */
+.block-inset .headline {
+  font-size: 1.1em;
+}
+/* line 282, scss/objects/_blocks.scss */
+=======
+/* line 275, scss/objects/_blocks.scss */
+.block-inset .headline {
+  font-size: 1.1em;
+}
+/* line 279, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-inset .b-text {
   position: absolute;
   bottom: 0;
@@ -1918,12 +2245,28 @@ p.intro strong {
 }
 
 /* Block Thumb with Summary */
+<<<<<<< HEAD
 /* line 292, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 295, scss/objects/_blocks.scss */
+=======
+/* line 292, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-thumb-summary .b-thumb {
   float: left;
   width: 50%;
 }
+<<<<<<< HEAD
 /* line 297, scss/objects/_blocks.scss */
+=======
+<<<<<<< HEAD
+/* line 300, scss/objects/_blocks.scss */
+=======
+/* line 297, scss/objects/_blocks.scss */
+>>>>>>> master
+>>>>>>> develop
 .block-thumb-summary .b-text {
   margin-left: 50%;
   padding: 0.5em;

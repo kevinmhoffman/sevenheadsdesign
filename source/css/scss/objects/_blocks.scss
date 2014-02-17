@@ -88,42 +88,66 @@
 			@media screen and (min-width: $bp-small-3) {
 				background: image-url("home-constellation.png") center center no-repeat;
 				background-size: contain;
+				&:before {
+					content: '';
+					display: inline-block;
+					height: 100%;
+					vertical-align: middle;
+					margin-right: -0.25em; /* Adjusts for spacing */
+				}
 
-			}
-			&:before {
-				content: '';
-				display: inline-block;
-				height: 100%;
-				vertical-align: middle;
-				margin-right: -0.25em; /* Adjusts for spacing */
 			}
 
 			.inner-block{
-				display: none;
-
-				@media screen and (min-width: $bp-small-3) {
-					vertical-align: middle;
-					display: inline-block;
-					text-align: center;
+				vertical-align: middle;
+				display: inline-block;
+				text-align: center;
+				.alpha{
+					padding-top: 1em;
+					font-size: 1.25em;
 				}
-				@media screen and (min-width: $bp-small-3) and (max-width: $bp-large) {
+				@media screen and (min-width: $bp-small-2) and (max-width: $bp-large) {
 					.alpha {
 						font-size: 1.75em;
 					}
 				}
+				@media screen and (min-width: $bp-large) {
+					.alpha{
+						padding-top: 0;
+						@include font-size(41px);
+					}
+				}
+
 			}
 			.btn{
 				clear: both;
 			}
 		}
-
+		.align-center{
+			text-align: center;
+		}
 		span{
-			font-size: 2em;
-			line-height: 0em;
-			display: inline-block;
-			position: relative;
-			top: .1em;
-			padding: 0 .5em;
+			display: block;
+			padding: 0;
+			height: 0;
+			overflow: hidden;
+
+			@media screen and (min-width: $bp-small-3) {
+				font-size: 2em;
+				line-height: 0em;
+				display: inline-block;
+				position: relative;
+				top: .1em;
+				padding: 0 .5em;
+				height: auto;
+				overflow: visible;
+			}
+			
+		}
+	}
+	@media screen and (min-width: 17em) and (max-width: $bp-small-3) {
+		.home & .lc{
+			padding: 0 0 44.564155%;;
 		}
 	}
 	@media screen and (min-width: 17em) and (max-width: $bp-small-3) {

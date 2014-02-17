@@ -187,3 +187,8 @@ AddType	text/vtt				vtt
 
 # Remove ETags
 FileETag None
+
+RewriteEngine on
+RewriteRule ^about$ /about.php [L]
+RewriteRule ^/$ /index.php [L]
+RewriteRule ^home$ /index.php [L]

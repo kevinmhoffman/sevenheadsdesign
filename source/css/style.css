@@ -980,7 +980,7 @@ td {
 /* line 23, scss/objects/_header.scss */
 .js #toggle {
   position: absolute;
-  right: 0;
+  right: .5em;
   top: .8em;
   display: inline-block;
   padding: 1em 0.5em;
@@ -1105,7 +1105,7 @@ td {
 /* line 13, scss/objects/_nav.scss */
 .js .nav {
   position: absolute;
-  right: .5em;
+  right: 1em;
   top: 4.5em;
   width: 25%;
   max-height: 0;

@@ -89,6 +89,7 @@ if ($_POST['Contact'] == "Send") {
 		if ($submitted && $success) {
 			?>
 			<p class="beta align-center">Thanks, <?php echo $name; ?>!</p>
+			<p>We&rsquo;ll be in touch within 24 hours or less. In the meantime why don&rsquo;t you <a href="http://www.twitter.com/7headsdesign">follow us on Twitter?</p>
 			<?
 		} else { ?>
 			<form action="/#contact" method="post" class="para-form">  
@@ -96,23 +97,24 @@ if ($_POST['Contact'] == "Send") {
 		        <input required="true" class="inline" id="name" name="name" type="text" placeholder="Your Name">? I know things have never been more exciting then they are now at <label class="is-vishidden" for="company">Your company</label>
 		        <input class="inline" id="company" name="company" type="text" placeholder="Your Company">. You know I'm really happy to see you stopped by to tell us about <label class="is-vishidden" for="reason">Your reason for contacting</label> <select id="reason" class="inline" name="reason">
 		        	<option selected="" disabled="" value="">Your reason for contacting</option>
-		        	<option value="Schedule a Workshop">Schedule a Workshop</option>
-		        	<option value="Discuss Design Consulting">Discuss Design Consulting</option>
-		        	<option value="Just Saying Hello!">Just Saying Hello!</option>
+		        	<option value="Schedule a Workshop">scheduling a workshop</option>
+		        	<option value="Discuss Design Consulting">design consulting</option>
+		        	<option value="Just Saying Hello!">what you&rsquo;re up to :)</option>
 		        </select>. I'll send you an email at <input class="inline" required="true" id="email" name="email" type="email" placeholder="Email"> so we can talk it over.</p>
 
 
 		        <label for="more-information">If you have time, tell us more about that:</label>
 		        <textarea name="more-information" id="more-information"></textarea>
-		        <input type="submit" class="btn btn-large" name="Contact" value="Send">
+		        <input type="submit" class="btn btn-large" name="Contact" value="Fire Away">
 		</form>	
 		<?php } ?>
 		</div>
 	<!-- Begin Footer -->
 	<footer class="footer" role="contentinfo">
 		<div class="lc">
-		<p><a class="twitter" href="http://twitter.com/sevenheadsdesign">Follow Seven Heads Design on Twitter</a></p>
-			<p class="copyright">All content ©2014 Seven Heads Design unless otherwise noted.</p>
+		<p><a class="twitter" href="http://twitter.com/7headsdesign">Follow Seven Heads Design on Twitter</a></p>
+		<p class="copyright">All content ©2014 Seven Heads Design unless otherwise noted.<br/><br/>Site by <a href="http://kevinsharon.com/">Kevin Sharon</a>, <a href="http://timkadlec.com/">Tim Kadlec</a>, <a href="http://kevinmhoffman.com/">Kevin M. Hoffman</a>, and <a href="http://danielmall.com/">Dan Mall</a>.</p>
+
 		</div>
 	</footer>
 	<!-- End Footer --></div>

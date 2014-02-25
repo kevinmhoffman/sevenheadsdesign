@@ -49,7 +49,7 @@ if ($_POST['Contact'] == "Send") {
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		
-		<link rel="stylesheet" href="/css/style-min.css?1592564731" media="all">
+		<link rel="stylesheet" href="/css/style.css?1592564731" media="all">
 		<link rel="stylesheet" href="/css/fonts.css?1392564711" media="only screen">
 		<script>
 			document.documentElement.className += " js";
@@ -113,7 +113,7 @@ if ($_POST['Contact'] == "Send") {
 	<footer class="footer" role="contentinfo">
 		<div class="lc">
 		<p><a class="twitter" href="http://twitter.com/7headsdesign">Follow Seven Heads Design on Twitter</a></p>
-		<p class="copyright">All content ©2014 Seven Heads Design unless otherwise noted.<br/><br/>Site by <a href="http://kevinsharon.com/">Kevin Sharon</a>, <a href="http://timkadlec.com/">Tim Kadlec</a>, <a href="http://kevinmhoffman.com/">Kevin M. Hoffman</a>, and <a href="http://danielmall.com/">Dan Mall</a>.</p>
+		<p class="copyright">All content ©2014 Seven Heads Design unless otherwise noted.<br/><br/>Site by <a href="http://kevinsharon.com/">Kevin</a>, <a href="http://timkadlec.com/">Tim</a>, <a href="http://kevinmhoffman.com/">Kevin</a>, and <a href="http://danielmall.com/">Dan</a>.</p>
 
 		</div>
 	</footer>

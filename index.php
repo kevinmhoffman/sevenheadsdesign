@@ -84,7 +84,7 @@ if ($_POST['Contact'] == "Send") {
 				
 			</div>	</div>
 	<div class="lc align-center">
-		<h1 id="contact">Let's work together</h1>
+		<h1 id="contact">Let&rsquo;s work together</h1>
 		<?php
 		if ($submitted && $success) {
 			?>
@@ -93,14 +93,14 @@ if ($_POST['Contact'] == "Send") {
 			<?
 		} else { ?>
 			<form action="/#contact" method="post" class="para-form">  
-				<p>Hello. How's it going <label class="is-vishidden" for="name">Your name</label>
-		        <input required="true" class="inline" id="name" name="name" type="text" placeholder="Your Name">? I know things have never been more exciting then they are now at <label class="is-vishidden" for="company">Your company</label>
-		        <input class="inline" id="company" name="company" type="text" placeholder="Your Company">. You know I'm really happy to see you stopped by to tell us about <label class="is-vishidden" for="reason">Your reason for contacting</label> <select id="reason" class="inline" name="reason">
-		        	<option selected="" disabled="" value="">Your reason for contacting</option>
-		        	<option value="Schedule a Workshop">scheduling a workshop</option>
-		        	<option value="Discuss Design Consulting">design consulting</option>
-		        	<option value="Just Saying Hello!">what you&rsquo;re up to :)</option>
-		        </select>. I'll send you an email at <input class="inline" required="true" id="email" name="email" type="email" placeholder="Email"> so we can talk it over.</p>
+				<p>Hello. How&rsquo;s it going <label class="is-vishidden" for="name">your name</label>
+		        <input required="true" class="inline" id="name" name="name" type="text" placeholder="your name">? I know things have never been more exciting then they are now at <label class="is-vishidden" for="company">your company</label>
+		        <input class="inline" id="company" name="company" type="text" placeholder="your company">. You know I&rsquo;m really happy to see you stopped by to tell us about <label class="is-vishidden" for="reason">your reason for contacting</label> <select id="reason" class="inline" name="reason">
+		        	<option selected="" disabled="" value="">your reason for contacting</option>
+		        	<option value="Scheduling a workshop">scheduling a workshop</option>
+		        	<option value="Design consulting">design consulting</option>
+		        	<option value="Just saying hello!">what you&rsquo;re up to :)</option>
+		        </select>. I&rsquo;ll send you an e-mail at <input class="inline" required="true" id="email" name="email" type="email" placeholder="your e-mail"> so we can talk it over.</p>
 
 
 		        <label for="more-information">If you have time, tell us more about that:</label>

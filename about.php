@@ -25,11 +25,12 @@
 	</header>
 	<!-- End .header -->	<div role="main">
 		<p class="intro"><strong>Make, Collaborate, &amp; Celebrate.</strong></p>
-		<p class="beta align-center">There&rsquo;s plenty of fantastic design agencies out there. Everyone in this network has worked for one of them. <strong>But this isn&rsquo;t one of them.</strong></p>
+		<p class="beta align-center">There&rsquo;s plenty of fantastic, traditional design agencies out there. Everyone in this network has worked for one. <strong>But this isn&rsquo;t one of them.</strong></p>
 		<div class="entry-content">
 			<p>We make websites, applications, and strategies that help people solve problems.</p>
 			<p>We collaborate because no matter how talented he or she may be, no single individual will ever build something cooler than a great team.</p>
 			<p>We celebrate the idea of unexpected design insights that within constraints.</p>
+			<p>We are a connected company.</p>
 			<h2 class="alpha">A connected what now?</h2>
 			<img src="/images/constellation-clear.png" alt="Image of a constellation">			
 			<p>Seven Heads Design is a distributed network of independent web designers, information architects, developers, and smart people. We are used to working remotely because we live all over the world, but we love getting together whenever work and play permit. Seven Heads is a <a href="http://connectedco.com/">connected company</a>. We believe that when brilliant people have autonomy they crank out their best work, but when those same people collaborate in teams they truly innovate. We are an organic network, forming, growing, and dissipating as needed.</p>

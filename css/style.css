@@ -1174,7 +1174,7 @@ td {
 }
 /* line 11, scss/objects/_main.scss */
 [role=main] .align-center {
-  text-align: left;
+  text-align: center;
 }
 @media all and (min-width: 29.75em) {
   /* line 15, scss/objects/_main.scss */

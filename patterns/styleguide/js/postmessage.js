@@ -64,7 +64,8 @@ function receiveIframeMessage(event) {
 			
 			// handle patterns and the view all page
 			var re = /patterns\/(.*)$/;
-			path = window.location.protocol+"//"+window.location.host+window.location.pathname.replace(re,'')+event.data.path+'?'+Date.now();
+			path = window.location.protocol+"//"+window.location.host+'/patterns'+window.location.pathname.replace(re,'')+event.data.path+'?'+Date.now();
+
 			window.location.replace(path);
 			
 		} else {

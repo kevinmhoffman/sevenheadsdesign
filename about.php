@@ -42,7 +42,7 @@
 	<footer class="footer" role="contentinfo">
 		<div class="lc">
 		<p><a class="twitter" href="http://twitter.com/sevenheadsdesign">Follow Seven Heads Design on Twitter</a></p>
-			<p class="copyright">All content ©2014 Seven Heads Design unless otherwise noted.<br/><br/>Site by <a href="http://kevinsharon.com/">Kevin</a>, <a href="http://timkadlec.com/">Tim</a>, <a href="http://kevinmhoffman.com/">Kevin</a>, and <a href="http://danielmall.com/">Dan</a>.</p>
+			<p class="copyright">All content ©2013-<?php echo date("Y"); ?> Seven Heads Design unless otherwise noted.<br/><br/>Site by <a href="http://kevinsharon.com/">Kevin</a>, <a href="http://timkadlec.com/">Tim</a>, <a href="http://kevinmhoffman.com/">Kevin</a>, and <a href="http://danielmall.com/">Dan</a>.</p>
 		</div>
 	</footer>
 	<!-- End Footer --></div>

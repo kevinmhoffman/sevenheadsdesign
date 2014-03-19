@@ -25,7 +25,7 @@
 	</header>
 	<!-- End .header -->	<div role="main">
 		<p class="intro"><strong>Make, Collaborate, &amp; Celebrate.</strong></p>
-		<p class="beta align-center">There&rsquo;s plenty of fantastic, traditional design agencies out there. Everyone in this network has worked for one. <strong>But this isn&rsquo;t one of them.</strong></p>
+		<p class="beta align-center">There are plenty of fantastic traditional design agencies out there. Everyone in this network has worked for one. <strong>But this isn&rsquo;t one of them.</strong></p>
 		<div class="entry-content">
 			<p>We make websites, applications, and strategies that help people solve problems.</p>
 			<p>We collaborate because no matter how talented he or she may be, no single individual will ever build something cooler than a great team.</p>

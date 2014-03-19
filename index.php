@@ -94,7 +94,7 @@ if ($_POST['Contact'] == "Fire Away") {
 		} else { ?>
 			<form action="/#contact" method="post" class="para-form">  
 				<p>Hello. How&rsquo;s it going <label class="is-vishidden" for="name">your name</label>
-		        <input required="true" class="inline" id="name" name="name" type="text" placeholder="your name">? I know things have never been more exciting then they are now at <label class="is-vishidden" for="company">your company</label>
+		        <input required="true" class="inline" id="name" name="name" type="text" placeholder="your name">? I know things have never been more exciting than they are now at <label class="is-vishidden" for="company">your company</label>
 		        <input class="inline" id="company" name="company" type="text" placeholder="your company">. You know I&rsquo;m really happy to see you stopped by to tell us about <label class="is-vishidden" for="reason">your reason for contacting</label> <select id="reason" class="inline" name="reason">
 		        	<option selected="" disabled="" value="">your reason for contacting</option>
 		        	<option value="Scheduling a workshop">scheduling a workshop</option>

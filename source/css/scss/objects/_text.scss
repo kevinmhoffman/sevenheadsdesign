@@ -21,12 +21,18 @@ p.intro{
 
 //Pullquote
 .pullquote-right {
-	&:after{
-		position: absolute;
-		right: 0%;
-		width: 23.2%;
-		color: $tomato;
-		content: attr(data-pullquote);
+	@media screen and (min-width: $bp-large-2) {
+			&:after{
+			position: absolute;
+			right: 0%;
+			width: 20.8%;
+			color: $tomato;
+			content: attr(data-pullquote);
+			font-family: $font-sm-headings;
+			@include readable-uppercase(18px);
+			padding-bottom: px-to-ems(20px, 18px);
+			border-bottom: 2px solid $tomato;
+		}
 	}
 }
 

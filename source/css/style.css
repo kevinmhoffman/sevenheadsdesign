@@ -277,9 +277,11 @@ h3, .gamma {
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.03226em;
+  margin-top: 2.16129em;
+  margin-bottom: 0.96774em;
 }
 
-/* line 41, scss/base/_headings.scss */
+/* line 43, scss/base/_headings.scss */
 h4, .delta {
   font-size: 18px;
   font-size: 1.125rem;
@@ -289,7 +291,12 @@ h4, .delta {
   font-weight: normal;
 }
 
-/* line 49, scss/base/_headings.scss */
+/* line 50, scss/base/_headings.scss */
+h3, h4 {
+  color: #040707;
+}
+
+/* line 53, scss/base/_headings.scss */
 h5, .epsilon {
   font-size: 18px;
   font-size: 1.125rem;
@@ -299,7 +306,7 @@ h5, .epsilon {
   font-weight: normal;
 }
 
-/* line 58, scss/base/_headings.scss */
+/* line 62, scss/base/_headings.scss */
 h6, .zeta {
   font-size: 18px;
   font-size: 1.125rem;
@@ -1294,44 +1301,51 @@ p.intro strong {
   }
 }
 
-/* line 24, scss/objects/_text.scss */
-.pullquote-right:after {
-  position: absolute;
-  right: 0%;
-  width: 23.2%;
-  color: #c9332b;
-  content: attr(data-pullquote);
+@media screen and (min-width: 66em) {
+  /* line 25, scss/objects/_text.scss */
+  .pullquote-right:after {
+    position: absolute;
+    right: 0%;
+    width: 20.8%;
+    color: #c9332b;
+    content: attr(data-pullquote);
+    font-family: "ProximaNovaCond-Light", Verdana, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05556em;
+    padding-bottom: 1.11111em;
+    border-bottom: 2px solid #c9332b;
+  }
 }
 
-/* line 34, scss/objects/_text.scss */
+/* line 40, scss/objects/_text.scss */
 .caption {
   font-style: italic;
 }
 
-/* line 40, scss/objects/_text.scss */
+/* line 46, scss/objects/_text.scss */
 .text a {
   text-decoration: underline;
 }
-/* line 44, scss/objects/_text.scss */
+/* line 50, scss/objects/_text.scss */
 .text ul {
   list-style: disc;
   margin: 0 0 1em 1.2em;
 }
-/* line 48, scss/objects/_text.scss */
+/* line 54, scss/objects/_text.scss */
 .text ul ul {
   margin-bottom: 0;
 }
-/* line 53, scss/objects/_text.scss */
+/* line 59, scss/objects/_text.scss */
 .text ol {
   list-style: decimal;
   margin: 0 0 1em 1.5em;
 }
-/* line 57, scss/objects/_text.scss */
+/* line 63, scss/objects/_text.scss */
 .text ol ol {
   margin-bottom: 0;
 }
 
-/* line 63, scss/objects/_text.scss */
+/* line 69, scss/objects/_text.scss */
 .twitter {
   text-transform: uppercase;
   letter-spacing: 0.05556em;
@@ -1341,7 +1355,7 @@ p.intro strong {
   color: #747474;
   text-align: center;
 }
-/* line 70, scss/objects/_text.scss */
+/* line 76, scss/objects/_text.scss */
 .twitter:after {
   content: " ";
   background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiI+PHBhdGggZD0iTTE2IDBjLTguODM3IDAtMTYgNy4xNjMtMTYgMTZzNy4xNjMgMTYgMTYgMTYgMTYtNy4xNjMgMTYtMTYtNy4xNjMtMTYtMTYtMTZ6bTkuMTk1IDExLjI4NGwuMDE0LjYxNGMwIDYuMjY5LTQuNzcyIDEzLjQ5OS0xMy40OTkgMTMuNDk5LTIuNjc5IDAtNS4xNzMtLjc4NS03LjI3My0yLjEzMi4zNzEuMDQ0Ljc0OS4wNjYgMS4xMzIuMDY2IDIuMjIzIDAgNC4yNjgtLjc1OSA1Ljg5Mi0yLjAzMS0yLjA3Ni0uMDM4LTMuODI4LTEuNDEtNC40MzItMy4yOTUuMjkuMDU1LjU4Ny4wODUuODkzLjA4NS40MzMgMCAuODUyLS4wNTggMS4yNS0uMTY2LTIuMTctLjQzNi0zLjgwNi0yLjM1NC0zLjgwNi00LjY1MnYtLjA2Yy42NC4zNTUgMS4zNzEuNTY5IDIuMTQ5LjU5My0xLjI3My0uODUxLTIuMTExLTIuMzAzLTIuMTExLTMuOTQ5IDAtLjg2OS4yMzQtMS42ODQuNjQyLTIuMzg1IDIuMzQgMi44NyA1LjgzNiA0Ljc1OSA5Ljc3OSA0Ljk1Ny0uMDgxLS4zNDctLjEyMy0uNzA5LS4xMjMtMS4wODEgMC0yLjYyIDIuMTI0LTQuNzQ0IDQuNzQ0LTQuNzQ0IDEuMzY1IDAgMi41OTguNTc2IDMuNDYzIDEuNDk4IDEuMDgxLS4yMTMgMi4wOTYtLjYwOCAzLjAxMy0xLjE1MS0uMzU0IDEuMTA4LTEuMTA3IDIuMDM4LTIuMDg2IDIuNjI1Ljk2LS4xMTUgMS44NzQtLjM3IDIuNzI1LS43NDctLjYzNi45NTEtMS40NCAxLjc4Ny0yLjM2NyAyLjQ1NnoiIGZpbGw9IiM3NDc4NzQiLz48L3N2Zz4=');
@@ -2166,8 +2180,9 @@ p.intro strong {
 /* line 8, scss/objects/_article.scss */
 .article-header h1 {
   font-size: 2.5em;
+  margin-bottom: 0.11111em;
 }
-/* line 11, scss/objects/_article.scss */
+/* line 12, scss/objects/_article.scss */
 .article-header .byline {
   position: absolute;
   left: 0;
@@ -2177,32 +2192,33 @@ p.intro strong {
   padding-bottom: 2.375em;
 }
 
-/* line 20, scss/objects/_article.scss */
+/* line 21, scss/objects/_article.scss */
 .entry-content {
   margin: 2.5em auto 8em;
 }
-/* line 22, scss/objects/_article.scss */
+/* line 23, scss/objects/_article.scss */
 .entry-content * {
   max-width: 474px;
   max-width: 30rem;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* line 27, scss/objects/_article.scss */
+/* line 29, scss/objects/_article.scss */
 .entry-content img {
   max-width: 100%;
   margin: 1.5em auto;
   display: block;
 }
-/* line 33, scss/objects/_article.scss */
+/* line 35, scss/objects/_article.scss */
 .entry-content p {
-  margin-bottom: 2.5em;
+  margin-bottom: 2.66667em;
 }
-/* line 36, scss/objects/_article.scss */
+/* line 38, scss/objects/_article.scss */
 .entry-content .alpha {
   margin-bottom: .5em;
 }
 
-/* line 41, scss/objects/_article.scss */
+/* line 43, scss/objects/_article.scss */
 .byline {
   margin-bottom: 0.5em;
   font-family: "ProximaNovaCond-Light", Verdana, Arial, sans-serif;
@@ -2213,7 +2229,7 @@ p.intro strong {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-/* line 49, scss/objects/_article.scss */
+/* line 51, scss/objects/_article.scss */
 .byline em {
   color: rgba(4, 7, 7, 0.5);
   text-transform: uppercase;
@@ -2225,30 +2241,30 @@ p.intro strong {
   display: block;
   padding-bottom: 1.5em;
 }
-/* line 59, scss/objects/_article.scss */
+/* line 61, scss/objects/_article.scss */
 .byline img {
   float: left;
   margin-right: 1em;
 }
 
-/* line 66, scss/objects/_article.scss */
+/* line 68, scss/objects/_article.scss */
 .social-share {
   overflow: hidden;
   margin-bottom: 1em;
 }
-/* line 70, scss/objects/_article.scss */
+/* line 72, scss/objects/_article.scss */
 .social-share li {
   float: left;
   margin-right: 0.5em;
 }
-/* line 75, scss/objects/_article.scss */
+/* line 77, scss/objects/_article.scss */
 .social-share a {
   background: #333333;
   color: white;
   display: block;
   padding: 0.5em;
 }
-/* line 81, scss/objects/_article.scss */
+/* line 83, scss/objects/_article.scss */
 .social-share a:hover {
   background: #433f3e;
 }

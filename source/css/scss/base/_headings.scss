@@ -36,6 +36,8 @@ h3, .gamma   {
 	font-family: $font-sm-headings;
 	font-weight: normal;
 	@include readable-uppercase(31px);
+	margin-top: px-to-ems(67px, 31px);
+	margin-bottom: px-to-ems(30px, 31px);
 }
 
 h4, .delta   {
@@ -45,7 +47,9 @@ h4, .delta   {
 	font-family: $font-sm-bold;
 	font-weight: normal;
 }
-
+h3, h4{
+	color: $black;
+}
 h5, .epsilon { 
 	@include font-size(18px);
 	line-height: px-to-ems(31,18);

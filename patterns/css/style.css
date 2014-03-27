@@ -413,6 +413,7 @@ figcaption small {
   padding-bottom: 0.5em;
   border-bottom: 1px solid #433f3e;
   border-bottom-color: rgba(67, 63, 62, 0.5);
+  width: 20.8%;
 }
 /* line 37, scss/base/_media.scss */
 figcaption small a {
@@ -2184,41 +2185,56 @@ p.intro strong {
 }
 /* line 12, scss/objects/_article.scss */
 .article-header .byline {
-  position: absolute;
-  left: 0;
-  width: 13.125em;
-  border-bottom: 1px solid #433f3e;
-  border-bottom-color: rgba(67, 63, 62, 0.5);
-  padding-bottom: 2.375em;
+  margin-top: 2em;
+}
+@media screen and (min-width: 66em) {
+  /* line 12, scss/objects/_article.scss */
+  .article-header .byline {
+    position: absolute;
+    left: 0;
+    width: 13.125em;
+    margin-top: 0;
+  }
+}
+/* line 22, scss/objects/_article.scss */
+.article-header .more-by {
+  border-top: 1px solid #433f3e;
+  border-top-color: rgba(67, 63, 62, 0.5);
+  margin-top: 3.4em;
+  padding-top: 2.1em;
+}
+/* line 28, scss/objects/_article.scss */
+.article-header .more-by:hover {
+  color: rgba(4, 7, 7, 0.8);
 }
 
-/* line 21, scss/objects/_article.scss */
+/* line 33, scss/objects/_article.scss */
 .entry-content {
   margin: 2.5em auto 8em;
 }
-/* line 23, scss/objects/_article.scss */
+/* line 35, scss/objects/_article.scss */
 .entry-content * {
   max-width: 474px;
   max-width: 30rem;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 29, scss/objects/_article.scss */
+/* line 41, scss/objects/_article.scss */
 .entry-content img {
   max-width: 100%;
   margin: 1.5em auto;
   display: block;
 }
-/* line 35, scss/objects/_article.scss */
+/* line 47, scss/objects/_article.scss */
 .entry-content p {
   margin-bottom: 2.66667em;
 }
-/* line 38, scss/objects/_article.scss */
+/* line 50, scss/objects/_article.scss */
 .entry-content .alpha {
   margin-bottom: .5em;
 }
 
-/* line 43, scss/objects/_article.scss */
+/* line 55, scss/objects/_article.scss */
 .byline {
   margin-bottom: 0.5em;
   font-family: "ProximaNovaCond-Light", Verdana, Arial, sans-serif;
@@ -2228,9 +2244,10 @@ p.intro strong {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  line-height: 1.5em;
 }
-/* line 51, scss/objects/_article.scss */
-.byline em {
+/* line 63, scss/objects/_article.scss */
+.byline em, .byline .more-by {
   color: rgba(4, 7, 7, 0.5);
   text-transform: uppercase;
   font-size: 10px;
@@ -2240,31 +2257,33 @@ p.intro strong {
   font-family: Verdana, "Arial", sans-serif;
   display: block;
   padding-bottom: 1.5em;
+  line-height: 1em;
+  font-style: italic;
 }
-/* line 61, scss/objects/_article.scss */
+/* line 75, scss/objects/_article.scss */
 .byline img {
   float: left;
   margin-right: 1em;
 }
 
-/* line 68, scss/objects/_article.scss */
+/* line 82, scss/objects/_article.scss */
 .social-share {
   overflow: hidden;
   margin-bottom: 1em;
 }
-/* line 72, scss/objects/_article.scss */
+/* line 86, scss/objects/_article.scss */
 .social-share li {
   float: left;
   margin-right: 0.5em;
 }
-/* line 77, scss/objects/_article.scss */
+/* line 91, scss/objects/_article.scss */
 .social-share a {
   background: #333333;
   color: white;
   display: block;
   padding: 0.5em;
 }
-/* line 83, scss/objects/_article.scss */
+/* line 97, scss/objects/_article.scss */
 .social-share a:hover {
   background: #433f3e;
 }

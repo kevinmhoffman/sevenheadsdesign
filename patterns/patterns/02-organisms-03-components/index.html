@@ -5,8 +5,8 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width" />
 		
-		<link rel="stylesheet" href="../../css/style.css?1395946643" media="all" />
-		<link rel="stylesheet" href="../../css/fonts.css?1395946643" media="only screen" />
+		<link rel="stylesheet" href="../../css/style.css?1395946874" media="all" />
+		<link rel="stylesheet" href="../../css/fonts.css?1395946874" media="only screen" />
 		<script>
 			document.documentElement.className += " js";
 		</script>
@@ -18,7 +18,7 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1395946643" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1395946874" media="all">
 		
 
 		<!-- End Pattern Lab -->
@@ -85,34 +85,38 @@
 						<h2 class="sg-pattern-head" ><a href="../../patterns/02-organisms-03-components-01-work-form/02-organisms-03-components-01-work-form.html" class="patternLink" data-patternpartial="organisms-work-form">Work Form</a></h2>
 						<div class="sg-pattern-body">
 							<form action="#" method="post" class="para-form">  
-<p>Hello. How's it going <label class="is-vishidden" for="name">Your name</label>
-        <input class="inline" id="name" type="text" placeholder="Your Name">? I know things have never been more exciting then they are now at <label class="is-vishidden" for="company">Your company</label>
-        <input class="inline" id="company" type="text" placeholder="Your Company">. You know I'm really happy to see you stopped by to tell us about <label class="is-vishidden" for="reason">Your reason for contacting</label> <select class="inline">
-        	<option selected disabled value="">Your reason for contacting</option>
-        	<option value="Kevin is Awesome!">Kevin is Awesome!</option>
-        </select>. I'll send you an email at <input class="inline" id="email" type="email" placeholder="Your Email"> so we can talk it over.</p>
+	<p>Hello. How’s it going <label class="is-vishidden" for="name">your name</label>
+	<input required="true" class="inline" id="name" name="name" type="text" placeholder="your name">? I know things have never been more exciting than they are now at <label class="is-vishidden" for="company">your company</label>
+	<input class="inline" id="company" name="company" type="text" placeholder="your company">. You know I’m really happy to see you stopped by to tell us about <label class="is-vishidden" for="reason">your reason for contacting</label> <select id="reason" class="inline" name="reason">
+		<option selected="" disabled="" value="">your reason for contacting</option>
+		<option value="Scheduling a workshop">scheduling a workshop</option>
+		<option value="Design consulting">design consulting</option>
+		<option value="Just saying hello!">what you’re up to :)</option>
+	</select>. I’ll send you an e-mail at <input class="inline" required="true" id="email" name="email" type="email" placeholder="your e-mail"> so we can talk it over.</p>
 
 
-        <label for="more-information">If you have time, tell us more about that:</label>
-        <textarea name="more-information" id="more-information"></textarea>
-        <input type="submit" class="btn btn-large" value="Send" />
+	<label for="more-information">If you have time, tell us more about that:</label>
+	<textarea name="more-information" id="more-information"></textarea>
+	<input type="submit" class="btn btn-large" name="Contact" value="Fire Away">
 </form>
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;form action=&quot;#&quot; method=&quot;post&quot; class=&quot;para-form&quot;&gt;  
-&lt;p&gt;Hello. How's it going &lt;label class=&quot;is-vishidden&quot; for=&quot;name&quot;&gt;Your name&lt;/label&gt;
-        &lt;input class=&quot;inline&quot; id=&quot;name&quot; type=&quot;text&quot; placeholder=&quot;Your Name&quot;&gt;? I know things have never been more exciting then they are now at &lt;label class=&quot;is-vishidden&quot; for=&quot;company&quot;&gt;Your company&lt;/label&gt;
-        &lt;input class=&quot;inline&quot; id=&quot;company&quot; type=&quot;text&quot; placeholder=&quot;Your Company&quot;&gt;. You know I'm really happy to see you stopped by to tell us about &lt;label class=&quot;is-vishidden&quot; for=&quot;reason&quot;&gt;Your reason for contacting&lt;/label&gt; &lt;select class=&quot;inline&quot;&gt;
-        	&lt;option selected disabled value=&quot;&quot;&gt;Your reason for contacting&lt;/option&gt;
-        	&lt;option value=&quot;Kevin is Awesome!&quot;&gt;Kevin is Awesome!&lt;/option&gt;
-        &lt;/select&gt;. I'll send you an email at &lt;input class=&quot;inline&quot; id=&quot;email&quot; type=&quot;email&quot; placeholder=&quot;Your Email&quot;&gt; so we can talk it over.&lt;/p&gt;
+	&lt;p&gt;Hello. How&rsquo;s it going &lt;label class=&quot;is-vishidden&quot; for=&quot;name&quot;&gt;your name&lt;/label&gt;
+	&lt;input required=&quot;true&quot; class=&quot;inline&quot; id=&quot;name&quot; name=&quot;name&quot; type=&quot;text&quot; placeholder=&quot;your name&quot;&gt;? I know things have never been more exciting than they are now at &lt;label class=&quot;is-vishidden&quot; for=&quot;company&quot;&gt;your company&lt;/label&gt;
+	&lt;input class=&quot;inline&quot; id=&quot;company&quot; name=&quot;company&quot; type=&quot;text&quot; placeholder=&quot;your company&quot;&gt;. You know I&rsquo;m really happy to see you stopped by to tell us about &lt;label class=&quot;is-vishidden&quot; for=&quot;reason&quot;&gt;your reason for contacting&lt;/label&gt; &lt;select id=&quot;reason&quot; class=&quot;inline&quot; name=&quot;reason&quot;&gt;
+		&lt;option selected=&quot;&quot; disabled=&quot;&quot; value=&quot;&quot;&gt;your reason for contacting&lt;/option&gt;
+		&lt;option value=&quot;Scheduling a workshop&quot;&gt;scheduling a workshop&lt;/option&gt;
+		&lt;option value=&quot;Design consulting&quot;&gt;design consulting&lt;/option&gt;
+		&lt;option value=&quot;Just saying hello!&quot;&gt;what you&rsquo;re up to :)&lt;/option&gt;
+	&lt;/select&gt;. I&rsquo;ll send you an e-mail at &lt;input class=&quot;inline&quot; required=&quot;true&quot; id=&quot;email&quot; name=&quot;email&quot; type=&quot;email&quot; placeholder=&quot;your e-mail&quot;&gt; so we can talk it over.&lt;/p&gt;
 
 
-        &lt;label for=&quot;more-information&quot;&gt;If you have time, tell us more about that:&lt;/label&gt;
-        &lt;textarea name=&quot;more-information&quot; id=&quot;more-information&quot;&gt;&lt;/textarea&gt;
-        &lt;input type=&quot;submit&quot; class=&quot;btn btn-large&quot; value=&quot;Send&quot; /&gt;
+	&lt;label for=&quot;more-information&quot;&gt;If you have time, tell us more about that:&lt;/label&gt;
+	&lt;textarea name=&quot;more-information&quot; id=&quot;more-information&quot;&gt;&lt;/textarea&gt;
+	&lt;input type=&quot;submit&quot; class=&quot;btn btn-large&quot; name=&quot;Contact&quot; value=&quot;Fire Away&quot;&gt;
 &lt;/form&gt;
 									</code>
 								</pre>
@@ -132,10 +136,10 @@
 		
 	<!--DO NOT REMOVE-->
 		
-	<script src="../../styleguide/js/postmessage.js?1395946643"></script>
-	<script src="../../data/annotations.js?1395946643"></script>
-	<script src="../../styleguide/js/annotations-pattern.js?1395946643"></script>
-	<script src="../../styleguide/js/code-pattern.js?1395946643"></script>
+	<script src="../../styleguide/js/postmessage.js?1395946874"></script>
+	<script src="../../data/annotations.js?1395946874"></script>
+	<script src="../../styleguide/js/annotations-pattern.js?1395946874"></script>
+	<script src="../../styleguide/js/code-pattern.js?1395946874"></script>
 	
 
 	<script src="../../js/shd.js"></script>

@@ -1,1 +1,10 @@
-<img src="{{ img.story.src }}" alt="{{ img.story.alt }}" />
+<span data-picture data-alt="{{ img.story.alt }}">
+	<span data-src="{{ img.story.small }}"></span>
+	<span data-src="{{ img.story.med }}"     data-media="(min-width: 33.75em)"></span>
+	<span data-src="{{ img.story.lg }}"      data-media="(min-width: 60em)"></span>
+
+	<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+	<noscript>
+	<img src="{{ img.story.small }}" alt="{{ img.story.alt }}">
+	</noscript>
+</span>

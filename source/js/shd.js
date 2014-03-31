@@ -45,7 +45,12 @@ layer.removeEventListener('click',this.onClick,true);layer.removeEventListener('
 if((/Chrome\/[0-9]+/).test(navigator.userAgent)){if(FastClick.prototype.deviceIsAndroid){metaViewport=document.querySelector('meta[name=viewport]');if(metaViewport&&metaViewport.content.indexOf('user-scalable=no')!==-1){return true;}}else{return true;}}
 if(layer.style.msTouchAction==='none'){return true;}
 return false;};FastClick.attach=function(layer){'use strict';return new FastClick(layer);};if(typeof define!=='undefined'&&define.amd){define(function(){'use strict';return FastClick;});}else if(typeof module!=='undefined'&&module.exports){module.exports=FastClick.attach;module.exports.FastClick=FastClick;}else{window.FastClick=FastClick;}
-
+/*!! Picturefill - Responsive Images that work today. (and mimic the proposed Picture element with span elements). Author: Scott Jehl, Filament Group, 2012 | License: MIT/GPLv2 */(function(w){"use strict";w.picturefill=function(){var ps=w.document.getElementsByTagName("span");for(var i=0,il=ps.length;i<il;i++){if(ps[i].getAttribute("data-picture")!==null){var sources=ps[i].getElementsByTagName("span"),matches=[];for(var j=0,jl=sources.length;j<jl;j++){var media=sources[j].getAttribute("data-media");if(!media||(w.matchMedia&&w.matchMedia(media).matches)){matches.push(sources[j]);}}
+var picImg=ps[i].getElementsByTagName("img")[0];if(matches.length){var matchedEl=matches.pop();if(!picImg||picImg.parentNode.nodeName==="NOSCRIPT"){picImg=w.document.createElement("img");picImg.alt=ps[i].getAttribute("data-alt");}
+else if(matchedEl===picImg.parentNode){continue;}
+picImg.src=matchedEl.getAttribute("data-src");matchedEl.appendChild(picImg);picImg.removeAttribute("width");picImg.removeAttribute("height");}
+else if(picImg){picImg.parentNode.removeChild(picImg);}}}};if(w.addEventListener){w.addEventListener("resize",w.picturefill,false);w.addEventListener("DOMContentLoaded",function(){w.picturefill();w.removeEventListener("load",w.picturefill,false);},false);w.addEventListener("load",w.picturefill,false);}
+else if(w.attachEvent){w.attachEvent("onload",w.picturefill);}}(this));
 
 // Quick IE8 shiv
 if( !window.addEventListener ){

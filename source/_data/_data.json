@@ -28,7 +28,9 @@
 			"alt": "Rectangle"
 		},
 		"story": {
-			"src": "../../images/story-image.jpg",
+			"small": "../../images/story-image-sm.jpg",
+			"med": "../../images/story-image-med.jpg",
+			"lg": "../../images/story-image.jpg",
 			"alt": "This is a bridge."
 		},
 		"author": {

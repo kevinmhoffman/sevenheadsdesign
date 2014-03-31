@@ -33,7 +33,10 @@ figcaption {
 		padding-bottom: $pad-half;
 		border-bottom: 1px solid $gray;
 		border-bottom-color: rgba($gray, .5);
-		width: 20.8%;
+		
+		@media screen and (min-width: $bp-large-2) {
+			width: 20.8%;
+		}
 		a{
 			text-decoration: none;
 			border-bottom: 1px solid $gray;

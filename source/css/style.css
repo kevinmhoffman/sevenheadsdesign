@@ -413,9 +413,14 @@ figcaption small {
   padding-bottom: 0.5em;
   border-bottom: 1px solid #433f3e;
   border-bottom-color: rgba(67, 63, 62, 0.5);
-  width: 20.8%;
 }
-/* line 37, scss/base/_media.scss */
+@media screen and (min-width: 66em) {
+  /* line 28, scss/base/_media.scss */
+  figcaption small {
+    width: 20.8%;
+  }
+}
+/* line 40, scss/base/_media.scss */
 figcaption small a {
   text-decoration: none;
   border-bottom: 1px solid #433f3e;

@@ -2207,39 +2207,48 @@ p.intro strong {
   border-top-color: rgba(67, 63, 62, 0.5);
   margin-top: 3.4em;
   padding-top: 2.1em;
+  line-height: .7em;
 }
 /* line 28, scss/objects/_article.scss */
 .article-header .more-by:hover {
   color: rgba(4, 7, 7, 0.8);
 }
+@media screen and (min-width: 18em) {
+  /* line 22, scss/objects/_article.scss */
+  .article-header .more-by {
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMC4xNzIiIGhlaWdodD0iMTguNTU3Ij48bGluZSB4MT0iLTgyNi44MjgiIHkxPSItNDMwLjkxIiB4Mj0iLTc1Ni4xMTciIHkyPSItNTAxLjYyMSIgZmlsbD0ibm9uZSIvPjxsaW5lIGZpbGw9IiM4MDgwODAiIHN0cm9rZT0iIzk5OSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiB4MT0iLjQ3NSIgeTE9IjkuNDkyIiB4Mj0iOC4xNjMiIHkyPSIuMzIxIi8+PGxpbmUgZmlsbD0iI0I5QkJCOSIgc3Ryb2tlPSIjOTk5IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHgxPSIuMzc0IiB5MT0iOS41MjQiIHgyPSI4LjA5OCIgeTI9IjE4LjIyNSIvPjxsaW5lIGZpbGw9IiM5OTkiIHN0cm9rZT0iIzk5OSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiB4MT0iLjE3MiIgeTE9IjkuNTkiIHgyPSIyMC4xNzIiIHkyPSI5LjU5Ii8+PC9zdmc+') 0 1.8em no-repeat;
+    padding-left: 3.2em;
+    background-size: 1.8em;
+  }
+}
 
-/* line 33, scss/objects/_article.scss */
+/* line 38, scss/objects/_article.scss */
 .entry-content {
   margin: 2.5em auto 8em;
 }
-/* line 35, scss/objects/_article.scss */
+/* line 40, scss/objects/_article.scss */
 .entry-content * {
   max-width: 474px;
   max-width: 30rem;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 41, scss/objects/_article.scss */
+/* line 46, scss/objects/_article.scss */
 .entry-content img {
   max-width: 100%;
   margin: 1.5em auto;
   display: block;
 }
-/* line 47, scss/objects/_article.scss */
+/* line 52, scss/objects/_article.scss */
 .entry-content p {
   margin-bottom: 2.66667em;
 }
-/* line 50, scss/objects/_article.scss */
+/* line 55, scss/objects/_article.scss */
 .entry-content .alpha {
   margin-bottom: .5em;
 }
 
-/* line 55, scss/objects/_article.scss */
+/* line 60, scss/objects/_article.scss */
 .byline {
   margin-bottom: 0.5em;
   font-family: "ProximaNovaCond-Light", Verdana, Arial, sans-serif;
@@ -2251,7 +2260,7 @@ p.intro strong {
   letter-spacing: 0.1em;
   line-height: 1.5em;
 }
-/* line 63, scss/objects/_article.scss */
+/* line 68, scss/objects/_article.scss */
 .byline em, .byline .more-by {
   color: rgba(4, 7, 7, 0.5);
   text-transform: uppercase;
@@ -2265,30 +2274,30 @@ p.intro strong {
   line-height: 1em;
   font-style: italic;
 }
-/* line 75, scss/objects/_article.scss */
+/* line 80, scss/objects/_article.scss */
 .byline img {
   float: left;
   margin-right: 1em;
 }
 
-/* line 82, scss/objects/_article.scss */
+/* line 87, scss/objects/_article.scss */
 .social-share {
   overflow: hidden;
   margin-bottom: 1em;
 }
-/* line 86, scss/objects/_article.scss */
+/* line 91, scss/objects/_article.scss */
 .social-share li {
   float: left;
   margin-right: 0.5em;
 }
-/* line 91, scss/objects/_article.scss */
+/* line 96, scss/objects/_article.scss */
 .social-share a {
   background: #333333;
   color: white;
   display: block;
   padding: 0.5em;
 }
-/* line 97, scss/objects/_article.scss */
+/* line 102, scss/objects/_article.scss */
 .social-share a:hover {
   background: #433f3e;
 }

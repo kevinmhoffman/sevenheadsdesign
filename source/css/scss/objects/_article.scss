@@ -24,9 +24,14 @@
 		border-top-color: rgba($gray, .5);
 		margin-top: px-to-ems(34px,10px);
 		padding-top: px-to-ems(21px, 10px);
-
+		line-height: .7em;
 		&:hover{
 			color: rgba($black, .8);
+		}
+		@media screen and (min-width: 18em) {
+			background: inline-image('more-arrow.svg') 0 1.8em   no-repeat;
+			padding-left: px-to-ems(32px, 10px);
+			background-size: px-to-ems(18px, 10px);
 		}
 	}
 }

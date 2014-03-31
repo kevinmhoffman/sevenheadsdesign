@@ -2,6 +2,10 @@
 	"title" : "Pattern Lab",
 	"htmlClass": "pl",
 	"bodyClass": "body",
+	"pullquote": {
+		"quote": "A pull quote is a quotation or excerpt from an article.",
+		"full": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
+	},
 	"img": {
 		"landscape-4x3": {
 			"src": "../../images/fpo_4x3.png",

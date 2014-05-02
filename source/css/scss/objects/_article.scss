@@ -55,6 +55,11 @@
 	.alpha{
 		margin-bottom: .5em;
 	}
+	ul{
+		margin-left: 0;
+		list-style-type: disc;
+		list-style-image: inline-image("bullet.svg");
+	}
 }
 
 .byline {

@@ -2247,8 +2247,14 @@ p.intro strong {
 .entry-content .alpha {
   margin-bottom: .5em;
 }
+/* line 58, scss/objects/_article.scss */
+.entry-content ul {
+  margin-left: 0;
+  list-style-type: disc;
+  list-style-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4yLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iOS42MDVweCIgaGVpZ2h0PSI5LjYwNXB4IiB2aWV3Qm94PSIwIDAgOS42MDUgOS42MDUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDkuNjA1IDkuNjA1IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxjaXJjbGUgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjQTE5RjlFIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgY3g9IjQuODAzIiBjeT0iNC44MDIiIHI9IjMuMzAzIi8+DQo8L3N2Zz4NCg==');
+}
 
-/* line 60, scss/objects/_article.scss */
+/* line 65, scss/objects/_article.scss */
 .byline {
   margin-bottom: 0.5em;
   font-family: "ProximaNovaCond-Light", Verdana, Arial, sans-serif;
@@ -2260,7 +2266,7 @@ p.intro strong {
   letter-spacing: 0.1em;
   line-height: 1.5em;
 }
-/* line 68, scss/objects/_article.scss */
+/* line 73, scss/objects/_article.scss */
 .byline em, .byline .more-by {
   color: rgba(4, 7, 7, 0.5);
   text-transform: uppercase;
@@ -2274,30 +2280,30 @@ p.intro strong {
   line-height: 1em;
   font-style: italic;
 }
-/* line 80, scss/objects/_article.scss */
+/* line 85, scss/objects/_article.scss */
 .byline img {
   float: left;
   margin-right: 1em;
 }
 
-/* line 87, scss/objects/_article.scss */
+/* line 92, scss/objects/_article.scss */
 .social-share {
   overflow: hidden;
   margin-bottom: 1em;
 }
-/* line 91, scss/objects/_article.scss */
+/* line 96, scss/objects/_article.scss */
 .social-share li {
   float: left;
   margin-right: 0.5em;
 }
-/* line 96, scss/objects/_article.scss */
+/* line 101, scss/objects/_article.scss */
 .social-share a {
   background: #333333;
   color: white;
   display: block;
   padding: 0.5em;
 }
-/* line 102, scss/objects/_article.scss */
+/* line 107, scss/objects/_article.scss */
 .social-share a:hover {
   background: #433f3e;
 }

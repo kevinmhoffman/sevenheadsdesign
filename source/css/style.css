@@ -1866,8 +1866,12 @@ p.intro strong {
   color: white;
   background: #040707;
   max-height: 7.61111em;
+  -webkit-transition: all, 0.8s, ease-in-out;
+  -moz-transition: all, 0.8s, ease-in-out;
+  -o-transition: all, 0.8s, ease-in-out;
+  transition: all, 0.8s, ease-in-out;
 }
-/* line 227, scss/objects/_blocks.scss */
+/* line 228, scss/objects/_blocks.scss */
 .block-people:after {
   content: " ";
   background: url('/patterns/images/person-mask-sm.png?1399061474') top left;
@@ -1883,11 +1887,11 @@ p.intro strong {
     max-height: 999em;
   }
 }
-/* line 239, scss/objects/_blocks.scss */
+/* line 240, scss/objects/_blocks.scss */
 .block-people.active, .block-people:hover {
   max-height: 999em;
 }
-/* line 242, scss/objects/_blocks.scss */
+/* line 243, scss/objects/_blocks.scss */
 .block-people img {
   display: block;
   width: 100%;
@@ -1896,34 +1900,35 @@ p.intro strong {
   filter: blur(2px);
   clip: rect(100%, 100%, 100%, 100%);
 }
-/* line 249, scss/objects/_blocks.scss */
+/* line 250, scss/objects/_blocks.scss */
 .block-people:hover img {
   -webkit-filter: blur(0px);
   -moz-filter: blur(0px);
   filter: blur(0px);
 }
-/* line 252, scss/objects/_blocks.scss */
+/* line 253, scss/objects/_blocks.scss */
 .block-people:hover .expertise {
   display: block;
 }
-/* line 255, scss/objects/_blocks.scss */
+/* line 256, scss/objects/_blocks.scss */
 .block-people:hover:after {
   content: "";
   background: none;
 }
-/* line 261, scss/objects/_blocks.scss */
+/* line 262, scss/objects/_blocks.scss */
 .block-people header {
   position: absolute;
   top: 2.11111em;
   width: 100%;
   z-index: 2;
 }
-/* line 267, scss/objects/_blocks.scss */
+/* line 268, scss/objects/_blocks.scss */
 .block-people header h3 {
   margin-bottom: -.3em;
   color: white;
+  margin-top: .5em;
 }
-/* line 272, scss/objects/_blocks.scss */
+/* line 274, scss/objects/_blocks.scss */
 .block-people .expertise {
   display: none;
   bottom: 2.11111em;
@@ -1932,12 +1937,12 @@ p.intro strong {
   z-index: 2;
 }
 @media screen and (min-width: 39.8em) {
-  /* line 272, scss/objects/_blocks.scss */
+  /* line 274, scss/objects/_blocks.scss */
   .block-people .expertise {
     display: block;
   }
 }
-/* line 282, scss/objects/_blocks.scss */
+/* line 284, scss/objects/_blocks.scss */
 .block-people .expertise h3 {
   font-family: Verdana, "Arial", sans-serif;
   font-size: 11px;
@@ -1948,15 +1953,15 @@ p.intro strong {
   background-size: 2em 2em;
   padding: .5em 0;
 }
-/* line 292, scss/objects/_blocks.scss */
+/* line 294, scss/objects/_blocks.scss */
 .block-people .expertise .skills {
   margin-top: 1em;
 }
-/* line 295, scss/objects/_blocks.scss */
+/* line 297, scss/objects/_blocks.scss */
 .block-people .expertise .skills li {
   line-height: 1.3em;
 }
-/* line 300, scss/objects/_blocks.scss */
+/* line 302, scss/objects/_blocks.scss */
 .block-people a, .block-people .skills {
   font-family: "ProximaNovaCond-Bold", Verdana, Arial, sans-serif;
   text-transform: uppercase;
@@ -1968,16 +1973,16 @@ p.intro strong {
 }
 
 /* Hero Block */
-/* line 310, scss/objects/_blocks.scss */
+/* line 312, scss/objects/_blocks.scss */
 .block-inset {
   margin-bottom: 0.5em;
   position: relative;
 }
-/* line 314, scss/objects/_blocks.scss */
+/* line 316, scss/objects/_blocks.scss */
 .block-inset .headline {
   font-size: 1.1em;
 }
-/* line 318, scss/objects/_blocks.scss */
+/* line 320, scss/objects/_blocks.scss */
 .block-inset .b-text {
   position: absolute;
   bottom: 0;
@@ -1989,12 +1994,12 @@ p.intro strong {
 }
 
 /* Block Thumb with Summary */
-/* line 331, scss/objects/_blocks.scss */
+/* line 333, scss/objects/_blocks.scss */
 .block-thumb-summary .b-thumb {
   float: left;
   width: 50%;
 }
-/* line 336, scss/objects/_blocks.scss */
+/* line 338, scss/objects/_blocks.scss */
 .block-thumb-summary .b-text {
   margin-left: 50%;
   padding: 0.5em;

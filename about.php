@@ -29,7 +29,7 @@
 		<div class="entry-content">
 			<p>We make websites, applications, and strategies that help people solve problems.</p>
 			<p>We collaborate because no matter how talented he or she may be, no single individual will ever build something cooler than a great team.</p>
-			<p>We celebrate the idea of unexpected design insights that within constraints.</p>
+			<p>We celebrate that unexpected design insights live within constraints.</p>
 			<p>We are a connected company.</p>
 			<h2 class="alpha">A connected what now?</h2>
 			<img src="/images/constellation-clear.png" alt="Image of a constellation">			
@@ -41,7 +41,7 @@
 	<!-- Begin Footer -->
 	<footer class="footer" role="contentinfo">
 		<div class="lc">
-		<p><a class="twitter" href="http://twitter.com/sevenheadsdesign">Follow Seven Heads Design on Twitter</a></p>
+		<p><a class="twitter" href="http://twitter.com/7headsdesign">Follow Seven Heads Design on Twitter</a></p>
 			<p class="copyright">All content ©2013-<?php echo date("Y"); ?> Seven Heads Design unless otherwise noted.<br/><br/>Site by <a href="http://kevinsharon.com/">Kevin</a>, <a href="http://timkadlec.com/">Tim</a>, <a href="http://kevinmhoffman.com/">Kevin</a>, and <a href="http://danielmall.com/">Dan</a>.</p>
 		</div>
 	</footer>

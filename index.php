@@ -4,8 +4,7 @@ if ($_POST['Contact'] == "Fire Away") {
 	$valid = false;
 
 	$emailFrom = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
-	// $emailTo = "kevin@sevenheadsdesign.com";
-	$emailTo = "jonathan@infinityplusone.com";
+	$emailTo = "kevin@sevenheadsdesign.com";
 
 	$subject = "Someone wants to talk to Seven Heads Design!";
 	$name = filter_input(INPUT_POST, 'name');

@@ -47,7 +47,7 @@ if ($_POST['Contact'] == "Fire Away") {
 
 <html>
 	<head>
-		<title><?=$areYouHuman?> - Seven Heads Design</title>
+		<title>Seven Heads Design</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		

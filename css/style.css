@@ -1333,6 +1333,7 @@ p.intro strong {
 
 /* line 63, scss/objects/_text.scss */
 .twitter {
+  display: block;
   text-transform: uppercase;
   letter-spacing: 0.05556em;
   font-size: 18px;

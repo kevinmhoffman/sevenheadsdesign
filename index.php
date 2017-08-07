@@ -5,37 +5,39 @@ if ($_POST['Contact'] == "Fire Away") {
 
 	$emailFrom = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
 	$emailTo = "kevin@sevenheadsdesign.com";
+
 	$subject = "Someone wants to talk to Seven Heads Design!";
 	$name = filter_input(INPUT_POST, 'name');
 	$company = filter_input(INPUT_POST, 'company');
 	$reason = filter_input(INPUT_POST, 'reason');
 	$moreInformation = filter_input(INPUT_POST, 'more-information');
 
-	if ($name && $email) {
+	$areYouHuman = filter_input(INPUT_POST, 'contact-test');
+
+	if ($name && $emailFrom && $areYouHuman == 'human') {
 		$valid = true;
+
+		// prepare email body text
+		$message = "";
+		$message .= "Name: ";
+		$message .= $name;
+		$message .= "\n";
+		$message .= "Company: ";
+		$message .= $company;
+		$message .= "\n";
+		$message .= "Email: ";
+		$message .= $emailFrom;
+		$message .= "\n";
+		$message .= "Reason for contacting: ";
+		$message .= $reason;
+		$message .= "\n";
+		$message .= "Any more information: ";
+		$message .= $moreInformation;
+		$message .= "\n";
+
+		// send email 
+		$success = mail($emailTo, $subject, $message, "From: <$emailFrom>");
 	}
-	
-
-	// prepare email body text
-	$message = "";
-	$message .= "Name: ";
-	$message .= $name;
-	$message .= "\n";
-	$message .= "Company: ";
-	$message .= $company;
-	$message .= "\n";
-	$message .= "Email: ";
-	$message .= $emailFrom;
-	$message .= "\n";
-	$message .= "Reason for contacting: ";
-	$message .= $reason;
-	$message .= "\n";
-	$message .= "Any more information: ";
-	$message .= $moreInformation;
-	$message .= "\n";
-
-	// send email 
-	$success = mail($emailTo, $subject, $message, "From: <$emailFrom>");
 
 } else {
 	$submitted = false;
@@ -55,7 +57,7 @@ if ($_POST['Contact'] == "Fire Away") {
 			document.documentElement.className += " js";
 		</script>
 	</head>
-	<body class="home" style="">	
+	<body class="home" style="">
 		<div class="page" id="page">
 	<!-- Begin .header -->
 	<header class="header cf" role="banner" id="top">
@@ -88,8 +90,9 @@ if ($_POST['Contact'] == "Fire Away") {
 		<?php
 		if ($submitted && $success) {
 			?>
+			<br>
 			<p class="beta align-center">Thanks, <?php echo $name; ?>!</p>
-			<p>We&rsquo;ll be in touch within 24 hours or less. In the meantime why don&rsquo;t you <a href="http://www.twitter.com/7headsdesign">follow us on Twitter?</p>
+			<p>We&rsquo;ll be in touch within 24 hours or less. In the meantime why don&rsquo;t you <a href="http://www.twitter.com/7headsdesign">follow us on Twitter?</a></p>
 			<?
 		} else { ?>
 			<form action="/#contact" method="post" class="para-form">  
@@ -105,6 +108,10 @@ if ($_POST['Contact'] == "Fire Away") {
 
 		        <label for="more-information">If you have time, tell us more about that:</label>
 		        <textarea name="more-information" id="more-information"></textarea>
+
+		        <label for="contact-test">Please prove that you&rsquo;re a human:</label>
+		        <input required="true" class="inline" id="contact-test" name="contact-test" placeholder="Type &ldquo;human&rdquo;" required /><br /><br />
+
 		        <input type="submit" class="btn btn-large" name="Contact" value="Fire Away">
 		</form>	
 		<?php } ?>

@@ -35,7 +35,7 @@ if ($_POST['Contact'] == "Fire Away") {
 		$message .= $moreInformation;
 		$message .= "\n";
 
-		// send email 
+		// send email
 		$success = mail($emailTo, $subject, $message, "From: <$emailFrom>");
 	}
 
@@ -50,7 +50,7 @@ if ($_POST['Contact'] == "Fire Away") {
 		<title>Seven Heads Design</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
-		
+
 		<link rel="stylesheet" href="/css/style.css?1592564731" media="all">
 		<link rel="stylesheet" href="/css/fonts.css?1392564711" media="only screen">
 		<script>
@@ -64,8 +64,10 @@ if ($_POST['Contact'] == "Fire Away") {
 		<a href="/"><img src="../../images/logo.svg" class="logo" alt="Seven Heads Design" onerror="this.onerror=null; this.src='../../images/logo.png'"></a>
 		<nav id="nav" class="nav">
 			<ul>
+				<li><a class="curPage" href="/">Home</a></li>
 				<li><a href="/about">About</a></li>
-				<li><a class="curPage" href="/#contact">Contact</a></li>
+				<li><a href="/thank-you">Thank You</a></li>
+				<li><a href="/#contact">Contact</a></li>
 			</ul>
 		</nav><!--end .nav-->
 		<a id="toggle" href="#nav"><span><b class="is-vishidden">Menu</b></span></a>
@@ -83,7 +85,7 @@ if ($_POST['Contact'] == "Fire Away") {
 							<a class="btn btn-transparent" href="/about">About</a>
 						</div>
 					</div>
-				
+
 			</div>	</div>
 	<div class="lc align-center">
 		<h1 id="contact">Let&rsquo;s work together</h1>
@@ -95,7 +97,7 @@ if ($_POST['Contact'] == "Fire Away") {
 			<p>We&rsquo;ll be in touch within 24 hours or less. In the meantime why don&rsquo;t you <a href="http://www.twitter.com/7headsdesign">follow us on Twitter?</a></p>
 			<?
 		} else { ?>
-			<form action="/#contact" method="post" class="para-form">  
+			<form action="/#contact" method="post" class="para-form">
 				<p>Hello. How&rsquo;s it going <label class="is-vishidden" for="name">your name</label>
 		        <input required="true" class="inline" id="name" name="name" type="text" placeholder="your name">? I know things have never been more exciting than they are now at <label class="is-vishidden" for="company">your company</label>
 		        <input class="inline" id="company" name="company" type="text" placeholder="your company">. You know I&rsquo;m really happy to see you stopped by to tell us about <label class="is-vishidden" for="reason">your reason for contacting</label> <select id="reason" class="inline" name="reason">
@@ -113,7 +115,7 @@ if ($_POST['Contact'] == "Fire Away") {
 		        <input required="true" class="inline" id="contact-test" name="contact-test" placeholder="Type &ldquo;human&rdquo;" required /><br /><br />
 
 		        <input type="submit" class="btn btn-large" name="Contact" value="Fire Away">
-		</form>	
+		</form>
 		<?php } ?>
 		</div>
 	<!-- Begin Footer -->
@@ -128,5 +130,5 @@ if ($_POST['Contact'] == "Fire Away") {
 	<!--DO NOT REMOVE-->
 
 	<script src="/js/shd-min.js"></script>
-	
+
 </body></html>

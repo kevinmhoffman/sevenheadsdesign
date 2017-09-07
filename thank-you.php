@@ -18,16 +18,18 @@
 	<nav id="nav" class="nav">
 		<ul>
 			<li><a href="/">Home</a></li>
-			<li><a class="curPage" href="/about">About</a></li>
-			<li><a href="/thank-you">Thank You</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a class="curPage" href="/thank-you">Thank You</a></li>
 			<li><a href="/#contact">Contact</a></li>
 		</ul>
 	</nav><!--end .nav-->
 		<a id="toggle" href="#nav"><span><b class="is-vishidden">Menu</b></span></a>
 	</header>
 	<!-- End .header -->	<div role="main">
-		<p class="intro"><strong>Make, Collaborate, &amp; Celebrate.</strong></p>
-		<p class="beta align-center">There are plenty of fantastic traditional design agencies out there. Everyone in this network has worked for one. <strong>But this isn&rsquo;t one of them.</strong></p>
+		<p class="intro"><strong>Thank You for Five Fantastic Years</strong></p>
+		<p class="beta align-center">
+			Five plus and change of successful design and collaboration would not have happened without amazing <strong>clients</strong>, brilliant <strong>people</strong>, and first-class <strong>agency partners</strong>. Thank you for your time, talent, trust, and friendship!
+		</p>
 		<div class="entry-content">
 			<p>We make websites, applications, and strategies that help people solve problems.</p>
 			<p>We collaborate because no matter how talented he or she may be, no single individual will ever build something cooler than a great team.</p>

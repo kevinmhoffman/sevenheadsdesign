@@ -97,11 +97,11 @@
 			margin: (1em*(20.5/16));
 
 			&:nth-child(even) {
-				margin-top: calc(50% - ((1em*(20.5/16))*1.8));
+				margin-top: calc(50% - ((1em*(22.75/16))*2));
 				margin-bottom: -50%;
 				.block {
 					&:after {
-						top: 1em*(3/16);
+						top: 1em*(5.5/16);
 					}
 				}
 			}
@@ -114,7 +114,7 @@
 					height: 1em*(4/16);
 					width: ((1em*(20.5/16))*2);
 					position: absolute;
-					bottom: 1em*(6/16);
+					bottom: 1em*(10.5/16);
 				}
 			}
 			&:nth-child(4n), &:nth-child(4n+1):not(:first-child) {
@@ -126,7 +126,7 @@
 					height: ((1em*(20.5/16))*2);
 					position: absolute;
 					top: ((-1em*(20.5/16))*2);
-					right: 1em*(6/16);
+					right: 1em*(10.5/16);
 				}
 			}
 			&:nth-child(4n+2):nth-last-child(2) {
@@ -165,14 +165,20 @@
         box-sizing: border-box;
 				pointer-events: none;
 
-				border: 1em*(3/16) solid #C9332B;
+				border: 1em*(3.5/16) solid #C9332B;
 				@media (max-width: 635px) {
-					right: 1em*(3.5/16);
-	        bottom: 1em*(3/16);
-	        height: 1em*(10.5/16);
-	        width: 1em*(10.75/16);
+					right: 1em*(5.5/16);
+	        bottom: 1em*(5.5/16);
+	        height: 1em*(14/16);
+	        width: 1em*(14/16);
 				}
 				@media (min-width: 636px) {
+					@media (max-width: 899px) {
+						transform: scale(0.8);
+					}
+					@media (max-width: 759px) {
+						transform: scale(0.7);
+					}
 					right: 1em*(5.5/16);
 	        bottom: 1em*(5.5/16);
 	        height: 1em*(21/16);

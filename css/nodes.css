@@ -86,10 +86,10 @@
         width: calc(50% - ((1em*(20.5/16))*2));
         margin: 1.28125em; }
         .nodes li:nth-child(even) {
-          margin-top: calc(50% - ((1em*(20.5/16))*1.8));
+          margin-top: calc(50% - ((1em*(22.75/16))*2));
           margin-bottom: -50%; }
           .nodes li:nth-child(even) .block:after {
-            top: 0.1875em; }
+            top: 0.34375em; }
         .nodes li:nth-child(odd):not(:last-child):after {
           content: "";
           display: block;
@@ -97,7 +97,7 @@
           height: 0.25em;
           width: 2.5625em;
           position: absolute;
-          bottom: 0.375em; }
+          bottom: 0.65625em; }
         .nodes li:nth-child(4n):before, .nodes li:nth-child(4n+1):not(:first-child):before {
           content: "";
           display: block;
@@ -106,7 +106,7 @@
           height: 2.5625em;
           position: absolute;
           top: -2.5625em;
-          right: 0.375em; }
+          right: 0.65625em; }
         .nodes li:nth-child(4n+2):nth-last-child(2) svg.narrow-only {
           position: absolute;
           display: block;
@@ -136,13 +136,13 @@
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
         pointer-events: none;
-        border: 0.1875em solid #C9332B; }
+        border: 0.21875em solid #C9332B; }
         @media (max-width: 635px) {
           .nodes li .block:after {
-            right: 0.21875em;
-            bottom: 0.1875em;
-            height: 0.65625em;
-            width: 0.67188em; } }
+            right: 0.34375em;
+            bottom: 0.34375em;
+            height: 0.875em;
+            width: 0.875em; } }
         @media (min-width: 636px) {
           .nodes li .block:after {
             right: 0.34375em;
@@ -150,6 +150,15 @@
             height: 1.3125em;
             width: 1.28125em;
             border-width: 0.3125em; } }
+  @media (min-width: 636px) and (max-width: 899px) {
+    .nodes li .block:after {
+      -webkit-transform: scale(0.8);
+              transform: scale(0.8); } }
+  @media (min-width: 636px) and (max-width: 759px) {
+    .nodes li .block:after {
+      -webkit-transform: scale(0.7);
+              transform: scale(0.7); } }
+
       .nodes li .block a {
         position: absolute;
         top: 0;

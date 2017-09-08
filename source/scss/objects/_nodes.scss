@@ -164,6 +164,7 @@
         z-index: 3;
         box-sizing: border-box;
 				pointer-events: none;
+				background-color: white;
 
 				border: 1em*(3.5/16) solid #C9332B;
 				@media (max-width: 635px) {

@@ -136,6 +136,7 @@
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
         pointer-events: none;
+        background-color: white;
         border: 0.21875em solid #C9332B; }
         @media (max-width: 635px) {
           .nodes li .block:after {

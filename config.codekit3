@@ -2552,7 +2552,7 @@
 		"oAP": "\/images\/thank-you\/agencies\/expand-the-room.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/thank-you\/agencies\/fathom-and-draft.jpg": {
@@ -2562,7 +2562,7 @@
 		"oAP": "\/images\/thank-you\/agencies\/fathom-and-draft.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/thank-you\/agencies\/hustleworks.jpg": {
@@ -2572,7 +2572,7 @@
 		"oAP": "\/images\/thank-you\/agencies\/hustleworks.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/thank-you\/agencies\/national-design-service.jpg": {
@@ -2582,7 +2582,7 @@
 		"oAP": "\/images\/thank-you\/agencies\/national-design-service.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/thank-you\/agencies\/punk-avenue.jpg": {
@@ -2592,7 +2592,7 @@
 		"oAP": "\/images\/thank-you\/agencies\/punk-avenue.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/thank-you\/agencies\/superfriendly.jpg": {
@@ -2602,7 +2602,7 @@
 		"oAP": "\/images\/thank-you\/agencies\/superfriendly.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/thank-you\/agencies\/we-the-collective.jpg": {
@@ -2612,7 +2612,7 @@
 		"oAP": "\/images\/thank-you\/agencies\/we-the-collective.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/thank-you\/clients\/a-list-apart.jpg": {

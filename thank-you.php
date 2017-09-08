@@ -295,7 +295,7 @@
 			<ul class="nodes nodes--4-3-rows">
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="https://www.linkedin.com/in/abrazell/">
 							<img src="/images/thank-you/partners/brazell-aaron.jpg" alt="Aaron Brazell">
 							<span>Aaron<br>Brazell</span>
 						</a>
@@ -306,7 +306,7 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="https://www.linkedin.com/in/billcondo/">
 							<img src="/images/thank-you/partners/condo-bill.jpg" alt="Bill Condo">
 							<span>Bill<br>Condo</span>
 						</a>
@@ -317,7 +317,7 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="https://www.linkedin.com/in/saturdave/">
 							<img src="/images/thank-you/partners/cooksey-dave.jpg" alt="Dave Cooksey">
 							<span>Dave<br>Cooksey</span>
 						</a>
@@ -328,7 +328,7 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="http://bearskinrug.co.uk">
 							<img src="/images/thank-you/partners/cornell-kevin.jpg" alt="Kevin Cornell">
 							<span>Kevin<br>Cornell</span>
 						</a>
@@ -340,7 +340,7 @@
 
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="https://www.linkedin.com/in/rozduffy">
 							<img src="/images/thank-you/partners/duffy-roz.jpg" alt="Roz Duffy">
 							<span>Roz<br>Duffy</span>
 						</a>
@@ -354,7 +354,7 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="https://www.linkedin.com/in/abbyfretz">
 							<img src="/images/thank-you/partners/fretz-abby.jpg" alt="Abby Fretz">
 							<span>Abby<br>Fretz</span>
 						</a>
@@ -365,7 +365,7 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="https://www.linkedin.com/in/gjhead">
 							<img src="/images/thank-you/partners/head-jason.jpg" alt="Jason Head">
 							<span>Jason<br>Head</span>
 						</a>
@@ -377,7 +377,7 @@
 
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="http://valhead.com">
 							<img src="/images/thank-you/partners/head-val.jpg" alt="Val Head">
 							<span>Val<br>Head</span>
 						</a>
@@ -388,7 +388,7 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="https://www.linkedin.com/in/iamjolly">
 							<img src="/images/thank-you/partners/jolly-robert.jpg" alt="Robert Jolly">
 							<span>Robert<br>Jolly</span>
 						</a>
@@ -399,7 +399,7 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="http://timkadlec.com">
 							<img src="/images/thank-you/partners/kadlec-tim.jpg" alt="Tim Kadlec">
 							<span>Tim<br>Kadlec</span>
 						</a>
@@ -410,7 +410,7 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="https://www.linkedin.com/in/jonathanknoll/">
 							<img src="/images/thank-you/partners/knoll-jonathan-yoni.jpg" alt="Jonathan (Yoni) Knoll">
 							<span>Jonathan<br>(Yoni) Knoll</span>
 						</a>
@@ -422,7 +422,7 @@
 
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="http://donnalichaw.com">
 							<img src="/images/thank-you/partners/lichaw-donna.jpg" alt="Donna Lichaw">
 							<span>Donna<br>Lichaw</span>
 						</a>
@@ -436,7 +436,7 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="https://www.linkedin.com/in/ahavaleibtag">
 							<img src="/images/thank-you/partners/liebtag-ahava.jpg" alt="Ahava Liebtag">
 							<span>Ahava<br>Liebtag</span>
 						</a>
@@ -447,7 +447,7 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="http://www.danmall.me">
 							<img src="/images/thank-you/partners/mall-dan.jpg" alt="Dan Mall">
 							<span>Dan<br>Mall</span>
 						</a>
@@ -459,7 +459,7 @@
 
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="https://www.linkedin.com/in/redsesame">
 							<img src="/images/thank-you/partners/martin-lisa-maria.jpg" alt="Lisa Maria Martin">
 							<span>Lisa Maria<br>Martin</span>
 						</a>
@@ -470,7 +470,7 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="https://www.linkedin.com/in/aaronparkening">
 							<img src="/images/thank-you/partners/parkening-aaron.jpg" alt="Aaron Parkening">
 							<span>Aaron<br>Parkening</span>
 						</a>
@@ -481,7 +481,7 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="http://kevinsharon.com">
 							<img src="/images/thank-you/partners/sharon-kevin.jpg" alt="Kevin Sharon">
 							<span>Kevin<br>Sharon</span>
 						</a>
@@ -492,7 +492,7 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="https://www.linkedin.com/in/matt-sutter-7584441/">
 							<img src="/images/thank-you/partners/sutter-matthew.jpg" alt="Matthew Sutter">
 							<span>Matthew<br>Sutter</span>
 						</a>
@@ -514,8 +514,8 @@
 			<ul class="nodes nodes--3-4-rows">
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/agencies/aha-media.jpg" alt="Aha Media">
+						<a href="http://ahamediagroup.com/">
+							<img src="/images/thank-you/agencies/aha-media.jpg" alt="Aha Media Group">
 						</a>
 					</div>
 					<svg>
@@ -524,8 +524,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/agencies/digital-surgeons.jpg" alt="Aha Media">
+						<a href="http://digitalsurgeons.com/">
+							<img src="/images/thank-you/agencies/digital-surgeons.jpg" alt="Digital Surgeons">
 						</a>
 					</div>
 					<svg>
@@ -534,8 +534,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/agencies/expand-the-room.jpg" alt="Aha Media">
+						<a href="https://expandtheroom.com/">
+							<img src="/images/thank-you/agencies/expand-the-room.jpg" alt="Expand the Room">
 						</a>
 					</div>
 					<svg>
@@ -545,8 +545,8 @@
 
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/agencies/fathom-and-draft.jpg" alt="Aha Media">
+						<a href="http://fathomanddraft.com/">
+							<img src="/images/thank-you/agencies/fathom-and-draft.jpg" alt="Fathom and Draft">
 						</a>
 					</div>
 					<svg>
@@ -558,8 +558,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/agencies/hustleworks.jpg" alt="Aha Media">
+						<a href="http://hustleworks.com/">
+							<img src="/images/thank-you/agencies/hustleworks.jpg" alt="HustleWorks">
 						</a>
 					</div>
 					<svg>
@@ -568,8 +568,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/agencies/national-design-service.jpg" alt="Aha Media">
+						<a href="http://nationaldesignservice.com/">
+							<img src="/images/thank-you/agencies/national-design-service.jpg" alt="National Design Service">
 						</a>
 					</div>
 					<svg>
@@ -578,8 +578,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/agencies/punk-avenue.jpg" alt="Aha Media">
+						<a href="http://punkave.com/">
+							<img src="/images/thank-you/agencies/punk-avenue.jpg" alt="P’unk Avenue">
 						</a>
 					</div>
 					<svg>
@@ -589,8 +589,8 @@
 
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/agencies/superfriendly.jpg" alt="Aha Media">
+						<a href="http://superfriend.ly/">
+							<img src="/images/thank-you/agencies/superfriendly.jpg" alt="Superfriendly">
 						</a>
 					</div>
 					<svg>
@@ -599,8 +599,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/agencies/we-the-collective.jpg" alt="Aha Media">
+						<a href="http://wethecollective.com/">
+							<img src="/images/thank-you/agencies/we-the-collective.jpg" alt="We The Collective">
 						</a>
 					</div>
 				</li>

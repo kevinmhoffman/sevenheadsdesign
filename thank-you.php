@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=device-width">
 
 	<link rel="stylesheet" href="/css/style.css?1392570772" media="all">
-	<link rel="stylesheet" href="/css/nodes.css?1392570772" media="all">
 	<link rel="stylesheet" href="/css/fonts.css?1392570772" media="only screen">
 	<script>
 	document.documentElement.className += " js";

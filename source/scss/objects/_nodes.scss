@@ -115,6 +115,7 @@
 					width: ((1em*(20.5/16))*2);
 					position: absolute;
 					bottom: 1em*(10.5/16);
+					right: ((-1em*(20.5/16))*2);
 				}
 			}
 			&:nth-child(4n), &:nth-child(4n+1):not(:first-child) {

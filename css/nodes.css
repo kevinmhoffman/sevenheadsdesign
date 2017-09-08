@@ -95,7 +95,8 @@
           height: 0.25em;
           width: 2.5625em;
           position: absolute;
-          bottom: 0.65625em; }
+          bottom: 0.65625em;
+          right: -2.5625em; }
         .nodes li:nth-child(4n):before, .nodes li:nth-child(4n+1):not(:first-child):before {
           content: "";
           display: block;

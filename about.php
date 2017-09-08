@@ -17,7 +17,7 @@
 	<a href="/"><img src="../../images/logo.svg" class="logo" alt="Seven Heads Design" onerror="this.onerror=null; this.src='../../images/logo.png'"></a>
 	<nav id="nav" class="nav">
 		<ul>
-			<li><a href="/">Home</a></li>
+			<li class="wide-only"><a href="/">Home</a></li>
 			<li><a class="curPage" href="/about">About</a></li>
 			<li><a href="/thank-you">Thank You</a></li>
 			<li><a href="/#contact">Contact</a></li>

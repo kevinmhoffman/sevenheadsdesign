@@ -17,7 +17,7 @@
 		width: 25%;
 		max-height: 0;
 	}
-	
+
 
 	a{
 		line-height: 1.2em;
@@ -34,14 +34,21 @@
 
 	}
 
+	li.wide-only {
+		display: none;
+		@media (min-width: $bp-small-3) {
+			display: inline-block;
+		}
+	}
+
 	@media all and (min-width: $bp-small-3) {
 		.js &{
 			max-height: none;
 			position: static;
 			width: 100%;
 		}
-		
-		
+
+
 		li {
 			display: inline-block;
 		}
@@ -52,7 +59,7 @@
 			text-align: left;
 			padding: $pad-quarter $pad-half;
 		}
-		
+
 	}
 }
 

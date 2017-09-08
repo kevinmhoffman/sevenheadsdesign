@@ -40,7 +40,7 @@
 			<ul class="nodes nodes--3-4-rows">
 				<li>
 					<div class="block">
-						<a href=".">
+						<a href="http://alistapart.com/">
 							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
 						</a>
 					</div>
@@ -50,8 +50,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/an-event-apart.jpg" alt="A List Apart">
+						<a href="http://aneventapart.com/">
+							<img src="/images/thank-you/clients/an-event-apart.jpg" alt="An Event Apart">
 						</a>
 					</div>
 					<svg>
@@ -60,8 +60,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/asist.jpg" alt="A List Apart">
+						<a href="http://asist.org/">
+							<img src="/images/thank-you/clients/asist.jpg" alt="ASIS&T (Association for Information Science & Technology)">
 						</a>
 					</div>
 					<svg>
@@ -71,8 +71,8 @@
 
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/boardthing.jpg" alt="A List Apart">
+						<a href="http://boardthing.com/">
+							<img src="/images/thank-you/clients/boardthing.jpg" alt="Boardthing">
 						</a>
 					</div>
 					<svg>
@@ -84,8 +84,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/carnegie-mellon-college-of-engineering.jpg" alt="A List Apart">
+						<a href="http://engineering.cmu.edu/">
+							<img src="/images/thank-you/clients/carnegie-mellon-college-of-engineering.jpg" alt="Carnegie Mellon University College of Engineering">
 						</a>
 					</div>
 					<svg>
@@ -94,8 +94,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/central-park-conservancy.jpg" alt="A List Apart">
+						<a href="http://www.centralparknyc.org/">
+							<img src="/images/thank-you/clients/central-park-conservancy.jpg" alt="Central Park Conservancy">
 						</a>
 					</div>
 					<svg>
@@ -104,8 +104,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/committee-of-70.jpg" alt="A List Apart">
+						<a href="https://www.seventy.org/">
+							<img src="/images/thank-you/clients/committee-of-70.jpg" alt="The Committee of Seventy">
 						</a>
 					</div>
 					<svg>
@@ -115,8 +115,8 @@
 
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/connecticut-business-and-industry-association.jpg" alt="A List Apart">
+						<a href="http://cbia.com/">
+							<img src="/images/thank-you/clients/connecticut-business-and-industry-association.jpg" alt="CBIA (Connecticut Business and Industry Association)">
 						</a>
 					</div>
 					<svg>
@@ -125,8 +125,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/delware-river-waterfront-corporation.jpg" alt="A List Apart">
+						<a href="http://www.delawareriverwaterfront.com/">
+							<img src="/images/thank-you/clients/delware-river-waterfront-corporation.jpg" alt="The Delaware River Waterfront Corporation">
 						</a>
 					</div>
 					<svg>
@@ -135,8 +135,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/epam.jpg" alt="A List Apart">
+						<a href="http://epam.com/">
+							<img src="/images/thank-you/clients/epam.jpg" alt="EPAM">
 						</a>
 					</div>
 					<svg>
@@ -146,8 +146,8 @@
 
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/harvard-business-school.jpg" alt="A List Apart">
+						<a href="http://digital.hbs.edu/">
+							<img src="/images/thank-you/clients/harvard-business-school.jpg" alt="Harvard School of Business">
 						</a>
 					</div>
 					<svg>
@@ -159,9 +159,9 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/mtv-networks.jpg" alt="A List Apart">
-						</a>
+						<div class="frame">
+							<img src="/images/thank-you/clients/mtv-networks.jpg" alt="MTV Networks">
+						</div>
 					</div>
 					<svg>
 						<line x1="0" y1="100%" x2="100%" y2="0" style="stroke:#C9332B;stroke-width:5"/>
@@ -169,8 +169,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/nintendo.jpg" alt="A List Apart">
+						<a href="http://play.nintendo.com/">
+							<img src="/images/thank-you/clients/nintendo.jpg" alt="Nintendo of America">
 						</a>
 					</div>
 					<svg>
@@ -179,8 +179,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/nypr.jpg" alt="A List Apart">
+						<a href="http://newyorkpublicradio.org/">
+							<img src="/images/thank-you/clients/nypr.jpg" alt="NYPR (New York Public Radio) and WNYC">
 						</a>
 					</div>
 					<svg>
@@ -190,8 +190,8 @@
 
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/pipeline-deals.jpg" alt="A List Apart">
+						<a href="http://pipelinedeals.com/">
+							<img src="/images/thank-you/clients/pipeline-deals.jpg" alt="Pipeline Deals">
 						</a>
 					</div>
 					<svg>
@@ -200,8 +200,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/rif.jpg" alt="A List Apart">
+						<a href="http://rif.org/">
+							<img src="/images/thank-you/clients/rif.jpg" alt="RIF (Reading is Fundamental) ">
 						</a>
 					</div>
 					<svg>
@@ -210,8 +210,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/seton-hill-university.jpg" alt="A List Apart">
+						<a href="http://setonhill.edu/">
+							<img src="/images/thank-you/clients/seton-hill-university.jpg" alt="Seton Hill University">
 						</a>
 					</div>
 					<svg class="row-jump">
@@ -221,8 +221,8 @@
 
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/sita.jpg" alt="A List Apart">
+						<a href="http://www.sita.com/">
+							<img src="/images/thank-you/clients/sita.jpg" alt="SITA">
 						</a>
 					</div>
 					<svg>
@@ -234,8 +234,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/university-of-chicago.jpg" alt="A List Apart">
+						<a href="https://www.uchicago.edu/">
+							<img src="/images/thank-you/clients/university-of-chicago.jpg" alt="The University of Chicago">
 						</a>
 					</div>
 					<svg>
@@ -244,8 +244,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/university-of-massachusetts.jpg" alt="A List Apart">
+						<a href="http://www.uml.edu/">
+							<img src="/images/thank-you/clients/university-of-massachusetts.jpg" alt="The University of Massachusetts">
 						</a>
 					</div>
 					<svg>
@@ -254,8 +254,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/university-of-pennsylvania.jpg" alt="A List Apart">
+						<a href="https://provost.upenn.edu/">
+							<img src="/images/thank-you/clients/university-of-pennsylvania.jpg" alt="The University of Pennsylvania">
 						</a>
 					</div>
 					<svg>
@@ -265,9 +265,9 @@
 
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/walmart.jpg" alt="A List Apart">
-						</a>
+						<div class="frame">
+							<img src="/images/thank-you/clients/walmart.jpg" alt="Walmart">
+						</div>
 					</div>
 					<svg>
 						<line x1="0" y1="100%" x2="100%" y2="0" style="stroke:#C9332B;stroke-width:5"/>
@@ -278,8 +278,8 @@
 				</li>
 				<li>
 					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/clients/whyy.jpg" alt="A List Apart">
+						<a href="http://newsworks.org/">
+							<img src="/images/thank-you/clients/whyy.jpg" alt="WHYY (Philadelphia Public Radio) & Newsworks">
 						</a>
 					</div>
 				</li>
@@ -289,7 +289,6 @@
 		<section class="nodes-section">
 			<div class="background-image">
 				<img src="/images/thank-you/constellation-med.png" alt="">
-				<!-- <img src="/images/thank-you/constellation-big.png" alt=""> -->
 			</div>
 			<h2 class="alpha">Partners</h2>
 			<ul class="nodes nodes--4-3-rows">
@@ -508,7 +507,6 @@
 		<section class="nodes-section">
 			<div class="background-image">
 				<img src="/images/thank-you/constellation-sm.png" alt="">
-				<!-- <img src="/images/thank-you/constellation-med.png" alt=""> -->
 			</div>
 			<h2 class="alpha">Agency Partners</h2>
 			<ul class="nodes nodes--3-4-rows">

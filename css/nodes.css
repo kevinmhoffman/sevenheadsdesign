@@ -160,13 +160,13 @@
       -webkit-transform: scale(0.7);
               transform: scale(0.7); } }
 
-      .nodes li .block a {
+      .nodes li .block a, .nodes li .block .frame {
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0; }
-        .nodes li .block a span {
+        .nodes li .block a span, .nodes li .block .frame span {
           font-family: "ProximaNovaCond-Bold", Verdana, Arial, sans-serif;
           position: absolute;
           font-size: calc(0.7125em + 0.5vw);
@@ -178,7 +178,7 @@
           line-height: 1;
           text-transform: uppercase; }
           @media (min-width: 1440px) {
-            .nodes li .block a span {
+            .nodes li .block a span, .nodes li .block .frame span {
               font-size: 1.125em; } }
     .nodes li svg {
       display: none; }

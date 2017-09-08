@@ -51,7 +51,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/an-event-apart.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -61,7 +61,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/asist.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -72,7 +72,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/boardthing.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -85,7 +85,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/carnegie-mellon-college-of-engineering.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -95,7 +95,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/central-park-conservancy.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -105,7 +105,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/committee-of-70.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -116,7 +116,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/connecticut-business-and-industry-association.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -126,7 +126,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/delware-river-waterfront-corporation.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -136,7 +136,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/epam.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -147,7 +147,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/harvard-business-school.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -160,7 +160,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/mtv-networks.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -170,7 +170,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/nintendo.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -180,7 +180,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/nypr.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -191,7 +191,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/pipeline-deals.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -201,7 +201,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/rif.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -211,7 +211,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/seton-hill-university.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg class="row-jump">
@@ -222,7 +222,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/sita.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -235,7 +235,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/university-of-chicago.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -245,7 +245,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/university-of-massachusetts.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -255,7 +255,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/university-of-pennsylvania.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -266,7 +266,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/walmart.jpg" alt="A List Apart">
 						</a>
 					</div>
 					<svg>
@@ -279,7 +279,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/clients/a-list-apart.jpg" alt="A List Apart">
+							<img src="/images/thank-you/clients/whyy.jpg" alt="A List Apart">
 						</a>
 					</div>
 				</li>
@@ -289,14 +289,15 @@
 		<section class="nodes-section">
 			<div class="background-image">
 				<img src="/images/thank-you/constellation-med.png" alt="">
+				<!-- <img src="/images/thank-you/constellation-big.png" alt=""> -->
 			</div>
 			<h2 class="alpha">Partners</h2>
 			<ul class="nodes nodes--4-3-rows">
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condoasdfa</span>
+							<img src="/images/thank-you/partners/brazell-aaron.jpg" alt="Aaron Brazell">
+							<span>Aaron<br>Brazell</span>
 						</a>
 					</div>
 					<svg>
@@ -306,7 +307,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
+							<img src="/images/thank-you/partners/condo-bill.jpg" alt="Bill Condo">
 							<span>Bill<br>Condo</span>
 						</a>
 					</div>
@@ -317,8 +318,8 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
+							<img src="/images/thank-you/partners/cooksey-dave.jpg" alt="Dave Cooksey">
+							<span>Dave<br>Cooksey</span>
 						</a>
 					</div>
 					<svg>
@@ -328,8 +329,8 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
+							<img src="/images/thank-you/partners/cornell-kevin.jpg" alt="Kevin Cornell">
+							<span>Kevin<br>Cornell</span>
 						</a>
 					</div>
 					<svg>
@@ -340,8 +341,8 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
+							<img src="/images/thank-you/partners/duffy-roz.jpg" alt="Roz Duffy">
+							<span>Roz<br>Duffy</span>
 						</a>
 					</div>
 					<svg>
@@ -354,8 +355,8 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
+							<img src="/images/thank-you/partners/fretz-abby.jpg" alt="Abby Fretz">
+							<span>Abby<br>Fretz</span>
 						</a>
 					</div>
 					<svg>
@@ -365,53 +366,8 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
-						</a>
-					</div>
-					<svg>
-						<line x1="0" y1="100%" x2="100%" y2="0" style="stroke:#C9332B;stroke-width:5"/>
-					</svg>
-				</li>
-
-				<li>
-					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
-						</a>
-					</div>
-					<svg>
-						<line x1="0" y1="0" x2="100%" y2="100%" style="stroke:#C9332B;stroke-width:5"/>
-					</svg>
-				</li>
-				<li>
-					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
-						</a>
-					</div>
-					<svg>
-						<line x1="0" y1="100%" x2="100%" y2="0" style="stroke:#C9332B;stroke-width:5"/>
-					</svg>
-				</li>
-				<li>
-					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
-						</a>
-					</div>
-					<svg>
-						<line x1="0" y1="0" x2="100%" y2="100%" style="stroke:#C9332B;stroke-width:5"/>
-					</svg>
-				</li>
-				<li>
-					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
+							<img src="/images/thank-you/partners/head-jason.jpg" alt="Jason Head">
+							<span>Jason<br>Head</span>
 						</a>
 					</div>
 					<svg>
@@ -422,8 +378,53 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
+							<img src="/images/thank-you/partners/head-val.jpg" alt="Val Head">
+							<span>Val<br>Head</span>
+						</a>
+					</div>
+					<svg>
+						<line x1="0" y1="0" x2="100%" y2="100%" style="stroke:#C9332B;stroke-width:5"/>
+					</svg>
+				</li>
+				<li>
+					<div class="block">
+						<a href=".">
+							<img src="/images/thank-you/partners/jolly-robert.jpg" alt="Robert Jolly">
+							<span>Robert<br>Jolly</span>
+						</a>
+					</div>
+					<svg>
+						<line x1="0" y1="100%" x2="100%" y2="0" style="stroke:#C9332B;stroke-width:5"/>
+					</svg>
+				</li>
+				<li>
+					<div class="block">
+						<a href=".">
+							<img src="/images/thank-you/partners/kadlec-tim.jpg" alt="Tim Kadlec">
+							<span>Tim<br>Kadlec</span>
+						</a>
+					</div>
+					<svg>
+						<line x1="0" y1="0" x2="100%" y2="100%" style="stroke:#C9332B;stroke-width:5"/>
+					</svg>
+				</li>
+				<li>
+					<div class="block">
+						<a href=".">
+							<img src="/images/thank-you/partners/knoll-jonathan-yoni.jpg" alt="Jonathan (Yoni) Knoll">
+							<span>Jonathan<br>(Yoni) Knoll</span>
+						</a>
+					</div>
+					<svg>
+						<line x1="0" y1="100%" x2="100%" y2="0" style="stroke:#C9332B;stroke-width:5"/>
+					</svg>
+				</li>
+
+				<li>
+					<div class="block">
+						<a href=".">
+							<img src="/images/thank-you/partners/lichaw-donna.jpg" alt="Donna Lichaw">
+							<span>Donna<br>Lichaw</span>
 						</a>
 					</div>
 					<svg>
@@ -436,8 +437,8 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
+							<img src="/images/thank-you/partners/liebtag-ahava.jpg" alt="Ahava Liebtag">
+							<span>Ahava<br>Liebtag</span>
 						</a>
 					</div>
 					<svg>
@@ -447,8 +448,8 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
+							<img src="/images/thank-you/partners/mall-dan.jpg" alt="Dan Mall">
+							<span>Dan<br>Mall</span>
 						</a>
 					</div>
 					<svg>
@@ -459,8 +460,8 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
+							<img src="/images/thank-you/partners/martin-lisa-maria.jpg" alt="Lisa Maria Martin">
+							<span>Lisa Maria<br>Martin</span>
 						</a>
 					</div>
 					<svg>
@@ -470,8 +471,8 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
+							<img src="/images/thank-you/partners/parkening-aaron.jpg" alt="Aaron Parkening">
+							<span>Aaron<br>Parkening</span>
 						</a>
 					</div>
 					<svg>
@@ -481,8 +482,8 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
+							<img src="/images/thank-you/partners/sharon-kevin.jpg" alt="Kevin Sharon">
+							<span>Kevin<br>Sharon</span>
 						</a>
 					</div>
 					<svg>
@@ -492,8 +493,8 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/partners/2-bill-condo.jpg" alt="Bill Condo">
-							<span>Bill<br>Condo</span>
+							<img src="/images/thank-you/partners/sutter-matthew.jpg" alt="Matthew Sutter">
+							<span>Matthew<br>Sutter</span>
 						</a>
 					</div>
 					<svg>
@@ -507,6 +508,7 @@
 		<section class="nodes-section">
 			<div class="background-image">
 				<img src="/images/thank-you/constellation-sm.png" alt="">
+				<!-- <img src="/images/thank-you/constellation-med.png" alt=""> -->
 			</div>
 			<h2 class="alpha">Agency Partners</h2>
 			<ul class="nodes nodes--3-4-rows">
@@ -523,7 +525,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/agencies/aha-media.jpg" alt="Aha Media">
+							<img src="/images/thank-you/agencies/digital-surgeons.jpg" alt="Aha Media">
 						</a>
 					</div>
 					<svg>
@@ -533,7 +535,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/agencies/aha-media.jpg" alt="Aha Media">
+							<img src="/images/thank-you/agencies/expand-the-room.jpg" alt="Aha Media">
 						</a>
 					</div>
 					<svg>
@@ -544,7 +546,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/agencies/aha-media.jpg" alt="Aha Media">
+							<img src="/images/thank-you/agencies/fathom-and-draft.jpg" alt="Aha Media">
 						</a>
 					</div>
 					<svg>
@@ -557,7 +559,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/agencies/aha-media.jpg" alt="Aha Media">
+							<img src="/images/thank-you/agencies/hustleworks.jpg" alt="Aha Media">
 						</a>
 					</div>
 					<svg>
@@ -567,7 +569,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/agencies/aha-media.jpg" alt="Aha Media">
+							<img src="/images/thank-you/agencies/national-design-service.jpg" alt="Aha Media">
 						</a>
 					</div>
 					<svg>
@@ -577,7 +579,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/agencies/aha-media.jpg" alt="Aha Media">
+							<img src="/images/thank-you/agencies/punk-avenue.jpg" alt="Aha Media">
 						</a>
 					</div>
 					<svg>
@@ -588,7 +590,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/agencies/aha-media.jpg" alt="Aha Media">
+							<img src="/images/thank-you/agencies/superfriendly.jpg" alt="Aha Media">
 						</a>
 					</div>
 					<svg>
@@ -598,17 +600,7 @@
 				<li>
 					<div class="block">
 						<a href=".">
-							<img src="/images/thank-you/agencies/aha-media.jpg" alt="Aha Media">
-						</a>
-					</div>
-					<svg>
-						<line x1="0" y1="0" x2="100%" y2="100%" style="stroke:#C9332B;stroke-width:5"/>
-					</svg>
-				</li>
-				<li>
-					<div class="block">
-						<a href=".">
-							<img src="/images/thank-you/agencies/aha-media.jpg" alt="Aha Media">
+							<img src="/images/thank-you/agencies/we-the-collective.jpg" alt="Aha Media">
 						</a>
 					</div>
 				</li>

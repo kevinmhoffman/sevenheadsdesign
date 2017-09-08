@@ -2,7 +2,10 @@
     $NODE SECTIONS (Thank You Page)
 \*------------------------------------*/
 .nodes-section {
-	margin: 3.8125em 0 6em;
+	margin: 3.8125em 0;
+	@media (min-width: 636px) {
+		margin-bottom: 6em;
+	}
 	padding-top: 3.75em;
 	padding-bottom: 3.75em;
 	position: relative;
@@ -18,27 +21,49 @@
 		img {
 			height: calc(100% - 3.75em);
 			@media (max-width: 635px) {
-				width: calc(100% + (1.33333em*2));
+				// width: calc(100% + (1.33333em*2));
 				position: relative;
-				left: -1.33333em;
-				object-fit: cover;
+				// object-fit: cover;
+
+				width: 750px;
+				left: calc((-750px/2) + 1.33333em);
+				height: auto;
 			}
 			@media (min-width: 636px) {
 				width: 100%;
 				object-fit: contain;
 			}
 			max-width: none;
+
+			@media (max-width: 635px) {
+				&.wide-only {
+					display: none;
+				}
+			}
+			@media (min-width: 636px) {
+				&.narrow-only {
+					display: none;
+				}
+			}
 		}
 	}
 	&:nth-of-type(2) {
-		margin-bottom: 12em;
+		@media (min-width: 636px) {
+			margin-bottom: 7em;
+		}
 		.background-image {
-			margin-top: -12em;
+			margin-top: -8em;
+			@media (min-width: 636px) {
+				margin-top: -12em;
+			}
 		}
 	}
 	&:nth-of-type(3) {
 		.background-image {
-			margin-top: -36em;
+			margin-top: -18em;
+			@media (min-width: 636px) {
+				margin-top: -24em;
+			}
 		}
 	}
 	h2 {

@@ -2,10 +2,13 @@
     $NODE SECTIONS (Thank You Page)
 \*------------------------------------*/
 .nodes-section {
-  margin: 3.8125em 0 6em;
+  margin: 3.8125em 0;
   padding-top: 3.75em;
   padding-bottom: 3.75em;
   position: relative; }
+  @media (min-width: 636px) {
+    .nodes-section {
+      margin-bottom: 6em; } }
   .nodes-section .background-image {
     position: absolute;
     top: 0;
@@ -20,22 +23,34 @@
       max-width: none; }
       @media (max-width: 635px) {
         .nodes-section .background-image img {
-          width: calc(100% + (1.33333em*2));
           position: relative;
-          left: -1.33333em;
-          -o-object-fit: cover;
-             object-fit: cover; } }
+          width: 750px;
+          left: calc((-750px/2) + 1.33333em);
+          height: auto; } }
       @media (min-width: 636px) {
         .nodes-section .background-image img {
           width: 100%;
           -o-object-fit: contain;
              object-fit: contain; } }
-  .nodes-section:nth-of-type(2) {
-    margin-bottom: 12em; }
-    .nodes-section:nth-of-type(2) .background-image {
-      margin-top: -12em; }
+      @media (max-width: 635px) {
+        .nodes-section .background-image img.wide-only {
+          display: none; } }
+      @media (min-width: 636px) {
+        .nodes-section .background-image img.narrow-only {
+          display: none; } }
+  @media (min-width: 636px) {
+    .nodes-section:nth-of-type(2) {
+      margin-bottom: 7em; } }
+  .nodes-section:nth-of-type(2) .background-image {
+    margin-top: -8em; }
+    @media (min-width: 636px) {
+      .nodes-section:nth-of-type(2) .background-image {
+        margin-top: -12em; } }
   .nodes-section:nth-of-type(3) .background-image {
-    margin-top: -36em; }
+    margin-top: -18em; }
+    @media (min-width: 636px) {
+      .nodes-section:nth-of-type(3) .background-image {
+        margin-top: -24em; } }
   .nodes-section h2 {
     margin-bottom: 0.15625em;
     text-align: center; }

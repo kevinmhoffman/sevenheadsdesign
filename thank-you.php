@@ -616,14 +616,25 @@
 	</footer>
 	<!-- End Footer --></div>
 
+
 	<script src="/js/shd-min.js"></script>
 	<script src="/js/rellax.min.js"></script>
+	<script src="/js/bowser.min.js"></script>
 	<script>
 		var rellax = new Rellax('.background-image', {
 			speed: -1.5,
 			round: true,
 	  });
 	</script>
+	<script type="text/javascript">
+		if (bowser.msedge) {
+			document.body.classList.add("msedge");
+		}
+		if (bowser.gecko) {
+			document.body.classList.add("gecko");
+		}
+	</script>
+
 
 </body>
 </html>

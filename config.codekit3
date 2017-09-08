@@ -3104,6 +3104,16 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/js\/bowser.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/bowser.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/fitvids.js": {
 		"ft": 64,
 		"ma": 0,

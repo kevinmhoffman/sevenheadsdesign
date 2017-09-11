@@ -37,8 +37,16 @@
 
 	.beta{
 		max-width: 32em;
-
+		&--wider {
+			max-width: 40em;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		@media (max-width: $bp-small-3) {
+			&--smaller-at-narrow {
+				font-size: 1em;
+			}
+		}
 	}
 
 }
-

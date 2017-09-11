@@ -3,21 +3,23 @@
 		<title>About Seven Heads Design</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
-		
+
 		<link rel="stylesheet" href="/css/style.css?1392570772" media="all">
 		<link rel="stylesheet" href="/css/fonts.css?1392570772" media="only screen">
 		<script>
 			document.documentElement.className += " js";
 		</script>
 	</head>
-	<body class="about" style="">	
+	<body class="about" style="">
 		<div class="page" id="page">
 	<!-- Begin .header -->
 	<header class="header cf" role="banner" id="top">
 	<a href="/"><img src="../../images/logo.svg" class="logo" alt="Seven Heads Design" onerror="this.onerror=null; this.src='../../images/logo.png'"></a>
 	<nav id="nav" class="nav">
 		<ul>
+			<li class="wide-only"><a href="/">Home</a></li>
 			<li><a class="curPage" href="/about">About</a></li>
+			<li><a href="/thank-you">Thank You</a></li>
 			<li><a href="/#contact">Contact</a></li>
 		</ul>
 	</nav><!--end .nav-->
@@ -32,7 +34,7 @@
 			<p>We celebrate that unexpected design insights live within constraints.</p>
 			<p>We are a connected company.</p>
 			<h2 class="alpha">A connected what now?</h2>
-			<img src="/images/constellation-clear.png" alt="Image of a constellation">			
+			<img src="/images/constellation-clear.png" alt="Image of a constellation">
 			<p>Seven Heads Design is a distributed network of independent web designers, information architects, developers, and smart people. We are used to working remotely because we live all over the world, but we love getting together whenever work and play permit. Seven Heads is a <a href="http://connectedco.com/">connected company</a>. We believe that when brilliant people have autonomy they crank out their best work, but when those same people collaborate in teams they truly innovate. We are an organic network, forming, growing, and dissipating as needed.</p>
 		</div>
 		<p class="beta align-center">Want to start a project? Join the network?</p>
@@ -46,9 +48,9 @@
 		</div>
 	</footer>
 	<!-- End Footer --></div>
-	
+
 	<script src="/js/shd-min.js"></script>
-	
-	
+
+
 </body>
 </html>
